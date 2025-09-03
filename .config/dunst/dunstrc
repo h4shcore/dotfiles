@@ -1,0 +1,31 @@
+[global]
+mouse_left_click = do_action
+mouse_middle_click = close_all 
+mouse_right_click = close_current
+frame_color = "#f38ba8"
+separator_color= frame
+highlight = "#f38ba8"
+font = JetBrains Mono 12
+max_icon_size = 100
+shrink = true
+word_wrap = yes
+padding = 15
+horizontal_padding = 15
+show_indicators = no
+
+[urgency_low]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+timeout = 5
+
+[urgency_normal]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+timeout = 5
+
+[urgency_critical]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+frame_color = "#fab387"
+timeout = 0
+
