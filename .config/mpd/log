@@ -492,3 +492,29 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2025-09-01T21:39:28 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/12 - Yosemite.flac
 2025-09-01T21:42:57 player: played "Alone At Prom/Tory Lanez - Enchanted Waterfall.mp3"
 2025-09-01T22:01:11 player: played "Baby Keem — The Melodic Blue (Deluxe) [2021]/CD2/Baby Keem, Don Toliver, PinkPantheress — killstreaks.flac"
+2025-09-04T15:46:13 exception: Failed to open audio output
+2025-09-04T15:46:32 player: played "Alone At Prom/Tory Lanez - Enchanted Waterfall.mp3"
+2025-09-04T15:47:00 player: played "Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/04. After Party.flac"
+2025-09-04T15:50:50 player: played "Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/11. Company Pt 2.flac"
+2025-09-04T15:54:39 player: played "Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/04. Flocky Flocky (feat. Travis Scott).flac"
+2025-09-04T15:55:56 player: played "Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/04. Flocky Flocky (feat. Travis Scott).flac"
+2025-09-04T15:59:12 player: played "Alone At Prom/Tory Lanez - Enchanted Waterfall.mp3"
+2025-09-04T16:04:05 player: played "Alone At Prom/Tory Lanez - Lavender Sunflower.mp3"
+2025-09-04T16:07:45 player: played "Chase Atlantic/Album/2019 - Phases/07 - Heaven And Back.mp3"
+2025-09-04T16:10:47 player: played "HEROS & VILLAINS/Metro Boomin - On Time (with John Legend).mp3"
+2025-09-04T16:14:13 player: played "HEROS & VILLAINS/Metro Boomin - Superhero (Heroes & Villains) [with Future & Chris Brown].mp3"
+2025-09-04T16:17:37 player: played "HEROS & VILLAINS/Metro Boomin - Too Many Nights (feat. Don Toliver & with Future).mp3"
+2025-09-04T16:22:37 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-04T16:22:37 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-04T16:22:40 player: played "HEROS & VILLAINS/Metro Boomin - Too Many Nights (feat. Don Toliver & with Future).mp3"
+2025-09-04T16:22:40 exception: Not playing
+2025-09-04T16:22:40 exception: Not playing
+2025-09-04T16:22:41 exception: Not playing
+2025-09-04T16:22:41 exception: Not playing
+2025-09-04T16:22:44 exception: Not playing
+2025-09-04T16:23:14 player: played "HEROS & VILLAINS/Metro Boomin - Trance (with Travis Scott & Young Thug).mp3"
+2025-09-04T16:23:15 exception: Not playing
+2025-09-04T16:23:15 exception: Not playing
+2025-09-04T16:23:15 exception: Not playing
+2025-09-04T16:23:16 exception: Not playing
+2025-09-04T16:23:20 player: played "HEROS & VILLAINS/Metro Boomin - Trance (with Travis Scott & Young Thug).mp3"
