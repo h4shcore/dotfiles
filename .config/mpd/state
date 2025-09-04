@@ -1,7 +1,9 @@
 sw_volume: 100
 audio_device_state:1:PipeWire Sound Server
 audio_device_state:1:toggle_visualizer
-state: stop
+state: play
+current: 1
+time: 120.73
 random: 0
 repeat: 0
 single: 1
@@ -12,4 +14,5 @@ mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
 0:HEROS & VILLAINS/Metro Boomin - Trance (with Travis Scott & Young Thug).mp3
+1:JACKBOYS - JACKBOYS 2 (2025) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/10. WHERE WAS YOU.flac
 playlist_end
