@@ -558,3 +558,35 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2025-09-05T14:48:51 exception: Not playing
 2025-09-05T14:48:51 exception: Not playing
 2025-09-05T14:50:25 player: played "Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/08. Company.flac"
+2025-09-05T14:53:51 player: played "Frank Ocean - Blonde (2016)/03. Pink + White.flac"
+2025-09-05T14:55:00 player: played "Chase Atlantic/Album/2019 - Phases/07 - Heaven And Back.mp3"
+2025-09-05T14:59:09 player: played "Chase Atlantic/Album/2019 - Phases/07 - Heaven And Back.mp3"
+2025-09-05T15:03:49 player: played "Lil Uzi Ver - Pink Tape (2023)/20. Patience (feat. Don Toliver).flac"
+2025-09-05T15:14:48 player: played "Lil Uzi Ver - Pink Tape (2023)/24. Zoom (Bonus Track).flac"
+2025-09-05T15:14:48 exception: Not playing
+2025-09-05T15:14:48 exception: Not playing
+2025-09-05T15:14:48 exception: Not playing
+2025-09-05T15:14:48 exception: Not playing
+2025-09-05T15:14:48 exception: Not playing
+2025-09-05T15:14:48 exception: Not playing
+2025-09-05T15:14:48 exception: Not playing
+2025-09-05T15:14:48 exception: Not playing
+2025-09-05T15:14:48 exception: Not playing
+2025-09-05T15:14:48 exception: Not playing
+2025-09-05T15:15:16 player: played "Lil Uzi Ver - Pink Tape (2023)/24. Zoom (Bonus Track).flac"
+2025-09-05T15:15:17 exception: Not playing
+2025-09-05T15:15:17 exception: Not playing
+2025-09-05T15:15:18 exception: Not playing
+2025-09-05T15:15:18 exception: Not playing
+2025-09-05T15:15:18 exception: Not playing
+2025-09-05T15:15:18 exception: Not playing
+2025-09-05T15:15:19 exception: Not playing
+2025-09-05T15:15:19 exception: Not playing
+2025-09-05T15:15:20 exception: Not playing
+2025-09-05T15:15:21 exception: Not playing
+2025-09-05T15:16:54 pipewire_output: Decoder is too slow; playing silence to avoid xrun
+2025-09-05T15:17:01 player: played "Lil Uzi Ver - Pink Tape (2023)/22. Rehab.flac"
+2025-09-05T15:21:11 player: played "PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/09. F o r  C e r t a i n.flac"
+2025-09-05T15:27:18 player: played "Travis Scott - Astroworld (2018) [WEB 24 FLAC]/01 - Stargazing.flac"
+2025-09-05T17:29:48 player: played "PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/09. F o r  C e r t a i n.flac"
+2025-09-06T16:27:36 player: played "Baby Keem — The Melodic Blue (Deluxe) [2021]/CD2/Baby Keem, Don Toliver, PinkPantheress — killstreaks.flac"
