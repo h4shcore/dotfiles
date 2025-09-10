@@ -2,7 +2,7 @@
 mouse_left_click = do_action
 mouse_middle_click = close_all 
 mouse_right_click = close_current
-frame_color = "#f38ba8"
+frame_color = "#ebdbb2"
 separator_color= frame
 highlight = "#f38ba8"
 font = JetBrains Mono 12
@@ -14,13 +14,13 @@ horizontal_padding = 15
 show_indicators = no
 
 [urgency_low]
-background = "#1e1e2e"
-foreground = "#cdd6f4"
+background = "#1d2021"
+foreground = "#ebdbb2"
 timeout = 5
 
 [urgency_normal]
-background = "#1e1e2e"
-foreground = "#cdd6f4"
+background = "#1d2021"
+foreground = "#ebdbb2"
 timeout = 5
 
 [urgency_critical]

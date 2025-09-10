@@ -14,7 +14,7 @@ window#waybar {
 
 tooltip {
   background: #282828;
-  border-radius: 10px;
+  border-radius: 0px;
   border-width: 2px;
   border-style: solid;
   border-color: #1d2021;
@@ -22,7 +22,7 @@ tooltip {
 #workspaces button {
   padding: 0 0.4em;
   color: #504945;
-  border-radius: 6px;
+  border-radius: 0px;
   margin-right: 2px;
   margin-left: 2px;
   margin-top: 2px;
@@ -67,7 +67,7 @@ tooltip {
   margin-left: 4px;
   margin-top: 4px;
   margin-bottom: 4px;
-  border-radius: 6px;
+  border-radius: 0px;
 }
 
 #tray {
@@ -119,25 +119,25 @@ tooltip {
   margin-left: 4px;
   margin-top: 4px;
   margin-bottom: 4px;
-  border-radius: 6px;
+  border-radius: 0px;
   color: #ebdbb2;
 }
 
 #taskbar button {
-  border-radius: 6px;
+  border-radius: 0px;
   background: #32302f;
   color: #a89984;
   margin-right: 6px;
 }
 
 #taskbar button.minimized {
-  border-radius: 6px;
+  border-radius: 0px;
   background: #32302f;
   color: #a89984;
 }
 
 #taskbar button.active {
-  border-radius: 6px;
+  border-radius: 0px;
   background: #4e635b;
   color: #ebdbb2;
 }
