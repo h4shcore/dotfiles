@@ -8,11 +8,17 @@ configuration {
 }
 
 * {
-  // general
+  // catppuccin 
   bg: #181926;
   bgt: #18192695;
   t: transparent;
   fg: #cad3f5;
+
+  // gruvbox
+  bg: #1d2021;
+  bgt: #1d202195;
+  t: transparent;
+  fg: #ebdbb2;
 
   selected-bg: @fg;
   selected-fg: @bg;
