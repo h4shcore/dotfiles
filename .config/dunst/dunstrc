@@ -3,6 +3,7 @@ mouse_left_click = do_action
 mouse_middle_click = close_all 
 mouse_right_click = close_current
 frame_color = "#ebdbb2"
+frame_width = 2
 separator_color= frame
 highlight = "#f38ba8"
 font = JetBrains Mono 12
