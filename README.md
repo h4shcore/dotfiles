@@ -1,11 +1,11 @@
-### My Personal Dotfiles
+# My Personal Dotfiles
 
 I use Arch BTW! with Hyprland and here are my dotfiles that i use daily!
 
-# CATPPUCCIN
+### CATPPUCCIN
 ![IUSEARCHBTW](./catppuccin.png)
 
-# GRUVBOX (current)
+### GRUVBOX (current)
 ![IUSEARCHBTW](./gruvbox.png)
 You can find my wallpapers from:
 ```sh
