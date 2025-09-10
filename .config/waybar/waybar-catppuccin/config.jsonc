@@ -1,0 +1,157 @@
+{
+  "layer": "top",
+  "position": "top",
+// "margin-top": 10,
+// "margin-left": 10,
+// "margin-right": 10,
+  "mod": "dock",
+  "passtrough": false,
+  "gtk-layer-shell": true,
+  "height": 0,
+
+  // --- modules ---
+
+  "modules-left": ["hyprland/workspaces", "clock", "cpu", "memory"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": ["tray","network", "bluetooth", "wireplumber", "custom/power"],
+
+  // ---left-modules ---
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "1": "一",
+      "2": "二",
+      "3": "三",
+      "4": "四",
+      "5": "五",
+      "6": "六",
+      "7": "七",
+      "8": "八",
+      "9": "九",
+      "10": "十"
+    }
+  },
+
+  "clock": {
+    "format": "[  {:%H:%M} ]",
+    "tooltip-format": "{calendar}",
+    "calendar": {
+      "format": {
+        "months": "<span color='#dbbc7f'><b>{}</b></span>",
+        "days": "<span color='#495156'><b>{}</b></span>",
+        "weekdays": "<span color='#e69875'><b>{}</b></span>",
+        "today": "<span color='#a7c080'><b>{}</b></span>"
+      }
+    }
+  },
+
+  "cpu": {
+    "interval": 5,
+    "format": "[  {usage}% ",
+    "max-length": 10
+  },
+
+  "memory": {
+    "interval": 30,
+    "format": " {percentage}% ]"
+  },
+
+  // --- middle-modules ---
+
+  "hyprland/window": {
+    "format": "{title}",
+    "max-length": 50
+  },
+
+  // --- right-modules ---
+
+  "network": {
+    "format": " [ 󰤭 ]",
+    "format-wifi": " [ 󰤨 ]",
+    "format-ethernet": " [ 󱓞 ]",
+    "format-disconnected": " [ 󰤭 ]",
+
+    "tooltip-format": "{ifname} → {gwaddr}",
+    "tooltip-format-wifi": "󰤨 {essid} {signalStrength}%\n{ipaddr}\n{ifname} → {gwaddr}\n\n󰓢 {bandwidthTotalBytes} ({frequency}G)",
+    "tooltip-format-ethernet": "󱓞 Ethernet\n󰆋 {ipaddr}\n {ifname} → {gwaddr}",
+    "tooltip-format-disconnected": "󰜺 Disconnected",
+
+    // "on-click": "nm-connection-editor",
+    "on-click": "foot -- nmtui",
+    "on-click-right": "~/.config/waybar/scripts/rofi-wifi-menu.sh",
+    "max-length": 50,
+    "interval": 5
+  },
+
+  "bluetooth": {
+    "format": "[ 󰂯 {status} ]",
+    "format-disabled": "[ 󰂲 ]", // an empty format will hide the module
+    "format-connected": "[ 󰂯 {num_connections} ]",
+    "tooltip-format": "{controller_alias}\t{controller_address}",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    // "on-click": "blueberry",
+    "on-click": "blueman-manager",
+    "on-click-right": "~/.config/waybar/scripts/rofi-bluetooth-menu.sh"
+  },
+
+  "wireplumber": {
+    "format": "[ {icon} {volume}% ]",
+    "format-muted": "[ 󰝟 0% ]",
+    "on-click": "wpctl set-mute @DEFAULT_SINK@ toggle",
+    "on-click-right": "pavucontrol",
+    "on-scroll-up": "wpctl set-volume -l 1.3 @DEFAULT_SINK@ 5%+",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_SINK@ 5%-",
+    "scroll-step": 5,
+    "format-icons": {
+      "default": ["", ""]
+    }
+  },
+
+  "custom/swaync": {
+    "tooltip": false,
+    "format": "[ {icon} ]",
+    "format-icons": {
+      "notification": "󱅫",
+      "none": "󰂚",
+      "dnd-notification": "󱏧<span foreground='red'><sup></sup></span>",
+      "dnd-none": "󱏧",
+      "inhibited-notification": "󰂚<span foreground='red'><sup></sup></span>",
+      "inhibited-none": "󰂚",
+      "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+      "dnd-inhibited-none": "󱏧"
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+
+  "custom/power": {
+    "format": "[  ]",
+    "on-click": "~/.config/waybar/scripts/rofi-power-menu.sh",
+    "on-click-right": "swaync-client -t -sw"
+  },
+
+  // --- extra conf ---
+
+  "mpris": {
+    "format": "{player_icon} {title}",
+    "format-paused": "{status_icon} <i>{title}</i>",
+    "player-icons": {
+      "default": ""
+    },
+    "status-icons": {
+      "paused": ""
+    },
+    "ignored-players": ["firefox", "chromium", "brave"]
+  },
+  "tray": {
+    "icon-size": 15,
+    "tooltip": false,
+    "spacing": 10
+  }
+}
