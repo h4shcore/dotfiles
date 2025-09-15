@@ -9,10 +9,10 @@ configuration {
 
 * {
   // catppuccin 
-  bg: #181926;
-  bgt: #18192695;
-  t: transparent;
-  fg: #cad3f5;
+  // bg: #181926;
+  // bgt: #18192695;
+  // t: transparent;
+  // fg: #cad3f5;
 
   // gruvbox
   bg: #1d2021;
