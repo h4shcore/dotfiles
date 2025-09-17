@@ -2,8 +2,7 @@ configuration {
   fuzzy: true;
   modes: "window,drun,run,ssh";
   case-sensitive: false;
-//  font: "JetBrainsMono Nerd Font 16";
-  font: "Iosevka Nerd Font 16";
+  font: "JetBrainsMono Nerd Font 16";
   drun-display-format: "{name}";
 }
 
