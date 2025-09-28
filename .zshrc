@@ -181,6 +181,9 @@ export PATH=$PATH:/home/daksh/.spicetify
 export PATH="$HOME/.emacs.d/bin:$PATH"
 export PATH="$HOME/.config/emacs/bin:$PATH"
 
+# manpage
+export MANPAGER='nvim +Man!'
+
 # zoxide
 eval "$(zoxide init zsh)"
 
