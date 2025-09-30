@@ -46,7 +46,8 @@ if status is-interactive
 
     # path
     set PATH $HOME/.local/bin $PATH
-  
+    set PATH /nix/var/nix/profiles/default/bin $PATH  
+
     # disable greeting message
     set fish_greeting ""
 
