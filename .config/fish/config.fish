@@ -35,6 +35,7 @@ if status is-interactive
 
     # term
     abbr r 'yazi'
+    abbr nv 'nvim'
     abbr c 'clear'
     abbr q 'exit'
     abbr sd 'shutdown now'
