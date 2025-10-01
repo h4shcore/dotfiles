@@ -19,9 +19,11 @@ tooltip {
   border-style: solid;
   border-color: #1d2021;
 }
+
 #workspaces button {
   padding: 0 0.4em;
-  color: #504945;
+  /* color: #504945; */
+  color: #ebdbb2;
   border-radius: 0px;
   margin-right: 2px;
   margin-left: 2px;
@@ -30,8 +32,8 @@ tooltip {
 }
 
 #workspaces button.active {
-  color: #ebdbb2;
-  background: #4e635b;
+  color: #1d2021;
+  background: #ebdbb2;
 }
 
 #workspaces button.focused {
@@ -102,13 +104,13 @@ tooltip {
 
 #mpd.playing {
   background: #32302f;
-  background-image: linear-gradient(62deg, #32302f 0%, rgba(184,187,38,00) 100%);
+  background-image: linear-gradient(62deg, #32302f 0%, rgba(184, 187, 38, 00) 100%);
   color: #ebdbb2;
 }
 
 #mpd.paused {
   background: #32302f;
-  background-image: linear-gradient(62deg, #32302f 0%, rgba(251,73,52,00) 100%);
+  background-image: linear-gradient(62deg, #32302f 0%, rgba(251, 73, 52, 00) 100%);
   color: #ebdbb2;
 }
 
@@ -213,7 +215,7 @@ tooltip {
 
 #custom-music.Playing {
   background: rgb(104, 157, 106);
-  background: radial-gradient(circle, rgba(104, 157, 106, 120) 0%,rgba(78,99,91,1) 15%, rgba(66, 123, 88, 120) 25%,rgba(66,123,88,120) 75%, rgba(104,157,106,120) 100%);
+  background: radial-gradient(circle, rgba(104, 157, 106, 120) 0%, rgba(78, 99, 91, 1) 15%, rgba(66, 123, 88, 120) 25%, rgba(66, 123, 88, 120) 75%, rgba(104, 157, 106, 120) 100%);
   background-size: 400% 400%;
   animation: gradient_f 9s cubic-bezier(.72, .39, .21, 1) infinite;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.377);
@@ -226,5 +228,3 @@ tooltip {
 #custom-music.Stopped {
   background: #427b58;
 }
-
-
