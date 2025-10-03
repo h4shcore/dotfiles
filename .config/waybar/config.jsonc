@@ -149,11 +149,11 @@
     //"format": "<span font='12' rise='-2500'>{icon}</span> {}",
     "format": "<span font='10' rise='-1000'>󰎈</span>  {} ",
     "format-icons": {
-	"Playing": "󰐊",
-        "Paused": "󰏤"
+	  "Playing": "󰐊",
+    "Paused": "󰏤"
     },
     	"escape": true,
-   	"return-type": "json",
+   	  "return-type": "json",
     	"max-length": 40,
     	"on-click": "playerctl play-pause",
     	"on-click-right": "playerctl stop",

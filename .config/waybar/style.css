@@ -229,3 +229,8 @@ tooltip {
 #custom-music.Stopped {
   background: #427b58;
 }
+
+#custom-music.Playing,
+#custom-music.Stopped {
+  font-style: italic;
+}
