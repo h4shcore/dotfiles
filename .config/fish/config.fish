@@ -28,10 +28,11 @@ if status is-interactive
     abbr gsh 'git show'
 
     # ls
-    abbr l 'ls'
+    abbr l 'ls -l'
     abbr ll 'ls -l'
     abbr la 'ls -a'
-    abbr lla 'ls -la'
+    abbr lla 'ls -la --header'
+    abbr lt 'ls --tree'
 
     # term
     abbr r 'yazi'
@@ -40,6 +41,13 @@ if status is-interactive
     abbr q 'exit'
     abbr sd 'shutdown now'
     abbr re 'reboot'
+
+    # emacs
+    alias e='emacs'
+    abbr enw 'e -nw'
+    abbr ec 'emacsclient'
+    abbr ecc 'ec -c'
+    abbr ecnw 'ec -nw'
 
     # env vars
     set -gx EDITOR nvim 

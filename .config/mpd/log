@@ -599,3 +599,5 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2025-09-15T17:00:14 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
 2025-09-15T17:06:37 exception: Failed to access /home/daksh/Music: No such file or directory
 2025-09-23T16:15:00 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-10-03T20:54:09 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-10-03T20:54:10 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
