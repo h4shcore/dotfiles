@@ -11,9 +11,9 @@ right_format = ""
 command_timeout=2000
 
 [character]
-success_symbol = "[▶](default)"
-error_symbol = "[▶](red)"
-vicmd_symbol = "[■](cyan)"
+success_symbol = "[❯]()"
+error_symbol = "[❯](red)"
+vicmd_symbol = "[■]()"
 vimcmd_replace_one_symbol = "◌"
 vimcmd_replace_symbol = "□"
 vimcmd_visual_symbol = "▼"
