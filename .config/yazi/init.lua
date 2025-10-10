@@ -38,7 +38,11 @@ require("yatline"):setup({
 	display_header_line = true,
 	display_status_line = true,
 
-	component_positions = { "header", "tab", "status" },
+	component_positions = {
+		"header",
+		"tab",
+		"status",
+	},
 
 	header_line = {
 		left = {
@@ -50,7 +54,7 @@ require("yatline"):setup({
 		},
 		right = {
 			section_a = {
-				-- { type = "string", custom = false, name = "date", params = { "%A, %d %B %Y" } },
+				{ type = "string", custom = false, name = "date", params = { "%A, %d %B %Y" } },
 			},
 			section_b = {
 				-- { type = "string", custom = false, name = "date", params = { "%X" } },
