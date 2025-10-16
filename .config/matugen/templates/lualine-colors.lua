@@ -14,12 +14,12 @@ M.matugen = {
   },
   visual = {
     a = { fg = "{{ colors.surface.default.hex }}", bg = "{{ colors.secondary.default.hex }}", gui = "bold" },
-    b = { fg = "{{ colors.on_surface.default.hex }}", bg = "{{ colors.tertiary.default.hex }}" },
+    b = { fg = "{{ colors.surface.default.hex }}", bg = "{{ colors.tertiary.default.hex }}" },
     c = { fg = "{{ colors.on_surface.default.hex }}", bg = "{{ colors.surface_bright.default.hex }}" },
   },
   replace = {
     a = { fg = "{{ colors.surface.default.hex }}", bg = "{{ colors.error.default.hex }}", gui = "bold" },
-    b = { fg = "{{ colors.on_surface.default.hex }}", bg = "{{ colors.tertiary.default.hex }}" },
+    b = { fg = "{{ colors.surface.default.hex }}", bg = "{{ colors.tertiary.default.hex }}" },
     c = { fg = "{{ colors.on_surface.default.hex }}", bg = "{{ colors.surface_bright.default.hex }}" },
   },
   inactive = {
