@@ -69,4 +69,4 @@ hi String       guifg={{ colors.primary.default.hex }} guibg=NONE
 hi Keyword      guifg={{ colors.error.default.hex }} guibg=NONE
 hi Function     guifg={{ colors.on_secondary_container.default.hex }} guibg=NONE
 hi Type         guifg={{ colors.tertiary.default.hex }} guibg=NONE
-hi Visual       guibg=NONE
+hi Visual       guibg={{ colors.surface_bright.default.hex }}
