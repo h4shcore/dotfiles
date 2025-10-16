@@ -1,0 +1,195 @@
+{
+  "layer": "top",
+  "position": "top", 
+  "height": 32,
+  
+  "modules-left":   ["hyprland/workspaces"],
+  "modules-center": ["clock","custom/playerctl"],
+  "modules-right":  ["tray", "idle_inhibitor","temperature","backlight","pulseaudio", "network", "battery"],
+
+  "wlr/taskbar": {
+	"format": "{icon} {app_id}",
+	"icon-size": 14,
+	"icon-theme": "Papirus",
+	"tooltip-format": "{title}",
+	"on-click": "activate",
+	"on-click-middle": "close",
+  "on-click-right": "minimize-raise",
+	"ignore-list": [
+	    "kitty"
+	],
+	"app_ids-mapping": {
+	}
+  },
+  "wlr/workspaces": {
+        "disable-scroll": true,
+        "sort-by-number": true,
+        "on-click": "activate"
+   },
+  
+  "tray": {
+    "icon-size": 16,
+    "spacing": 10
+  },
+
+  "clock#time": {
+    "interval": 1,
+    "format": "  {:%H:%M:%S} ",
+    "tooltip": false
+  },
+
+  "clock#date": {
+    "interval": 10,
+    "format": "  {:%e %b %y} ", // icon: calendar-alt
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+  "clock": {
+		"interval": 1,
+		"format": "{:%I:%M %p  %A %b %d}",
+		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+		"tooltip": true
+    },
+"custom/music": {
+        "format": "{icon}{}",
+        "format-icons": {
+            // "Playing": " ", // Uncomment if not using the dynamic script
+            "Paused": "󰏥 ",
+            "Stopped": "&#x202d;󰙦 " // This stop symbol is RTL. So &#x202d; is left-to-right override.
+        },
+        "escape": true,
+        "tooltip": true,
+        "exec": "~/.config/waybar/scripts/caway.sh -e",
+        "return-type": "json",
+        "on-click": "playerctl play-pause",
+        "on-scroll-up": "playerctl previous",
+        "on-scroll-down": "playerctl next",
+        "on-click-right": "g4music",
+        "max-length": 35
+    },
+
+  "network": {
+    	"interval": 1,
+        "format-wifi": "󰒢 {essid}",
+        "format-ethernet": "󰈀  {ifname}",
+        "format-linked": "󰒢 {essid} (No IP)",
+        "format-disconnected": "󰒢 Disconnected",
+        "format-alt": "{ifname} ({ipaddr})",
+        //"tooltip": false,
+	// "tooltip-format-wifi": "signal strength: {signalstrength}% | down speed: {bandwidthdownbits}, up speed: {bandwidthupbits}",
+        "on-click-right": "exec nm-connection-editor"
+  },
+
+  "pulseaudio": {
+    "scroll-step": 1,
+    "format": "{icon} {volume}%", 
+    "format-muted": "󰖁 Muted",
+    "format-icons": {
+      "headphone": "  ",
+      "hands-free": "  ",
+      "headset": "  ",
+      "phone": "  ",
+      "portable": "  ",
+      "car": "  ",
+       "default": ["", "", ""]
+    },
+    "states": {
+     	"warning": 85
+    },
+    "on-scroll-up": "volume.sh --dec",
+    "on-scroll-down": "volume.sh --inc",
+    "smooth-scrolling-threshold": 5,
+    "tooltip": false,
+    "on-click": "volume.sh --toggle",
+    "on-click-right": "pavucontrol"
+  },
+
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+         "activated": "󰈈 ",
+      "deactivated": "󰈉 "
+     },
+     "tooltip": false
+  },
+ 
+  "temperature": {
+		"hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
+		"critical-threshold": 85,
+		"interval": 1,
+		"format": "<span font='12' rise='-2500'>󰔏</span> {temperatureC}°C",
+		"tooltip": false
+	},
+
+  "backlight": {
+            "format": "󰃠 {percent}%",
+            "on-scroll-up": "brightness.sh --dec",
+            "on-scroll-down": "brightness.sh --inc",
+            "smooth-scrolling-threshold": 5
+    },
+
+  "battery": {
+            "interval": 10,
+
+            "states": {
+                	"warning": 20,
+                	"critical": 10
+	            },
+	            "format": "{icon} {capacity}%",
+	            "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂁", "󰂂", "󰁹"],
+	            "format-full": "{icon} {capacity}%",
+	            "format-charging": "󰂄 {capacity}%",
+            "tooltip": true
+  },
+    
+  "custom/power": {
+    "format": " ⏻ ",
+    "on-click": "~/.config/hypr/scripts/rofi-power"
+  },
+  "custom/playerctl": {
+    //"format": "<span font='12' rise='-2500'>{icon}</span> {}",
+    "format": "<span font='10' rise='-1000'>󰎈</span>  {} ",
+    "format-icons": {
+	  "Playing": "󰐊",
+    "Paused": "󰏤"
+    },
+    	"escape": true,
+   	  "return-type": "json",
+    	"max-length": 40,
+    	"on-click": "playerctl play-pause",
+    	"on-click-right": "playerctl stop",
+      "on-click-middle": "killall spotify",
+    	"smooth-scrolling-threshold": 10,
+    	"on-scroll-up": "playerctl next",
+    	"on-scroll-down": "playerctl previous",
+    	"exec": "playerctl -a metadata --format '{\"text\": \"{{markup_escape(title)}} - {{artist}}\", \"tooltip\": \"{{status}} : {{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F" 
+    },
+
+  "mpd": {
+    "format": " {stateIcon}   {artist} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})    ",
+    "format-disconnected": " Disconnected  ",
+    "format-stopped": " Stopped  ",
+    "interval": 2,
+    "consume-icons": {
+      "on": " " // Icon shows only when "consume" is on
+    },
+    "random-icons": {
+      "off": "<span color=\"#fb4934\"> </span>", // Icon grayed out when "random" is off
+      "on": " "
+    },
+    "repeat-icons": {
+      "on": " "
+    },
+    "single-icons": {
+      "on": "1 "
+    },
+    "state-icons": {
+      "paused": "",
+      "playing": ""
+    },
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous",
+    "tooltip-format": "MPD (connected)",
+    "tooltip-format-disconnected": "MPD (disconnected)"
+  }
+}

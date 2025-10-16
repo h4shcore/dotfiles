@@ -7,7 +7,8 @@ if status is-interactive
     zoxide init fish | source
 
     # Better ls
-    alias ls='eza --icons --group-directories-first -1'
+    # alias ls='eza --icons --group-directories-first -1'
+    alias ls='eza --icons'
 
     # Abbrs
     # git
@@ -37,6 +38,7 @@ if status is-interactive
     # term
     abbr r 'yazi'
     abbr nv 'nvim'
+    abbr hx 'helix'
     abbr c 'clear'
     abbr q 'exit'
     abbr sd 'shutdown now'

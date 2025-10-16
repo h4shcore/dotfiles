@@ -1,0 +1,33 @@
+[global]
+mouse_left_click = do_action
+mouse_middle_click = close_all 
+mouse_right_click = close_current
+frame_color = "{{colors.primary.default.hex}}"
+frame_width = 2
+separator_color= frame
+highlight = "{{colors.primary.default.hex}}"
+font = Iosevka Nerd Font 12
+max_icon_size = 100
+shrink = true
+word_wrap = yes
+padding = 15
+horizontal_padding = 15
+show_indicators = no
+
+[urgency_low]
+background = "{{colors.surface.default.hex}}"
+foreground = "{{colors.on_surface.default.hex}}"
+highlight = "{{colors.primary_container.default.hex}}"
+timeout = 5
+
+[urgency_normal]
+background = "{{colors.surface.default.hex}}"
+foreground = "{{colors.on_surface.default.hex}}"
+highlight = "{{colors.primary_container.default.hex}}"
+timeout = 5
+
+[urgency_critical]
+background = "{{colors.surface.default.hex}}"
+foreground = "{{colors.on_surface.default.hex}}"
+highlight = "{{colors.error.default.hex}}"
+timeout = 0
