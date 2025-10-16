@@ -66,7 +66,10 @@ input_path = '~/.config/matugen/templates/cava-colors.ini'
 output_path = '~/.config/cava/themes/matugen'
 post_hook = "pkill -USR1 cava"
 
-
 [templates.nvim]
 input_path = '~/.config/matugen/templates/colors.vim'
 output_path = '~/.config/nvim/colors/matugen.vim'
+
+[templates.lualine]
+input_path = '~/.config/matugen/templates/lualine-colors.lua'
+output_path = '~/.config/nvim/lua/matugen.lua'
