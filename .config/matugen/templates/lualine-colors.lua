@@ -3,7 +3,7 @@ local M = {}
 -- Define your custom lualine theme
 M.matugen = {
   normal = {
-    a = { fg = "{{ colors.on_surface.default.hex }}", bg = "{{ colors.on_primary.default.hex }}", gui = "bold" },
+    a = { fg = "{{ colors.surface.default.hex }}", bg = "{{ colors.primary.default.hex }}", gui = "bold" },
     b = { fg = "{{ colors.on_surface.default.hex }}", bg = "{{ colors.inverse_primary.default.hex }}" },
     c = { fg = "{{ colors.on_surface.default.hex }}", bg = "{{ colors.surface_bright.default.hex }}" },
   },
