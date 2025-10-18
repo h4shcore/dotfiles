@@ -36,28 +36,28 @@ if status is-interactive
     abbr lt 'ls --tree'
 
     # term
-    abbr r 'yazi'
-    abbr nv 'nvim'
-    abbr hx 'helix'
-    abbr c 'clear'
-    abbr q 'exit'
+    abbr r yazi
+    abbr nv nvim
+    abbr hx helix
+    abbr c clear
+    abbr q exit
     abbr sd 'shutdown now'
-    abbr re 'reboot'
+    abbr re reboot
 
     # emacs
     alias e='emacs'
     abbr enw 'e -nw'
-    abbr ec 'emacsclient'
+    abbr ec emacsclient
     abbr ecc 'ec -c'
     abbr ecnw 'ec -nw'
 
     # env vars
-    set -gx EDITOR nvim 
+    set -gx EDITOR nvim
     set -gx MANPAGER 'nvim +Man!'
 
     # path
     set PATH $HOME/.local/bin $PATH
-    set PATH /nix/var/nix/profiles/default/bin $PATH  
+    set PATH /nix/var/nix/profiles/default/bin $PATH
 
     # disable greeting message
     set fish_greeting ""
