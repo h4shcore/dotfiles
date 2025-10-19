@@ -38,7 +38,6 @@ if status is-interactive
     # term
     abbr r yazi
     abbr nv nvim
-    abbr hx helix
     abbr c clear
     abbr q exit
     abbr sd 'shutdown now'
