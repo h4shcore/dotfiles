@@ -7,8 +7,6 @@ configuration {
   drun-display-format: "{name}";
 }
 
-@import "colors.rasi"
-
 * {
   // catppuccin 
   // bg: #181926;
@@ -22,11 +20,11 @@ configuration {
   // t: transparent;
   // fg: #ebdbb2;
 
-  // matugen
-  bg: @surface;
-  bgt: @surface-alpha;
+  // tokyonight
+  bg: #1a1b26;
+  bgt: #1a1b2595;
   t: transparent;
-  fg: @primary;
+  fg: #c0caf5;
 
   selected-bg: @fg;
   selected-fg: @bg;

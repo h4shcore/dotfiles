@@ -2,10 +2,10 @@
 mouse_left_click = do_action
 mouse_middle_click = close_all 
 mouse_right_click = close_current
-frame_color = "#adc6ff"
+frame_color = "#7aa2f7"
 frame_width = 2
 separator_color= frame
-highlight = "#adc6ff"
+highlight = "#7aa2f7"
 font = Iosevka Nerd Font 12
 max_icon_size = 100
 shrink = true
@@ -15,19 +15,19 @@ horizontal_padding = 15
 show_indicators = no
 
 [urgency_low]
-background = "#111318"
-foreground = "#e2e2e9"
-highlight = "#2b4678"
+background = "#1a1b26"
+foreground = "#c0caf5"
+highlight = "#7aa2f7"
 timeout = 5
 
 [urgency_normal]
-background = "#111318"
-foreground = "#e2e2e9"
-highlight = "#2b4678"
+background = "#1a1b26"
+foreground = "#c0caf5"
+highlight = "#7aa2f7"
 timeout = 5
 
 [urgency_critical]
-background = "#111318"
-foreground = "#e2e2e9"
-highlight = "#ffb4ab"
+background = "#1a1b26"
+foreground = "#c0caf5"
+highlight = "#f7768e"
 timeout = 0
