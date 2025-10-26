@@ -21,7 +21,7 @@ video/png=mpv.desktop
 video/jpg=mpv.desktop
 video/jpg=mpv.desktop
 video/*=mpv.desktop
-inode/directory=nemo.desktop
+inode/directory=thunar.desktop
 application/x-shellscript=foot.desktop
 
 [Added Associations]
@@ -45,5 +45,5 @@ image/gif=swayimg.desktop
 video/png=mpv.desktop
 video/jpg=mpv.desktop
 video/*=mpv.desktop
-inode/directory=nemo.desktop
+inode/directory=thunar.desktop
 application/x-shellscript=foot.desktop
