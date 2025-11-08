@@ -1,0 +1,174 @@
+// -*- mode: jsonc -*-
+{
+    // "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 20, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+        "hyprland/workspaces",
+	    "ext/workspaces"
+    ],
+    "modules-center": [
+        "hyprland/window",
+	    "dwl/window"
+    ],
+    "modules-right": [
+	"group/tray-expander",
+	"privacy",
+        "pulseaudio",
+        "network",
+	    "bluetooth",
+        "battery",
+        "clock"
+    ],
+    // Modules configuration
+    "hyprland/workspaces": {
+	"active-only": false,
+         "disable-scroll": true,
+         "all-outputs": true,
+         "warp-on-scroll": false,
+         "format": "{name}",
+     },
+     "hyprland/window": {
+	"format": "[ {title} ]",
+     },
+     "dwl/tags":{
+	 "num-tags":9,
+     },
+    "ext/workspaces": {
+	"format": "{icon}",
+	"ignore-hidden": true,
+	"on-click": "activate",
+	"on-click-right": "deactivate",
+	"sort-by-id": true,
+    },
+    "dwl/window": {
+	"format": "{title} | {layout}",
+	"max-length": 50,
+    },
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10,
+        // "icons": {
+        //   "blueman": "bluetooth",
+        //   "TelegramDesktop": "$HOME/.local/share/icons/hicolor/16x16/apps/telegram.png"
+        // }
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}",
+	"calendar": {
+	    "mode"          : "month",
+	    "mode-mon-col"  : 3,
+	    "weeks-pos"     : "right",
+	    "on-scroll"     : 1,
+	    "format": {
+		      "months":     "<span color='#ebdbb2'><b>{}</b></span>",
+		      "days":       "<span color='#ebdbb2'><b>{}</b></span>",
+		      "weekdays":   "<span color='#d65d0e'><b>{}</b></span>",
+		      "today":      "<span color='#d65d0e'><b><u>{}</u></b></span>"
+		      }
+	},
+    },
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{percent}% {icon}",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-plugged": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""],
+	"tooltip-format": "{timeTo}\nPD : {power} W",
+	"on-click-right": "/home/alien/.local/bin/batcon"
+    },
+    "network": {
+        "format": " ",
+        "tooltip-format": "{essid} ({signalStrength}%) ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+    },
+    "bluetooth": {
+	// "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+	"format": "",
+	"format-disabled": "", // an empty format will hide the module
+	"format-connected": " {num_connections} ",
+	"tooltip-format": "{controller_alias}\t{controller_address}",
+	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click": "flatpak run io.github.kaii_lb.Overskride"
+    },
+    "group/tray-expander": {
+	"orientation": "inherit",
+	"drawer": {
+	    "transition-duration": 600,
+	    "children-class": "tray-group-item"
+	},
+	"modules": ["custom/expand-icon", "tray"]
+    },
+    "custom/expand-icon": {
+	"format": "> ",
+	"tooltip": false
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-bluetooth-muted": "󰟎",
+        "format-muted": "󰝟 ",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": [""],
+            "hands-free": "",
+            "headset": ["󰟎" ,""],
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", " "]
+        },
+        "on-click": "pavucontrol"
+    },
+    "privacy": {
+	"icon-spacing": 4,
+	"icon-size": 12,
+	"transition-duration": 250,
+	"modules": [
+		{
+			"type": "screenshare",
+			"tooltip": true,
+			"tooltip-icon-size": 12
+		},
+		{
+			"type": "audio-in",
+			"tooltip": true,
+			"tooltip-icon-size": 12
+		}
+	],
+	"ignore-monitor": true,
+	"ignore": [
+		{
+			"type": "audio-in",
+			"name": "cava"
+		},
+		{
+			"type": "screenshare",
+			"name": "obs"
+		}
+	]
+},
+}
