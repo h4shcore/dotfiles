@@ -1,0 +1,94 @@
+# Open document in fit-width mode by default
+# set adjust-open "best-fit"
+
+# One page per row by default
+set pages-per-row 1
+
+#stop at page boundries
+set scroll-page-aware "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+
+set notification-error-bg       "rgba(29,32,33,1)"     # bg
+set notification-error-fg       "rgba(251,73,52,1)"    # bright:red
+set notification-warning-bg     "rgba(29,32,33,1)"     # bg
+set notification-warning-fg     "rgba(250,189,47,1)"   # bright:yellow
+set notification-bg             "rgba(29,32,33,1)"     # bg
+set notification-fg             "rgba(184,187,38,1)"   # bright:green
+
+set completion-bg               "rgba(80,73,69,1)"     # bg2
+set completion-fg               "rgba(235,219,178,1)"  # fg
+set completion-group-bg         "rgba(60,56,54,1)"     # bg1
+set completion-group-fg         "rgba(146,131,116,1)"  # gray
+set completion-highlight-bg     "rgba(131,165,152,1)"  # bright:blue
+set completion-highlight-fg     "rgba(80,73,69,1)"     # bg2
+
+# Define the color in index mode
+set index-bg                    "rgba(80,73,69,1)"     # bg2
+set index-fg                    "rgba(235,219,178,1)"  # fg
+set index-active-bg             "rgba(131,165,152,1)"  # bright:blue
+set index-active-fg             "rgba(80,73,69,1)"     # bg2
+
+set inputbar-bg                 "rgba(29,32,33,1)"     # bg
+set inputbar-fg                 "rgba(235,219,178,1)"  # fg
+
+set statusbar-bg                "rgba(80,73,69,1)"     # bg2
+set statusbar-fg                "rgba(235,219,178,1)"  # fg
+
+set highlight-color             "rgba(250,189,47,0.5)" # bright:yellow
+set highlight-active-color      "rgba(254,128,25,0.5)" # bright:orange
+
+set default-bg                  "rgba(29,32,33,1)"     # bg
+set default-fg                  "rgba(235,219,178,1)"  # fg
+set render-loading              true
+set render-loading-bg           "rgba(29,32,33,1)"     # bg
+set render-loading-fg           "rgba(235,219,178,1)"  # fg
+
+# Recolor book content's color
+set recolor-lightcolor          "rgba(29,32,33,1)"     # bg
+set recolor-darkcolor           "rgba(235,219,178,1)"  # fg
+set recolor                     "true"
+set recolor-keephue             "true"                 # keep original color
+map i recolor
+
+set font "DinaRemaster Nerd Font 12"
+
+" remove status bar
+set guioptions none
+
+" Zoom in/out
+map [normal]     z zoom in
+map [normal]     Z zoom out
+map [fullscreen] z zoom in
+map [fullscreen] Z zoom out
+
+" Toggle mode
+map [normal]     D toggle_page_mode
+map [fullscreen] D toggle_page_mode
+
+" Scroll
+map [normal]     u scroll half-up
+map [normal]     d scroll half-down
+map [fullscreen] u scroll half-up
+map [fullscreen] d scroll half-down
+
+" Fullscreen
+map [normal]     f toggle_fullscreen
+map [fullscreen] f toggle_fullscreen
+
+" Reload
+map [normal]     <C-r> reload
+map [fullscreen] <C-r> reload
+
+" Status bar
+map [normal]     b toggle_statusbar
+map [fullscreen] b toggle_statusbar
+
+" Set width as in mupdf
+map [normal]     H adjust_window best-fit
+map [normal]     W adjust_window width
+map [fullscreen] H adjust_window best-fit
+map [fullscreen] W adjust_window width
+
+map [normal]     i set recolor
+map [fullscreen] i set recolor
