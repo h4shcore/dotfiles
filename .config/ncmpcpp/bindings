@@ -36,6 +36,8 @@ def_key "."
     show_lyrics
 def_key "alt-."
   toggle_lyrics_fetcher
+def_key "`"
+ refetch_lyrics
 
 def_key "n"
     next_found_item

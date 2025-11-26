@@ -625,3 +625,719 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2025-10-28T14:20:02 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
 2025-10-28T14:20:22 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
 2025-10-28T14:23:07 player: played "Vasu Raina - aaj se.flac"
+2025-11-26T16:45:33 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T16:45:37 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T16:45:49 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T16:45:52 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T16:45:55 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T16:46:10 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T16:46:18 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T16:46:18 exception: Failed to decode "/home/daksh/Music/Vasu Raina - aaj se.flac"; Failed to open "/home/daksh/Music/Vasu Raina - aaj se.flac": No such file or directory
+2025-11-26T16:46:18 player: played "Vasu Raina - aaj se.flac"
+2025-11-26T16:46:21 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 1/04. Die Hard.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 1/06. Rich (Interlude).flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 1/02. N95.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 1/08. We Cry Together.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 1/03. Worldwide Steppers.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 1/07. Rich Spirit.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 1/01. United In Grief.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 1/05. Father Time.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 1/09. Purple Hearts.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 2/06. Auntie Diaries.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 2/01. Count Me Out.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 2/09. Mirror.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 2/08. Mother I Sober.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 2/04. Savior (Interlude).flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 2/07. Mr. Morale.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 2/03. Silent Hill.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 2/02. Crown.flac
+2025-11-26T16:46:23 update: added Kendrick Lamar - Mr. Morale & The Big Steppers (2022) [24-48]/Disc 2/05. Savior.flac
+2025-11-26T16:46:23 update: added Sleep Token - Even In Arcadia (2025) [24Bit-44.1kHz] FLAC [PMEDIA] ⭐️/04. Dangerous.flac
+2025-11-26T16:46:23 update: added Sleep Token - Even In Arcadia (2025) [24Bit-44.1kHz] FLAC [PMEDIA] ⭐️/06. Even In Arcadia.flac
+2025-11-26T16:46:23 update: added Sleep Token - Even In Arcadia (2025) [24Bit-44.1kHz] FLAC [PMEDIA] ⭐️/01. Look To Windward.flac
+2025-11-26T16:46:23 update: added Sleep Token - Even In Arcadia (2025) [24Bit-44.1kHz] FLAC [PMEDIA] ⭐️/09. Gethsemane.flac
+2025-11-26T16:46:23 update: added Sleep Token - Even In Arcadia (2025) [24Bit-44.1kHz] FLAC [PMEDIA] ⭐️/05. Caramel.flac
+2025-11-26T16:46:23 update: added Sleep Token - Even In Arcadia (2025) [24Bit-44.1kHz] FLAC [PMEDIA] ⭐️/07. Provider.flac
+2025-11-26T16:46:23 update: added Sleep Token - Even In Arcadia (2025) [24Bit-44.1kHz] FLAC [PMEDIA] ⭐️/02. Emergence.flac
+2025-11-26T16:46:23 update: added Sleep Token - Even In Arcadia (2025) [24Bit-44.1kHz] FLAC [PMEDIA] ⭐️/08. Damocles.flac
+2025-11-26T16:46:23 update: added Sleep Token - Even In Arcadia (2025) [24Bit-44.1kHz] FLAC [PMEDIA] ⭐️/03. Past Self.flac
+2025-11-26T16:46:23 update: added Sleep Token - Even In Arcadia (2025) [24Bit-44.1kHz] FLAC [PMEDIA] ⭐️/10. Infinite Baths.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/16 - Houstonfornication.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/05 - Stop Trying To Be God.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/02 - Carousel.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/12 - Yosemite.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/09 - 5% Tint.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/14 - Who What!.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/15 - Butterfly Effect.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/10 - Nc-17.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/04 - R.I.P. Screw.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/08 - Wake Up.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/03 - Sicko Mode.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/07 - Skeletons.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/13 - Can't Say.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/17 - Coffee Bean.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/06 - No Bystanders.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/01 - Stargazing.flac
+2025-11-26T16:46:23 update: added Travis Scott - Astroworld (2018) [WEB 24 FLAC]/11 - Astrothunder.flac
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/07. LOADING SCREEN.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/04. TERMS & CONDITIONS.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/11. C__Projects_CJOST_FINDPEACE.mp3
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/17. JUST PRETEND (CREDITS).mp3
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/26. JUST PRETEND (LIVE 2024).mp3
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/09. DIGITAL FOOTPRINT.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/01. C__Projects_CJOST_BEATDEATH.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/06. EVEN.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/18. C__Projects_CJOST_CLEARMIND.mp3
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/19. ARTIFICIAL SUICIDE (LIVE 2024).mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/05. HEDONIST (RECHARGED).mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/12. ARTIFICIAL SUICIDE (UNZIPPED).mp3
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/08. ANYTHING _ HUMAN.mp3
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/21. THE GREY (LIVE 2024).mp3
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/23. NOWHERE TO GO (LIVE 2024).mp3
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/16. BAD DECISIONS (LOFI).mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/03. THE DRAIN.mp3
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/25. THE DEATH OF PEACE OF MIND (LIVE 2024).mp3
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/20. LIKE A VILLAIN (LIVE 2024).mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/15. THE DEATH OF PEACE OF MIND (SO WYLIE PATCH).mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/13. THE GREY (UNZIPPED).mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/22. WHAT DO YOU WANT FROM ME_ (LIVE 2024).mp3
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/02. V.A.N.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/10. NERVOUS SYSTEM.mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/24. V.A.N (LIVE 2024).mp3
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T16:46:23 update: added Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/14. THE DEATH OF PEACE OF MIND (WE ARE FURY PATCH).mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - I Can't Save You (Interlude) [with Future & feat. Don Toliver].mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - Lock On Me (with Travis Scott & Future).mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - Superhero (Heroes & Villains) [with Future & Chris Brown].mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - Feel The Fiyaaaah (with A$AP Rocky & feat. Takeoff).mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - Walk Em Down (Don't Kill Civilians) [with 21 Savage & feat. Mustafa].mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - Umbrella (with 21 Savage & Young Nudy).mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - Niagara Falls (Foot or 2) [with Travis Scott & 21 Savage].mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - Creepin' (with The Weeknd & 21 Savage).mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - On Time (with John Legend).mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - Trance (with Travis Scott & Young Thug).mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - Around Me (feat. Don Toliver).mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - Too Many Nights (feat. Don Toliver & with Future).mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - Metro Spider (with Young Thug).mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - Raindrops (Insane) [with Travis Scott].mp3
+2025-11-26T16:46:23 update: added HEROS & VILLAINS/Metro Boomin - All The Money (with Gunna) [Bonus].mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2015 - Nostalgia/01 Roxanne.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2015 - Nostalgia/05 Friends.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2015 - Nostalgia/03 Meddle About.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2015 - Nostalgia/04 Talk Slow.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2015 - Nostalgia/02 Vibes.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2017 - Part One/03. Church.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2017 - Part One/01. Right Here.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2017 - Part One/02. Into It.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2017 - Part Three/04. No Friends (Ft. ILOVEMAKONNEN & K Camp).mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2017 - Part Three/03. 23.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2017 - Part Three/01. Drugs & Money.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2017 - Part Three/02. Keep It Up.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2014 - Dalliance/03 Hold Your Breath.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2014 - Dalliance/04 Run Away.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2014 - Dalliance/05 Gravity (So Much Higher Remix).mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2014 - Dalliance/01 Anchor Tattoo.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2014 - Dalliance/02 Gravity.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2017 - Part Two/03 Why Stop Now.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2017 - Part Two/01 Triggered.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2017 - Part Two/02 Cassie.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2019 - Don't Try This/02 You Too..mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2019 - Don't Try This/01 What U Call That.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2019 - Don't Try This/06 Lust.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2019 - Don't Try This/04 Devilish.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2019 - Don't Try This/03 Like A Rockstar.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/EP/2019 - Don't Try This/05 Greengreengreen.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2021 - Beauty  In Death/03 - Out The Roof.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2021 - Beauty  In Death/01 - Paranoid.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2021 - Beauty  In Death/12 - Wasted.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2021 - Beauty  In Death/09 - Call Me Back.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2021 - Beauty  In Death/04 - Slide.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2021 - Beauty  In Death/10 - I Think I’m Lost Again.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2021 - Beauty  In Death/08 - Molly.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2021 - Beauty  In Death/11 - Empty.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2021 - Beauty  In Death/06 - Please Stand By [ft. De’Wayne; Xavier Mayne].mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2021 - Beauty  In Death/07 - Aleyuh.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2021 - Beauty  In Death/02 - Pleasexanny.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2021 - Beauty  In Death/05 - Beauty  In Death.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/02 - Chase Atlantic - Cassie.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/07 - Chase Atlantic - Triggered.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/10 - Chase Atlantic - Angeline.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/08 - Chase Atlantic - Ozone.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/06 - Chase Atlantic - Swim.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/09 - Chase Atlantic - Keep It Up.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/14 - Chase Atlantic - Uncomfortable.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/03 - Chase Atlantic - The Walls.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/13 - Chase Atlantic - Drugs & Money.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/04 - Chase Atlantic - Dancer in the Dark.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/11 - Chase Atlantic - Okay.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/05 - Chase Atlantic - Consume (feat. Goon Des Garcons).mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/12 - Chase Atlantic - 23.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2017 - Chase Atlantic/01 - Chase Atlantic - Into It.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2019 - Phases/04 - Love Is (Not) Easy.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2019 - Phases/07 - Heaven And Back.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2019 - Phases/09 - Even Though I'm Depressed.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2019 - Phases/02 - Angels.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2019 - Phases/06 - No Rainbows.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2019 - Phases/08 - Stuckinmybrain.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2019 - Phases/12 - I Don't Like Darkness.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2019 - Phases/05 - Her.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2019 - Phases/11 - I Never Existed.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2019 - Phases/10 - Too Late.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2019 - Phases/01 - Intro.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Album/2019 - Phases/03 - Phases.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Singles/2018 - Numb to the Feeling (Single)/01 - Numb to the Feeling.mp3
+2025-11-26T16:46:23 update: added Chase Atlantic/Singles/2018 - Tidal Wave (Single)/01 - Tidal Wave.mp3
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/29. Ok Ok pt 2.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/11. Up From The Ashes.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/10. No Child Left Behind.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/12. Remote Control pt 2.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/17. Never Abandon Your Family.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/31. Jail pt 2.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/15. 24.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/22. Remote Control.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/09. Believe What I Say.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/18. Donda.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/08. Come to Life.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/03. Moon.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/24. Jonah.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/07. Praise God.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/04. Life Of The Party.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/23. Tell The Vision.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/26. Ok Ok.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/02. Hurricane.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/14. Lord I Need You.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/27. New Again.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/16. Junya.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/28. Jesus Lord.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/19. Keep My Spirit Alive.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/01. Donda Chant.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/20. Jesus Lord pt 2.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/13. God Breathed.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/21. Heaven and Hell.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/32. Keep My Spirit Alive pt 2.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/25. Pure Souls.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/30. Junya pt 2.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/06. Jail.flac
+2025-11-26T16:46:23 update: added Kanye West - Donda (Deluxe) (2021) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/05. Off The Grid.flac
+2025-11-26T16:46:23 update: added Sleep Token - Take Me Back To Eden (2023) [24Bit-44.1kkHz] FLAC [PMEDIA] ⭐️/09 DYWTYLM.flac
+2025-11-26T16:46:23 update: added Sleep Token - Take Me Back To Eden (2023) [24Bit-44.1kkHz] FLAC [PMEDIA] ⭐️/01 Chokehold.flac
+2025-11-26T16:46:23 update: added Sleep Token - Take Me Back To Eden (2023) [24Bit-44.1kkHz] FLAC [PMEDIA] ⭐️/12 Euclid.flac
+2025-11-26T16:46:23 update: added Sleep Token - Take Me Back To Eden (2023) [24Bit-44.1kkHz] FLAC [PMEDIA] ⭐️/11 Take Me Back To Eden.flac
+2025-11-26T16:46:23 update: added Sleep Token - Take Me Back To Eden (2023) [24Bit-44.1kkHz] FLAC [PMEDIA] ⭐️/07 Are You Really Okay.flac
+2025-11-26T16:46:23 update: added Sleep Token - Take Me Back To Eden (2023) [24Bit-44.1kkHz] FLAC [PMEDIA] ⭐️/05 Vore.flac
+2025-11-26T16:46:23 update: added Sleep Token - Take Me Back To Eden (2023) [24Bit-44.1kkHz] FLAC [PMEDIA] ⭐️/04 Aqua Regia.flac
+2025-11-26T16:46:23 update: added Sleep Token - Take Me Back To Eden (2023) [24Bit-44.1kkHz] FLAC [PMEDIA] ⭐️/02 The Summoning.flac
+2025-11-26T16:46:23 update: added Sleep Token - Take Me Back To Eden (2023) [24Bit-44.1kkHz] FLAC [PMEDIA] ⭐️/03 Granite.flac
+2025-11-26T16:46:23 update: added Sleep Token - Take Me Back To Eden (2023) [24Bit-44.1kkHz] FLAC [PMEDIA] ⭐️/06 Ascensionism.flac
+2025-11-26T16:46:23 update: added Sleep Token - Take Me Back To Eden (2023) [24Bit-44.1kkHz] FLAC [PMEDIA] ⭐️/08 The Apparition.flac
+2025-11-26T16:46:23 update: added Sleep Token - Take Me Back To Eden (2023) [24Bit-44.1kkHz] FLAC [PMEDIA] ⭐️/10 Rain.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/04. Be Yourself.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/14. White Ferrari.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/11. Pretty Sweet.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/16. Godspeed.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/01. Nikes.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/03. Pink + White.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/07. Self Control.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/15. Seigfried.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/17. Futura Free.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/02. Ivy.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/08. Good Guy.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/12. Facebook Story.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/13. Close to You.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/06. Skyline To.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/09. Nights.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/05. Solo.flac
+2025-11-26T16:46:23 update: added Frank Ocean - Blonde (2016)/10. Solo (Reprise).flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-07. Amazing (Interlude).flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/2-01. #1 (Intro).flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-17. One Big Family.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-03. Out Of My Hands.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-18. Red Leather.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-12. Mile High Memories.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/2-02. Nobody Knows My Struggle.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-02. Drink N Dance.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-08. All to Myself.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-09. Nights Like This.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/2-04. Crossed Out.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/2-05. Crazy Clientele.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/2-06. Show of Hands.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/2-03. All My Life.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-05. This Sunday.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-15. Beat It.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-01. We Still Don't Trust You.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-06. Luv Bad Bitches.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-14. Gracious.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-10. Came to the Party.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-04. Jealous.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/2-07. Streets Made Me A King.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-16. Always Be My Fault.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-11. Right 4 You.flac
+2025-11-26T16:46:23 update: added Future & Metro Boomin - WE STILL DON'T TRUST YOU (2024) - WEB FLAC 24-96/1-13. Overload.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem — booman.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem — trademark usa.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem — pink panties.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem, Don Toliver — cocoa.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem — issues.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem — first order of business.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem — lost souls.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem — scars.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem — gorgeous.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem — south africa.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem, Travis Scott — durag activity.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem — vent.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem — 16.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem, Kendrick Lamar — family ties.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem, Kendrick Lamar — range brothers.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD1/Baby Keem — scapegoats.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD2/Baby Keem — naked freestyle.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD2/Baby Keem, Don Toliver, PinkPantheress — killstreaks.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD2/Baby Keem — hooligan.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD2/Baby Keem, Brent Faiyaz — lost souls.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD2/Baby Keem — fine china.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD2/Baby Keem, Lil Uzi Vert — bank account.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD2/Baby Keem — highway 95.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD2/Baby Keem — patience interlude.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD2/Baby Keem — a life of pain.flac
+2025-11-26T16:46:23 update: added Baby Keem — The Melodic Blue (Deluxe) [2021]/CD2/Baby Keem — no sense.flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/04. Fukk Sleep (feat. FKA twigs).flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/12. Hun43rd.flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/11. Kids Turned Out Fine.flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/07. Buck Shots.flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/03. Tony Tone.flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/06. CALLDROPS (feat. Kodak Black).flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/13. Changes.flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/01. Distorted Records.flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/10. OG Beeper.flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/05. Praise The Lord (Da Shine) (feat. Skepta).flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/02. A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi).flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/08. Gunz N Butter (feat. Juicy J).flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/09. Brotha Man (feat. French Montana).flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/15. Purity (feat. Frank Ocean).flac
+2025-11-26T16:46:23 update: added A$AP Rocky - TESTING (2018) [24-44 FLAC]/14. Black Tux, White Collar.flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/13. Breathe No More (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/18. Bring Me To Life (AOL Session - 2003 - Remastered).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/06. Tourniquet (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/08. Taking Over Me (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/20. Bring Me To Life (Live On Triple M’s Garage Session - 2020 - Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/09. Hello (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/03. Everybody’s Fool (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/16. My Immortal (Strings Version - Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/12. My Immortal (Band Version - Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/14. Farther Away (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/10. My Last Breath (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/04. My Immortal (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/19. Going Under (Live Acoustic - 2003 - Remastered).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/07. Imaginary (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/21. My Immortal (Live At O2 Arena - 2022 - Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/15. Missing (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/02. Bring Me To Life (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/05. Haunted (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/11. Whisper (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/17. Bring Me To Life (Demo - Remastered 2023).flac
+2025-11-26T16:46:23 update: added Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/01. Going Under (Remastered 2023).flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/08 On The Road (feat. Meek Mill & Lil Baby).flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/12 Sunflower (Spider-Man- Into the Spider-Verse).flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/02 Saint-Tropez.flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/05 A Thousand Bad Times.flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/10 I'm Gonna Be.flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/11 Staring At The Sun (feat. SZA).flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/13 Internet.flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/07 Die For Me (feat. Future & Halsey).flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/15 Myself.flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/06 Circles.flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/09 Take What You Want (feat. Ozzy Osbourne & Travis Scott).flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/03 Enemies (feat. DaBaby).flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/16 I Know.flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/14 Goodbyes (feat. Young Thug).flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/01 Hollywood's Bleeding.flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/04 Allergic.flac
+2025-11-26T16:46:23 update: added Post Malone - Hollywood's Bleeding (2019)/17 Wow-.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/11. Maria I'm Drunk.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/15. Ok Alright.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/16. Never Catch Me.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/07. Nightcrawler.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/10. Impossible.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/12. Flying High.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/09. Antidote.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/13. I Can Tell.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/03. 3500.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/05. 90210.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/01. Pornography.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/02. Oh My Dis Side.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/04. Wasted.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/08. Piss On Your Grave.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/14. Apple Pie.flac
+2025-11-26T16:46:23 update: added Travis Scott - Rodeo (Expanded Edition) (2015-09-04)/06. Pray 4 Love.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/14. R e s e n t m e n t.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/06. N o  C h i l l.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/07. H e r O l d F r i e n d s.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/13. F a m i l y.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/04. C h e e r s.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/01. C o n t r o l.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/05. M a k e  I t  T o  T h e  M o r n i n g.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/10. S o r r y,  B u t  I’ m  O u t s i d e.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/02. L o s e  M y  M i n d.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/03. S t u c k  I n  M y  W a y s.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/09. F o r  C e r t a i n.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/08. T h e  R e t r e a t.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/11. R e a l W o m a n.flac
+2025-11-26T16:46:23 update: added PARTYNEXTDOOR — PARTYNEXTDOOR 4 (P4) (2024) [24bit WEB-FLAC]/12. A  M o t h e r' s  P r a y e r.flac
+2025-11-26T16:46:23 update: added /Tory Lanez, RL Grime - In For It.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/10. Get Throwed.flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/03. Way Bigger.flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/01. XSCAPE.flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/08. Drugs N Hella Melodies (feat. Kali Uchis).flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/14. You (feat. Travis Scott).flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/04. Flocky Flocky (feat. Travis Scott).flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/11. Company Pt 2.flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/07. Swangin’ On Westheimer.flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/05. What You Need.flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/16. BOGUS.flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/12. OUTERSPACE (feat. Baby Keem).flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/09. 2AM.flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/15. Crossfaded.flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/13. Smoke (feat. HVN & SoFaygo).flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/06. Double Standards.flac
+2025-11-26T16:46:23 update: added Don Toliver - Life Of A Don (2021) [24Bit-176.4kHz] FLAC [PMEDIA] ⭐️/02. 5X.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/02 - Keys To My Life.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/16 - King.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/07 - Do It.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/01 - Stars.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/12 - Carnival.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/06 - Hoodrat.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/15 - Problematic.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/09 - Burn.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/03 - Paid.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/05 - Back To Me.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/04 - Talking.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/14 - Good (Don't Die).flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/11 - Vultures.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/13 - Beg Forgiveness.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/08 - Paperwork.flac
+2025-11-26T16:46:23 update: added Kanye West - Ty Dolla $ign - Vultures 1 (2024) [24-48]/10 - Fuk Sumn.flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/10. Bad Omens - Who Are You.flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/08. Bad Omens - Just Pretend.flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/01. Bad Omens - Concrete Jungle.flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/04. Bad Omens - The Death Of Peace Of Mind.flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/02. Bad Omens - Nowhere To Go.flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/07. Bad Omens - Bad Decisions.flac
+2025-11-26T16:46:23 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/05. Bad Omens - What It Cost.flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/06. Bad Omens - Like A Villain.flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/11. Bad Omens - Somebody Else..flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/13. Bad Omens - What Do You Want From Me.flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/09. Bad Omens - The Grey.flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/14. Bad Omens - Artificial Suicide.flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/15. Bad Omens - Miracle.flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/03. Bad Omens - Take Me First.flac
+2025-11-26T16:46:23 update: added Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/12. Bad Omens - Idwt$.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/16. LOOOVE.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/19. TIL FURTHER NOTICE.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/14. SKITZO.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/08. FE!N.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/01. HYAENA.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/13. PARASAIL.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/10. I KNOW .flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/11. TOPIA TWINS.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/12. CIRCUS MAXIMUS.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/09. DELRESTO (ECHOES).flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/04. MY EYES.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/02. THANK GOD.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/07. MELTDOWN.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/06. SIRENS.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/03. MODERN JAM.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/15. LOST FOREVER.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/18. TELEKINESIS.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/17. K-POP.flac
+2025-11-26T16:46:23 update: added Travis Scott - UTOPIA (2023)/05. GOD'S COUNTRY.flac
+2025-11-26T16:46:23 update: added Bad Omens - Finding God Before God Finds Me (Deluxe) (2019 Metalcore Rock) [Flac 16-44]/10. Bad Omens - If I'm There.flac
+2025-11-26T16:46:23 update: added Bad Omens - Finding God Before God Finds Me (Deluxe) (2019 Metalcore Rock) [Flac 16-44]/12. Bad Omens - Limits.flac
+2025-11-26T16:46:23 update: added Bad Omens - Finding God Before God Finds Me (Deluxe) (2019 Metalcore Rock) [Flac 16-44]/11. Bad Omens - Never Know.flac
+2025-11-26T16:46:23 update: added Bad Omens - Finding God Before God Finds Me (Deluxe) (2019 Metalcore Rock) [Flac 16-44]/08. Bad Omens - Said & Done.flac
+2025-11-26T16:46:23 update: added Bad Omens - Finding God Before God Finds Me (Deluxe) (2019 Metalcore Rock) [Flac 16-44]/13. Bad Omens - Come Undone.flac
+2025-11-26T16:46:23 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:23 update: added Bad Omens - Finding God Before God Finds Me (Deluxe) (2019 Metalcore Rock) [Flac 16-44]/06. Bad Omens - Blood.flac
+2025-11-26T16:46:23 update: added Bad Omens - Finding God Before God Finds Me (Deluxe) (2019 Metalcore Rock) [Flac 16-44]/03. Bad Omens - Careful What You Wish For.flac
+2025-11-26T16:46:23 update: added Bad Omens - Finding God Before God Finds Me (Deluxe) (2019 Metalcore Rock) [Flac 16-44]/04. Bad Omens - The Hell I Overcame.flac
+2025-11-26T16:46:23 update: added Bad Omens - Finding God Before God Finds Me (Deluxe) (2019 Metalcore Rock) [Flac 16-44]/05. Bad Omens - Dethrone.flac
+2025-11-26T16:46:23 update: added Bad Omens - Finding God Before God Finds Me (Deluxe) (2019 Metalcore Rock) [Flac 16-44]/02. Bad Omens - Running in Circles.flac
+2025-11-26T16:46:23 update: added Bad Omens - Finding God Before God Finds Me (Deluxe) (2019 Metalcore Rock) [Flac 16-44]/07. Bad Omens - Mercy.flac
+2025-11-26T16:46:23 update: added Bad Omens - Finding God Before God Finds Me (Deluxe) (2019 Metalcore Rock) [Flac 16-44]/01. Bad Omens - Kingdom Of Cards.flac
+2025-11-26T16:46:23 update: added Bad Omens - Finding God Before God Finds Me (Deluxe) (2019 Metalcore Rock) [Flac 16-44]/09. Bad Omens - Burning Out.flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/06. SZA - Blind (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/04. SZA - Low (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/05. SZA - Love Language (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/23. SZA - Forgiveless (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/09. SZA - Notice Me (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/15. SZA - Conceited (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/03. SZA - Seek & Destroy (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/22. SZA - Good Days (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/21. SZA - I Hate U (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/13. SZA - F2F (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/19. SZA - Shirt (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/07. SZA - Used (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/02. SZA - Kill Bill (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/17. SZA - Too Late (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/12. SZA - Ghost in the Machine (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/16. SZA - Special (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/10. SZA - Gone Girl (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/11. SZA - Smoking on my Ex Pack (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/01. SZA - SOS (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/20. SZA - Open Arms (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/08. SZA - Snooze (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/14. SZA - Nobody Gets Me (Explicit).flac
+2025-11-26T16:46:23 update: added SZA - SOS (2022) [FLAC] [24B-44.1kHz]/18. SZA - Far (Explicit).flac
+2025-11-26T16:46:23 update: added Evanescence - The Bitter Truth (2021) Mp3 320kbps CD-Rip [PMEDIA] ⭐️/11 Part Of Me.mp3
+2025-11-26T16:46:23 update: added Evanescence - The Bitter Truth (2021) Mp3 320kbps CD-Rip [PMEDIA] ⭐️/02 Broken Pieces Shine.mp3
+2025-11-26T16:46:23 update: added Evanescence - The Bitter Truth (2021) Mp3 320kbps CD-Rip [PMEDIA] ⭐️/12 Blind Belief.mp3
+2025-11-26T16:46:23 update: added Evanescence - The Bitter Truth (2021) Mp3 320kbps CD-Rip [PMEDIA] ⭐️/09 Take Cover.mp3
+2025-11-26T16:46:23 update: added Evanescence - The Bitter Truth (2021) Mp3 320kbps CD-Rip [PMEDIA] ⭐️/03 The Game Is Over.mp3
+2025-11-26T16:46:23 update: added Evanescence - The Bitter Truth (2021) Mp3 320kbps CD-Rip [PMEDIA] ⭐️/01 Artifact-The Turn.mp3
+2025-11-26T16:46:23 update: added Evanescence - The Bitter Truth (2021) Mp3 320kbps CD-Rip [PMEDIA] ⭐️/10 Far From Heaven.mp3
+2025-11-26T16:46:23 update: added Evanescence - The Bitter Truth (2021) Mp3 320kbps CD-Rip [PMEDIA] ⭐️/04 Yeah Right.mp3
+2025-11-26T16:46:23 update: added Evanescence - The Bitter Truth (2021) Mp3 320kbps CD-Rip [PMEDIA] ⭐️/07 Better Without You.mp3
+2025-11-26T16:46:23 update: added Evanescence - The Bitter Truth (2021) Mp3 320kbps CD-Rip [PMEDIA] ⭐️/08 Use My Voice.mp3
+2025-11-26T16:46:23 update: added Evanescence - The Bitter Truth (2021) Mp3 320kbps CD-Rip [PMEDIA] ⭐️/05 Feeding The Dark.mp3
+2025-11-26T16:46:23 update: added Evanescence - The Bitter Truth (2021) Mp3 320kbps CD-Rip [PMEDIA] ⭐️/06 Wasted On You.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/05. Wasted.flac
+2025-11-26T16:46:23 update: added Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/04. After Party.flac
+2025-11-26T16:46:23 update: added Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/01. Heaven Or Hell.flac
+2025-11-26T16:46:23 update: added Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/11. No Photos.flac
+2025-11-26T16:46:23 update: added Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/03. Cardigan.flac
+2025-11-26T16:46:23 update: added Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/08. Company.flac
+2025-11-26T16:46:23 update: added Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/06. Can_t Feel My Legs.flac
+2025-11-26T16:46:23 update: added Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/02. Euphoria (feat Travis Scott _ Kaash Paige).flac
+2025-11-26T16:46:23 update: added Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/09. Had Enough (feat Quavo _ Offset).flac
+2025-11-26T16:46:23 update: added Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/07. Candy.flac
+2025-11-26T16:46:23 update: added Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/10. Spaceship (feat Sheck Wes).flac
+2025-11-26T16:46:23 update: added Don Toliver - Heaven Or Hell (2020) [24-88 FLAC]/12. No Idea.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/07. Died and Came Back.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/16. Fire Alarm.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/18. Werewolf (feat. Bring Me The Horizon).flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/06. x2.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/11. Endless Fashion (feat. Nicki Minaj).flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/23. The End (feat. BABYMETAL).flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/04. Crush Em.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/17. CS.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/25. Of Course (Bonus Track).flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/10. I Gotta.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/12. Mama, I’m Sorry.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/09. That Fiya.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/26. Shardai (Bonus Track).flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/05. Amped.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/02. Suicide Doors.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/15. Just Wanna Rock.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/21. Days Come and Go.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/20. Patience (feat. Don Toliver).flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/08. Spin Again.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/03. Aye (feat. Travis Scott).flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/22. Rehab.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/01. Flooded The Face.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/19. Pluto to Mars.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/13. All Alone.flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/24. Zoom (Bonus Track).flac
+2025-11-26T16:46:23 update: added Lil Uzi Ver - Pink Tape (2023)/14. Nakamura.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/10 - Runnin Outta Time.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/05 - Claustrophobic.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/02 - Young Metro.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/17 - Where My Twin @ (Bonus).flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/03 - Ice Attack.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/12 - Ain't No Love.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/09 - Cinderella.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/07 - Slimed In.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/01 - We Don't Trust You.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/08 - Magic Don Juan (Princess Diana).flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/06 - Like That.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/14 - GTA.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/16 - WTFYM.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/13 - Everyday Hustle.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/04 - Type Shit.flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/11 - Fried (She a Vibe).flac
+2025-11-26T16:46:23 update: added Future And Metro Boomin - We Don't Trust You (2024) [24-96]/15 - Seen it All.flac
+2025-11-26T16:46:23 update: added /Post Malone - Motley Crew.mp3
+2025-11-26T16:46:23 update: added Jackboys & Travis Scott - JACKBOYS (2019)/07.GATTI.flac
+2025-11-26T16:46:23 update: added Jackboys & Travis Scott - JACKBOYS (2019)/05.OUT WEST (feat. Young Thug).flac
+2025-11-26T16:46:23 update: added Jackboys & Travis Scott - JACKBOYS (2019)/01.HIGHEST IN THE ROOM (REMIX) [feat. ROSALÍA & Lil Baby].flac
+2025-11-26T16:46:23 update: added Jackboys & Travis Scott - JACKBOYS (2019)/04.HAD ENOUGH (feat. Quavo & Offset).flac
+2025-11-26T16:46:23 update: added Jackboys & Travis Scott - JACKBOYS (2019)/03.GANG GANG.flac
+2025-11-26T16:46:23 update: added Jackboys & Travis Scott - JACKBOYS (2019)/02.JACKBOYS.flac
+2025-11-26T16:46:23 update: added Jackboys & Travis Scott - JACKBOYS (2019)/06.WHAT TO DO (feat. Don Toliver).flac
+2025-11-26T16:46:23 update: added Alone At Prom/Tory Lanez - Hurt From Mercury.mp3
+2025-11-26T16:46:23 update: added Alone At Prom/Tory Lanez - Enchanted Waterfall.mp3
+2025-11-26T16:46:23 update: added Alone At Prom/Tory Lanez - Last Kiss Of Nebulon.mp3
+2025-11-26T16:46:23 update: added Alone At Prom/Tory Lanez - ‘87 Stingray.mp3
+2025-11-26T16:46:23 update: added Alone At Prom/Tory Lanez - Midnight's Interlude.mp3
+2025-11-26T16:46:23 update: added Alone At Prom/Tory Lanez - The Color Violet.mp3
+2025-11-26T16:46:23 update: added Alone At Prom/Tory Lanez - Pink Dolphin Sunset (feat. Tee).mp3
+2025-11-26T16:46:23 update: added Alone At Prom/Tory Lanez - Ballad of a Badman.mp3
+2025-11-26T16:46:23 update: added Alone At Prom/Tory Lanez - Lavender Sunflower.mp3
+2025-11-26T16:46:23 update: added Alone At Prom/Tory Lanez - Lady Of Namek.mp3
+2025-11-26T16:46:23 update: added Alone At Prom/Tory Lanez - Pluto’s Last Comet.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/08. 4 Me (feat. Kali Uchis).flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/17. Company Pt. 3.flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/19. Cinderella (feat. Toro y Moi).flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/05. LoveSickness.flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/12. Honeymoon.flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/06. Let Her Go (feat. James Blake).flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/16. If I Had (feat. Charlie Wilson).flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/14. Slow Motion (feat. Wizkid).flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/03. Geronimo.flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/04. Luckily I’m Having (feat. Teezo Touchdown).flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/07. Leave The Club (feat. Lil Durk & GloRilla).flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/02. Embarrassed (feat. Travis Scott).flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/20. Encouragement.flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/01. No Pole.flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/15. Do It Right.flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/18. Bus Stop (feat. Brent Faiyaz).flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/13. Private Landing (feat. Justin Bieber & Future).flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/10. Time Heals All.flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/09. Go Down (feat. TisaKorean).flac
+2025-11-26T16:46:23 update: added Don Toliver - Love Sick  (Deluxe) (2023) [24Bit-48kHz] FLAC [PMEDIA] ⭐️/11. Leather Coat.flac
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/19. Donny Darko (feat. Lil Uzi Vert).mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/05. Bandit.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/17. Rockstar Girl.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/10. New Drop.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/11. Backstreets (feat. Teezo Touchdown).mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/12. Deep in the Water.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/02. Tore Up.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/01. Kryptonite.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/13. Inside (feat. Travis Scott).mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/20. Geeked Up (feat. Yeat).mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/03. Brother Stone (feat. Kodak Black).mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/06. Glock.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/14. 5 to 10.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/08. 4X4.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/16. Hardstone National Anthem.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/07. Ice Age (feat. Travis Scott).mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/04. Attitude (feat. Charlie Wilson & Cash Cobain).mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/09. Purple Rain (feat. Future & Metro Boomin).mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/18. Love is a Drug.mp3
+2025-11-26T16:46:23 update: added Don Toliver - Hardstone Psycho (Deluxe Edition) (2024)/15. Last Laugh.mp3
+2025-11-26T16:46:23 update: added Bad Omens - Bad Omens (2016 Metalcore Rock) [Flac 16-44]/03. Bad Omens - The Worst In Me.flac
+2025-11-26T16:46:23 update: added Bad Omens - Bad Omens (2016 Metalcore Rock) [Flac 16-44]/12. Bad Omens - The Fountain.flac
+2025-11-26T16:46:23 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:23 update: added Bad Omens - Bad Omens (2016 Metalcore Rock) [Flac 16-44]/05. Bad Omens - Enough, Enough Now.flac
+2025-11-26T16:46:23 update: added Bad Omens - Bad Omens (2016 Metalcore Rock) [Flac 16-44]/02. Bad Omens - Exit Wounds.flac
+2025-11-26T16:46:23 update: added Bad Omens - Bad Omens (2016 Metalcore Rock) [Flac 16-44]/06. Bad Omens - Malice.flac
+2025-11-26T16:46:23 update: added Bad Omens - Bad Omens (2016 Metalcore Rock) [Flac 16-44]/11. Bad Omens - Reprise (The Sound Of The End).flac
+2025-11-26T16:46:23 update: added Bad Omens - Bad Omens (2016 Metalcore Rock) [Flac 16-44]/09. Bad Omens - Crawl.flac
+2025-11-26T16:46:23 update: added Bad Omens - Bad Omens (2016 Metalcore Rock) [Flac 16-44]/08. Bad Omens - Broken Youth.flac
+2025-11-26T16:46:23 update: added Bad Omens - Bad Omens (2016 Metalcore Rock) [Flac 16-44]/04. Bad Omens - F E R A L.flac
+2025-11-26T16:46:23 update: added Bad Omens - Bad Omens (2016 Metalcore Rock) [Flac 16-44]/01. Bad Omens - Glass Houses.flac
+2025-11-26T16:46:23 update: added Bad Omens - Bad Omens (2016 Metalcore Rock) [Flac 16-44]/10. Bad Omens - The Letdown.flac
+2025-11-26T16:46:23 update: added Bad Omens - Bad Omens (2016 Metalcore Rock) [Flac 16-44]/07. Bad Omens - Hedonist.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/04. 500lbs.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/06. TEC.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/03. Gist.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/12. Used2This.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/05. Fell In Love (feat. Ken Carson).flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/13. Trippin On U.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/08. Real Discussions.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/14. Either Way.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/09. Dead or Alive.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/02. HVN ON EARTH (feat. Kodak Black).flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/11. U Don't Know Tec.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/16. Monday to Sunday.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/07. Salty.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/15. Need Me.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/10. Want It Bad.flac
+2025-11-26T16:46:23 update: added Lil Tecca - TEC [2023]/01. Yves.flac
+2025-11-26T16:46:23 update: removing Vasu Raina - aaj se.flac
+2025-11-26T16:46:23 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T16:46:23 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:23 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T16:46:23 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:23 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:23 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:23 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:23 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:24 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:24 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:24 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:24 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:24 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:24 ffmpeg/tty: Format tty detected only with low score of 1, misdetection possible!
+2025-11-26T16:46:52 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T16:47:03 player: played "Lil Uzi Ver - Pink Tape (2023)/19. Pluto to Mars.flac"
+2025-11-26T16:47:04 exception: Not playing
+2025-11-26T16:47:04 exception: Not playing
+2025-11-26T16:48:04 player: played "Chase Atlantic/EP/2019 - Don't Try This/02 You Too..mp3"
+2025-11-26T16:48:05 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T16:52:05 player: played "Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/03. Everybody’s Fool (Remastered 2023).flac"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T17:30:30 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/15. THE DEATH OF PEACE OF MIND (SO WYLIE PATCH).mp3"
+2025-11-26T17:33:35 player: played "Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/05. Haunted (Remastered 2023).flac"
+2025-11-26T17:37:53 player: played "Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/15. Missing (Remastered 2023).flac"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T17:42:10 player: played "Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/07. Imaginary (Remastered 2023).flac"
+2025-11-26T17:43:08 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/11. C__Projects_CJOST_FINDPEACE.mp3"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T17:50:20 player: played "Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/11. Bad Omens - Somebody Else..flac"
+2025-11-26T17:52:54 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/14. THE DEATH OF PEACE OF MIND (WE ARE FURY PATCH).mp3"
+2025-11-26T17:56:49 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/08. ANYTHING _ HUMAN.mp3"
+2025-11-26T18:00:56 player: played "Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/02. Bad Omens - Nowhere To Go.flac"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T18:04:16 player: played "Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/03. Bad Omens - Take Me First.flac"
+2025-11-26T18:07:25 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/13. THE GREY (UNZIPPED).mp3"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T18:16:59 player: played "Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/01. Going Under (Remastered 2023).flac"
+2025-11-26T18:17:57 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/01. C__Projects_CJOST_BEATDEATH.mp3"
+2025-11-26T18:21:56 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/17. JUST PRETEND (CREDITS).mp3"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T18:26:26 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/21. THE GREY (LIVE 2024).mp3"
+2025-11-26T18:30:05 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/24. V.A.N (LIVE 2024).mp3"
+2025-11-26T18:32:06 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/02. V.A.N.mp3"
+2025-11-26T18:33:09 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T18:34:16 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T18:34:19 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T18:34:34 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T18:36:38 player: played "Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/03. Everybody’s Fool (Remastered 2023).flac"
+2025-11-26T18:37:59 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T18:38:03 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T18:40:29 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T18:40:58 output: Failed to play on "PipeWire Sound Server" (pipewire): no target node available
+2025-11-26T18:41:23 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T18:45:28 player: played "Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/11. Bad Omens - Somebody Else..flac"
+2025-11-26T18:48:51 player: played "Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/12. Bad Omens - Idwt$.flac"
+2025-11-26T18:51:47 player: played "Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/13. Bad Omens - What Do You Want From Me.flac"
+2025-11-26T18:56:03 player: played "Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/17. Bring Me To Life (Demo - Remastered 2023).flac"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T19:08:20 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/17. JUST PRETEND (CREDITS).mp3"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T19:11:31 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/24. V.A.N (LIVE 2024).mp3"
+2025-11-26T19:15:41 player: played "Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/11. Bad Omens - Somebody Else..flac"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T19:19:38 player: played "Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/02. Bring Me To Life (Remastered 2023).flac"
+2025-11-26T19:20:35 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/11. C__Projects_CJOST_FINDPEACE.mp3"
+2025-11-26T19:25:30 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/25. THE DEATH OF PEACE OF MIND (LIVE 2024).mp3"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T19:29:32 player: played "Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/04. Bad Omens - The Death Of Peace Of Mind.flac"
+2025-11-26T19:30:29 player: played "Bad Omens - CONCRETE JUNGLE [THE OST] (2024) Mp3 320kbps [PMEDIA] ⭐️/01. C__Projects_CJOST_BEATDEATH.mp3"
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T19:35:57 player: played "Evanescence - Fallen (Deluxe Edition - Remastered) (2023) [16Bit-44.1kHz] FLAC [PMEDIA] ⭐️/11. Whisper (Remastered 2023).flac"
+2025-11-26T19:42:41 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T19:42:42 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+2025-11-26T19:42:43 exception: Failed to open /home/daksh/.config/mpd/playlists: No such file or directory
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fuzzy than by design!
+2025-11-26T19:53:13 player: played "Bad Omens - The Death Of Peace Of Mind (2022 Rock) [Flac 24-48]/03. Bad Omens - Take Me First.flac"
