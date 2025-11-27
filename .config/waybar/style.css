@@ -4,6 +4,7 @@
     /* `otf-font-awesome` is required to be installed for icons */
     font-family: JetBrainsMono Nerd Font;
     font-size: 14px;
+    border-radius: 0;
 }
 
 window#waybar {
