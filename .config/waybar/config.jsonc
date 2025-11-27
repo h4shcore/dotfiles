@@ -1,195 +1,159 @@
+// -*- mode: jsonc -*-
 {
-  "layer": "top",
-  "position": "top", 
-  "height": 32,
-  
-  "modules-left":   ["hyprland/workspaces"],
-  "modules-center": ["clock","custom/playerctl"],
-  "modules-right":  ["tray", "idle_inhibitor","temperature","backlight","pulseaudio", "network", "battery"],
-
-  "wlr/taskbar": {
-	"format": "{icon} {app_id}",
-	"icon-size": 14,
-	"icon-theme": "Papirus",
-	"tooltip-format": "{title}",
-	"on-click": "activate",
-	"on-click-middle": "close",
-  "on-click-right": "minimize-raise",
-	"ignore-list": [
-	    "kitty"
-	],
-	"app_ids-mapping": {
-	}
-  },
-  "wlr/workspaces": {
-        "disable-scroll": true,
-        "sort-by-number": true,
-        "on-click": "activate"
-   },
-  
-  "tray": {
-    "icon-size": 16,
-    "spacing": 10
-  },
-
-  "clock#time": {
-    "interval": 1,
-    "format": "  {:%H:%M:%S} ",
-    "tooltip": false
-  },
-
-  "clock#date": {
-    "interval": 10,
-    "format": "  {:%e %b %y} ", // icon: calendar-alt
-    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
-  },
-  "clock": {
-		"interval": 1,
-		"format": "{:%I:%M %p  %A %b %d}",
-		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-		"tooltip": true
-    },
-"custom/music": {
-        "format": "{icon}{}",
-        "format-icons": {
-            // "Playing": " ", // Uncomment if not using the dynamic script
-            "Paused": "󰏥 ",
-            "Stopped": "&#x202d;󰙦 " // This stop symbol is RTL. So &#x202d; is left-to-right override.
-        },
-        "escape": true,
-        "tooltip": true,
-        "exec": "~/.config/waybar/scripts/caway.sh -e",
-        "return-type": "json",
-        "on-click": "playerctl play-pause",
-        "on-scroll-up": "playerctl previous",
-        "on-scroll-down": "playerctl next",
-        "on-click-right": "g4music",
-        "max-length": 35
-    },
-
-  "network": {
-    	"interval": 1,
-        "format-wifi": "󰒢 {essid}",
-        "format-ethernet": "󰈀  {ifname}",
-        "format-linked": "󰒢 {essid} (No IP)",
-        "format-disconnected": "󰒢 Disconnected",
-        "format-alt": "{ifname} ({ipaddr})",
-        //"tooltip": false,
-	// "tooltip-format-wifi": "signal strength: {signalstrength}% | down speed: {bandwidthdownbits}, up speed: {bandwidthupbits}",
-        "on-click-right": "exec nm-connection-editor"
-  },
-
-  "pulseaudio": {
-    "scroll-step": 1,
-    "format": "{icon} {volume}%", 
-    "format-muted": "󰖁 Muted",
-    "format-icons": {
-      "headphone": "  ",
-      "hands-free": "  ",
-      "headset": "  ",
-      "phone": "  ",
-      "portable": "  ",
-      "car": "  ",
-       "default": ["", "", ""]
-    },
-    "states": {
-     	"warning": 85
-    },
-    "on-scroll-up": "volume.sh --dec",
-    "on-scroll-down": "volume.sh --inc",
-    "smooth-scrolling-threshold": 5,
-    "tooltip": false,
-    "on-click": "volume.sh --toggle",
-    "on-click-right": "pavucontrol"
-  },
-
-  "idle_inhibitor": {
-    "format": "{icon}",
-    "format-icons": {
-         "activated": "󰈈 ",
-      "deactivated": "󰈉 "
+    // "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 20, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+        "hyprland/workspaces",
+    ],
+    "modules-center": [
+        "hyprland/window",
+    ],
+    "modules-right": [
+	    "group/tray-expander",
+	    // "privacy",
+        "pulseaudio",
+        "network",
+	    // "bluetooth",
+        "battery",
+        "clock"
+    ],
+    // Modules configuration
+    "hyprland/workspaces": {
+	"active-only": false,
+         "disable-scroll": true,
+         "all-outputs": true,
+         "warp-on-scroll": false,
+         "format": "{name}",
      },
-     "tooltip": false
-  },
- 
-  "temperature": {
-		"hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
-		"critical-threshold": 85,
-		"interval": 1,
-		"format": "<span font='12' rise='-2500'>󰔏</span> {temperatureC}°C",
-		"tooltip": false
+     "hyprland/window": {
+	"format": "[ {title} ]",
+     },
+    "ext/workspaces": {
+	"format": "{icon}",
+	"ignore-hidden": true,
+	"on-click": "activate",
+	"on-click-right": "deactivate",
+	"sort-by-id": true,
+    },
+    "tray": {
+        "spacing": 10,
+    },
+    "clock": {
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}",
+	"calendar": {
+	    "mode"          : "month",
+	    "mode-mon-col"  : 3,
+	    "weeks-pos"     : "right",
+	    "on-scroll"     : 1,
+	    "format": {
+		      "months":     "<span color='#ebdbb2'><b>{}</b></span>",
+		      "days":       "<span color='#ebdbb2'><b>{}</b></span>",
+		      "weekdays":   "<span color='#d65d0e'><b>{}</b></span>",
+		      "today":      "<span color='#d65d0e'><b><u>{}</u></b></span>"
+		      }
 	},
-
-  "backlight": {
-            "format": "󰃠 {percent}%",
-            "on-scroll-up": "brightness.sh --dec",
-            "on-scroll-down": "brightness.sh --inc",
-            "smooth-scrolling-threshold": 5
     },
-
-  "battery": {
-            "interval": 10,
-
-            "states": {
-                	"warning": 20,
-                	"critical": 10
-	            },
-	            "format": "{icon} {capacity}%",
-	            "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂁", "󰂂", "󰁹"],
-	            "format-full": "{icon} {capacity}%",
-	            "format-charging": "󰂄 {capacity}%",
-            "tooltip": true
-  },
-    
-  "custom/power": {
-    "format": " ⏻ ",
-    "on-click": "~/.config/hypr/scripts/rofi-power"
-  },
-  "custom/playerctl": {
-    //"format": "<span font='12' rise='-2500'>{icon}</span> {}",
-    "format": "<span font='10' rise='-1000'>󰎈</span>  {} ",
-    "format-icons": {
-	  "Playing": "󰐊",
-    "Paused": "󰏤"
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{percent}% {icon}",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
-    	"escape": true,
-   	  "return-type": "json",
-    	"max-length": 40,
-    	"on-click": "playerctl play-pause",
-    	"on-click-right": "playerctl stop",
-      "on-click-middle": "killall spotify",
-    	"smooth-scrolling-threshold": 10,
-    	"on-scroll-up": "playerctl next",
-    	"on-scroll-down": "playerctl previous",
-    	"exec": "playerctl -a metadata --format '{\"text\": \"{{markup_escape(title)}} - {{artist}}\", \"tooltip\": \"{{status}} : {{playerName}} : {{markup_escape(title)}}\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F" 
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-plugged": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": ["", "", "", "", ""],
+	"tooltip-format": "{timeTo}\nPD : {power} W",
+	"on-click-right": "/home/alien/.local/bin/batcon"
     },
-
-  "mpd": {
-    "format": " {stateIcon}   {artist} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})    ",
-    "format-disconnected": " Disconnected  ",
-    "format-stopped": " Stopped  ",
-    "interval": 2,
-    "consume-icons": {
-      "on": " " // Icon shows only when "consume" is on
+    "network": {
+        "format": " ",
+        "tooltip-format": "{essid} ({signalStrength}%) ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
     },
-    "random-icons": {
-      "off": "<span color=\"#fb4934\"> </span>", // Icon grayed out when "random" is off
-      "on": " "
+    "bluetooth": {
+	// "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+	"format": "",
+	"format-disabled": "", // an empty format will hide the module
+	"format-connected": " {num_connections} ",
+	"tooltip-format": "{controller_alias}\t{controller_address}",
+	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click": "flatpak run io.github.kaii_lb.Overskride"
     },
-    "repeat-icons": {
-      "on": " "
+    "group/tray-expander": {
+	"orientation": "inherit",
+	"drawer": {
+	    "transition-duration": 600,
+	    "children-class": "tray-group-item"
+	},
+	"modules": ["custom/expand-icon", "tray"]
     },
-    "single-icons": {
-      "on": "1 "
+    "custom/expand-icon": {
+	"format": "> ",
+	"tooltip": false
     },
-    "state-icons": {
-      "paused": "",
-      "playing": ""
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-bluetooth-muted": "󰟎",
+        "format-muted": "󰝟 ",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": [""],
+            "hands-free": "",
+            "headset": ["󰟎" ,""],
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", " "]
+        },
+        "on-click": "pavucontrol"
     },
-    "on-click": "playerctl play-pause",
-    "on-scroll-up": "playerctl next",
-    "on-scroll-down": "playerctl previous",
-    "tooltip-format": "MPD (connected)",
-    "tooltip-format-disconnected": "MPD (disconnected)"
-  }
+    "privacy": {
+	    "icon-spacing": 4,
+	    "icon-size": 12,
+	    "transition-duration": 250,
+	"modules": [
+		{
+			"type": "screenshare",
+			"tooltip": true,
+			"tooltip-icon-size": 12
+		},
+		{
+			"type": "audio-in",
+			"tooltip": true,
+			"tooltip-icon-size": 12
+		}
+	],
+	"ignore-monitor": true,
+	"ignore": [
+		{
+			"type": "audio-in",
+			"name": "cava"
+		},
+		{
+			"type": "screenshare",
+			"name": "obs"
+		}
+	]
+},
 }
