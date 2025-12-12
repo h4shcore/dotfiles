@@ -2,9 +2,22 @@ icons_format = "{icon}"
 
 [theme]
 theme = "gruvbox-dark"
+[theme.overrides]
+separator = ""
+separator_bg = "auto"
+separator_fg = "auto"
 
 [icons]
 icons = "none"
+[icons.overrides]
+bat = [
+    "| |",
+    "|¼|",
+    "|½|",
+    "|¾|",
+    "|X|",
+]
+bat_charging = "|^|"
 
 [[block]]
 block = "cpu"
