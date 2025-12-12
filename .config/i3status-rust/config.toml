@@ -3,9 +3,9 @@ icons_format = "{icon}"
 [theme]
 theme = "gruvbox-dark"
 [theme.overrides]
-separator = ""
+separator = "|"
 separator_bg = "auto"
-separator_fg = "auto"
+separator_fg = "#ebdbb2"
 
 [icons]
 icons = "none"
