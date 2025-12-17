@@ -4,4 +4,6 @@ numlockx on &
 
 dunst &
 
-exec i3
+dwmblocks &
+
+exec dwm
