@@ -51,7 +51,7 @@ set recolor                     "true"
 set recolor-keephue             "true"                 # keep original color
 map i recolor
 
-set font "DinaRemaster Nerd Font 12"
+set font "Iosevka Nerd Font 12"
 
 " remove status bar
 set guioptions none
