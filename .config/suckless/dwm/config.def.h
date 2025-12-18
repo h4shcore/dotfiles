@@ -28,7 +28,7 @@ typedef struct {
 	const void *cmd;
 } Sp;
 const char *spcmd1[] = {"st", "-n", "spterm", "-g", "120x34", NULL };
-const char *spcmd2[] = {"st", "-n", "spfm", "-g", "144x41", "-e", "ranger", NULL };
+const char *spcmd2[] = {"st", "-n", "spfm", "-g", "144x41", "-e", "yazi", NULL };
 const char *spcmd3[] = {"keepassxc", NULL };
 static Sp scratchpads[] = {
 	/* name          cmd  */
@@ -104,7 +104,8 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", NULL };
-static const char *termcmd[]  = { "alacritty", NULL };
+static const char *termcmd[]  = { "st", NULL };
+// static const char *termcmd[]  = { "alacritty", NULL };
 
 #include "movestack.c"
 static const Key keys[] = {
