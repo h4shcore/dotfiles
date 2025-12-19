@@ -1,6 +1,12 @@
 if status is-interactive
+    function starship_transient_prompt_func
+        starship module character
+    end
+
     # Starship custom prompt
     starship init fish | source
+
+    enable_transience
 
     # Direnv + Zoxide
     direnv hook fish | source

@@ -4,6 +4,6 @@ numlockx on &
 
 dunst &
 
-dwmblocks &
+slstatus &
 
 exec dwm
