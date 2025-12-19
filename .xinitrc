@@ -6,4 +6,6 @@ dunst &
 
 slstatus &
 
+~/.fehbg &
+
 exec dwm
