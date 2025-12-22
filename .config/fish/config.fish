@@ -9,7 +9,7 @@ if status is-interactive
     enable_transience
 
     # Direnv + Zoxide
-    direnv hook fish | source
+    # direnv hook fish | source
     zoxide init fish | source
 
     # Better ls
