@@ -1,8 +1,8 @@
 [Default Applications]
-x-scheme-handler/http=firefox.desktop
-x-scheme-handler/https=firefox.desktop
+x-scheme-handler/http=brave-browser.desktop
+x-scheme-handler/https=brave-browser.desktop
 x-scheme-handler/chrome=firefox.desktop
-text/html=firefox.desktop
+text/html=brave-browser.desktop
 application/x-extension-htm=firefox.desktop
 application/x-extension-html=firefox.desktop
 application/x-extension-shtml=firefox.desktop
@@ -24,6 +24,8 @@ video/jpg=mpv.desktop
 video/*=mpv.desktop
 inode/directory=thunar.desktop
 application/x-shellscript=alacritty.desktop
+x-scheme-handler/about=brave-browser.desktop
+x-scheme-handler/unknown=brave-browser.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;
