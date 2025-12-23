@@ -1,0 +1,10 @@
+#!/bin/sh
+
+MANPAGE="$(apropos . | sort \
+                     | awk '{ print $1 " " $2 }' \
+                     | dmenu -p 'Man:' -l 8 \
+                     | tr -d ' ')"
+
+[ -z "$MANPAGE" ] && exit
+
+st -t "$MANPAGE" -e man "$MANPAGE" &
