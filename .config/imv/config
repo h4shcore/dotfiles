@@ -2,7 +2,8 @@
 background = 282828
 overlay_text_color = ebdbb2
 # overlay_font = Iosevka Nerd Font:12
-overlay_font = DinaRemaster Nerd Font:16
+# overlay_font = DinaRemaster Nerd Font:16
+overlay_font = JetBrainsMono Nerd Font:12
 suppress_default_binds = true
 
 [aliases]
