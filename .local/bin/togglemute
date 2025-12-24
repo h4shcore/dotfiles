@@ -1,0 +1,11 @@
+#!/bin/bash
+
+status=$(pulsemixer --get-mute)
+if [ $status == "1" ]; then
+    pulsemixer --unmute
+    notify-send "Sound enabled"
+else
+    pulsemixer --mute
+    notify-send "Sound disabled"
+fi
+

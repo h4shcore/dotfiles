@@ -171,6 +171,9 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,            	XK_Return, togglescratch,  {.ui = 0 } },
 	{ MODKEY,            			XK_e,	   togglescratch,  {.ui = 1 } },
 	{ MODKEY,            			XK_x,	   togglescratch,  {.ui = 2 } },
+    { 0,                            0x1008ff13,    spawn,             SHCMD("pulsemixer --change +5") },
+    { 0,                            0x1008ff11,    spawn,             SHCMD("pulsemixer --change -5") },
+    { Mod1Mask,                     XK_z,          spawn,             SHCMD("pactl set-source-mute @DEFAULT_SOURCE@ toggle") },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)

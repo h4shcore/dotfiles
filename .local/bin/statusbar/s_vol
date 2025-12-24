@@ -1,0 +1,26 @@
+status=$(pulsemixer --get-mute)
+if [ -n "$status" ] && [ "$status" == "1" ]; then
+    echo -e "婢"
+else
+    vol=$(pulsemixer --get-volume | awk '{print ($1+$2)/2}')
+    if [ $(echo "$vol >= 1 && $vol <= 49" | bc) -eq 1 ]; then
+        echo -e "奔 $vol%"
+    else
+        if [ $(echo "$vol == 0" | bc) -eq 1 ]; then
+            echo -e "ﱝ"
+        else
+            echo -e "墳 $vol%"
+        fi
+    fi
+fi
+
+case $BUTTON in
+    1) st -e pulsemixer ;;
+    2) togglemute; kill -41 $(pidof dwmblocks) ;;
+    4) pulsemixer --change +5; kill -41 $(pidof dwmblocks) ;;
+    5) pulsemixer --change -5; kill -41 $(pidof dwmblocks) ;;
+    3) notify-send " Volume module" "\- Shows volume  , 󰖁 if muted.
+    - Middle click to mute.
+    - Scroll to change." ;;
+    6) st -e nvim "$0" ;;
+esac
