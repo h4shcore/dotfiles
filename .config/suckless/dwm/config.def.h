@@ -121,6 +121,7 @@ static const char *dmenucmd[] = { "dmenu_run", NULL };
 static const char *termcmd[]  = { "st", NULL };
 static const char *zoomers[]  = { "boomer", NULL };
 static const char *clipboard[]  = { "clipmenu", NULL };
+static const char *lockscr[]  = { "slock", NULL };
 // static const char *termcmd[]  = { "alacritty", NULL };
 
 #include "movestack.c"
@@ -130,6 +131,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_b,      spawn,          {.v = zoomers } },
 	{ MODKEY,                       XK_v,      spawn,          {.v = clipboard } },
+	{ MODKEY,                       XK_BackSpace,      spawn,  {.v = lockscr } },
 	// { MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
