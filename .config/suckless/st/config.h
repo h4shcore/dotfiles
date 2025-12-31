@@ -5,10 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-// static char *font = "Iosevka Nerd Font:pixelsize=18:antialias=true:autohint=true";
+static char *font = "Iosevka Nerd Font:pixelsize=18:antialias=true:autohint=true";
 // static char *font = "DinaRemaster Nerd Font:pixelsize=24:antialias=true:autohint=true";
-static char *font = "JetBrainsMono Nerd Font:pixelsize=18:antialias=true:autohint=true";
-static int borderpx = 10;
+// static char *font = "JetBrainsMono Nerd Font:pixelsize=l8:antialias=true:autohint=true";
+static int borderpx = 30;
 
 /*
  * What program is execed by st depends of these precedence rules:
