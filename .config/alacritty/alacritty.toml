@@ -6,19 +6,19 @@ import = [
 size = 12.0
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka Nerd Font"
 style = "Regular"
 
 [font.italic]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka Nerd Font"
 style = "Italic"
 
 [font.bold]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka Nerd Font"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrainsMono Nerd Font"
+family = "Iosevka Nerd Font"
 style = "Bold Italic"
 
 [window]
