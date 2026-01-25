@@ -8,4 +8,6 @@ slstatus &
 
 ~/.fehbg &
 
+emacs --daemon &
+
 exec dwm
