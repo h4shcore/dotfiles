@@ -4,5 +4,5 @@
 
 #### wallpapers:
 ```sh
-git clone https://github.com/clouwud/wallpapers.git
+git clone https://github.com/h4shcore/wallpapers.git
 ```
