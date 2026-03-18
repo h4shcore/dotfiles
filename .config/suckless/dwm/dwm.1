@@ -29,6 +29,9 @@ color. The tags of the focused window are indicated with a filled square in the
 top left corner.  The tags which are applied to one or more windows are
 indicated with an empty square in the top left corner.
 .P
+The attach below patch makes newly spawned windows attach after the currently
+selected window
+.P
 dwm draws a small border around windows to indicate the focus state.
 .SH OPTIONS
 .TP
@@ -91,6 +94,12 @@ Sets monocle layout.
 .TP
 .B Mod1\-space
 Toggles between current and previous layout.
+.TP
+.B Mod1\-Control\-,
+Cycles backwards in layout list.
+.TP
+.B Mod1\-Control\-.
+Cycles forwards in layout list.
 .TP
 .B Mod1\-j
 Focus next window.
