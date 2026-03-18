@@ -45,12 +45,17 @@ alias lt="ls --tree"
 # cd back
 alias ..="cd .."
 
+# xbps
+alias xi="doas xbps-install"
+alias xr="doas xbps-remove"
+alias xs="doas xbps-query -Rs"
+
 # plugins
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-# source /home/daksh/.config/zsh/F-Sy-H/F-Sy-H.plugin.zsh
-# source /home/daksh/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# source /home/daksh/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /home/daksh/.config/zsh/F-Sy-H/F-Sy-H.plugin.zsh
+source /home/daksh/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/daksh/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # source /home/daksh/.config/zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # custom scripts

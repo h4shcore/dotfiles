@@ -8,6 +8,8 @@ slstatus &
 
 ~/.fehbg &
 
-emacs --daemon &
+pipewire &
+wireplumber &
+pipewire-pulse &
 
 exec dwm
