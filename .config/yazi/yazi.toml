@@ -1,3 +1,55 @@
-[opener]
-edit = [{ run = 'nvim "$@"', block = true }]
-open = [{ run = 'nvim "$@"', block = true }]
+[mgr]
+show_hidden = false
+show_symlink = true
+ratio = [1, 2, 2]
+
+[preview]
+max_width = 1000
+max_height = 1000
+
+# Theme (you'll still need to reference or merge your theme manually)
+# Yazi TOML does not support `import`, so copy contents of theme.nix here if needed
+
+[keymap]
+
+# Each entry in prepend_keymap becomes [[keymap.prepend_keymap]]
+[[keymap.prepend_keymap]]
+on = ["g", "d"]
+run = "cd ~/Downloads"
+desc = "Cd to ~/Downloads"
+
+[[keymap.prepend_keymap]]
+on = ["g", "s"]
+run = "cd ~/Documents/Studies/"
+desc = "Cd to ~/Documents/Studies/"
+
+[[keymap.prepend_keymap]]
+on = ["g", "p"]
+run = "cd ~/Proj"
+desc = "Cd to ~/Proj"
+
+# Duplicate mapping kept (you had it twice)
+[[keymap.prepend_keymap]]
+on = ["g", "p"]
+run = "cd ~/Proj"
+desc = "Cd to ~/Proj"
+
+[[keymap.prepend_keymap]]
+on = "<Esc>"
+run = "close"
+desc = "Cancel input"
+
+[[keymap.prepend_keymap]]
+on = "!"
+run = "shell --confirm \"$SHELL\" --block"
+desc = "Open shell here"
+
+[[keymap.prepend_keymap]]
+on = "q"
+run = "close"
+desc = "Close the current tab, or quit if it's last"
+
+[[keymap.prepend_keymap]]
+on = "T"
+run = "plugin toggle-pane max-preview"
+desc = "Maximize or restore the preview pane"

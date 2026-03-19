@@ -1,0 +1,200 @@
+[mgr.cwd]
+fg = "#83a598"
+
+[mgr.hovered]
+reversed = true
+bold = true
+
+[mgr.preview_hovered]
+underline = true
+
+[mgr.find_keyword]
+fg = "#b8bb26"
+italic = true
+
+[mgr.find_position]
+fg = "#fe8019"
+bg = "reset"
+italic = true
+
+[mgr.marker_copied]
+fg = "#8ec07c"
+bg = "#8ec07c"
+
+[mgr.marker_cut]
+fg = "#d3869b"
+bg = "#d3869b"
+
+[mgr.marker_marked]
+fg = "#83a598"
+bg = "#83a598"
+
+[mgr.marker_selected]
+fg = "#fbf1c7"
+bg = "#fbf1c7"
+
+[mgr.tab_active]
+fg = "#282828"
+bg = "#a89984"
+
+[mgr.tab_inactive]
+fg = "#a89984"
+bg = "#504945"
+
+[mgr]
+tab_width = 1
+border_symbol = "│"
+
+[mgr.border_style]
+fg = "#665c54"
+
+[mgr.count_copied]
+fg = "#282828"
+bg = "#8ec07c"
+
+[mgr.count_cut]
+fg = "#282828"
+bg = "#d3869b"
+
+[mgr.count_selected]
+fg = "#282828"
+bg = "#fbf1c7"
+
+[status.mode_normal]
+fg = "#282828"
+bg = "#4b4235"
+bold = true
+
+[status.mode_select]
+fg = "#282828"
+bg = "#fe8019"
+bold = true
+
+[status.mode_unset]
+fg = "#282828"
+bg = "#b8bb26"
+bold = true
+
+[status.progress_label]
+fg = "#ebdbb2"
+bold = true
+
+[status.progress_normal]
+fg = "#504945"
+bg = "#3c3836"
+
+[status.progress_error]
+fg = "#fb4934"
+bg = "#3c3836"
+
+[status.permissions_t]
+fg = "#504945"
+
+[status.permissions_r]
+fg = "#b8bb26"
+
+[status.permissions_w]
+fg = "#fb4934"
+
+[status.permissions_x]
+fg = "#b8bb26"
+
+[status.permissions_s]
+fg = "#665c54"
+
+[select.border]
+fg = "#458588"
+
+[select.active]
+fg = "#d3869b"
+bold = true
+
+[select.inactive]
+
+[input.border]
+fg = "#ebdbb2"
+
+[input.title]
+
+[input.value]
+
+[input.selected]
+reversed = true
+
+[tasks.border]
+fg = "#504945"
+
+[tasks.title]
+
+[tasks.hovered]
+underline = true
+
+[which.mask]
+bg = "#3c3836"
+
+[which.cand]
+fg = "#83a598"
+
+[which.rest]
+fg = "#928374"
+
+[which.desc]
+fg = "#fe8019"
+
+[which]
+separator = "  "
+
+[which.separator_style]
+fg = "#504945"
+
+[help.on]
+fg = "#83a598"
+
+[help.run]
+fg = "#d3869b"
+
+[help.hovered]
+reversed = true
+bold = true
+
+[help.footer]
+fg = "#3c3836"
+bg = "#a89984"
+
+[notify.title_info]
+fg = "#8ec07c"
+
+[notify.title_warn]
+fg = "#fbf1c7"
+
+[notify.title_error]
+fg = "#d3869b"
+
+# Filetype rules
+[[filetype.rules]]
+mime = "image/*"
+fg = "#d3869b"
+
+[[filetype.rules]]
+mime = "{audio,video}/*"
+fg = "#fabd2f"
+
+[[filetype.rules]]
+mime = "application/*zip"
+fg = "#fb4934"
+
+[[filetype.rules]]
+mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}"
+fg = "#fb4934"
+
+[[filetype.rules]]
+mime = "application/{pdf,doc,rtf,vnd.*}"
+fg = "#689d6a"
+
+[[filetype.rules]]
+name = "*"
+fg = "#ebdbb2"
+
+[[filetype.rules]]
+name = "*/"
+fg = "#83a598"
