@@ -8,8 +8,4 @@ slstatus &
 
 ~/.fehbg &
 
-pipewire &
-wireplumber &
-pipewire-pulse &
-
 exec dwm
