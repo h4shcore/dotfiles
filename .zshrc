@@ -42,13 +42,30 @@ alias la="ls -a"
 alias lla="ls -la --header"
 alias lt="ls --tree"
 
+# git
+alias gd="git diff"
+alias ga="git add ."
+alias gc="git commit -am"
+alias gl="git log"
+alias gs="git status"
+alias gst="git stash"
+alias gsp="git stash pop"
+alias gp="git push"
+alias gpl="git pull"
+alias gsw="git switch"
+alias gsm="git switch main"
+alias gb="git branch"
+alias gbd="git branch -d"
+alias gco="git checkout"
+alias gsh="git show"
+
 # cd back
 alias ..="cd .."
 
 # xbps
-alias xi="doas xbps-install"
-alias xr="doas xbps-remove"
-alias xs="doas xbps-query -Rs"
+# alias xi="doas xbps-install"
+# alias xr="doas xbps-remove"
+# alias xs="doas xbps-query -Rs"
 
 # plugins
 # source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
