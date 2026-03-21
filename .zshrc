@@ -61,6 +61,9 @@ source /home/daksh/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # custom scripts
 export PATH="$HOME/.local/bin:$PATH"
 
+# doom emacs
+export PATH="$HOME/.config/emacs/bin:$PATH"
+
 # manpage
 export MANPAGER='nvim +Man!'
 
