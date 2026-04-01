@@ -86,3 +86,6 @@ export MANPAGER='nvim +Man!'
 
 # zoxide
 eval "$(zoxide init zsh)"
+
+# starship
+eval "$(starship init zsh)"
