@@ -209,7 +209,7 @@ layout {
         // If you enable the border, you probably want to disable the focus ring.
         on 
 
-        width 2
+        width 4
         active-color "#ebdbb2"
         inactive-color "transparent"
 
@@ -419,6 +419,7 @@ binds {
     // Mod+Return hotkey-overlay-title="Open a Terminal: Wezterm" { spawn "wezterm"; }
     Mod+Return hotkey-overlay-title="Open a Terminal: foot" { spawn "foot"; }
     Mod+R hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
+    Mod+V hotkey-overlay-title="Open Clipboard" { spawn-sh "cliphist list | fuzzel --dmenu | cliphist decode | wl-copy"; }
     Mod+B hotkey-overlay-title="Run zoomer client: woomer" { spawn "woomer"; }
 
 
