@@ -150,7 +150,7 @@ layout {
     // preset-window-heights { }
 
     // You can change the default width of the new windows.
-    default-column-width { proportion 0.5; }
+    default-column-width { proportion 0.75; }
     // If you leave the brackets empty, the windows themselves will decide their initial width.
     // default-column-width {}
 
@@ -168,7 +168,7 @@ layout {
     // You can change how the focus ring looks.
     focus-ring {
         // Uncomment this line to disable the focus ring.
-        off
+        off 
 
         // How many logical pixels the ring extends out from the windows.
         width 4
@@ -179,7 +179,7 @@ layout {
         // - CSS-like notation: "rgb(255, 127, 0)", rgba(), hsl() and a few others.
 
         // Color of the ring on the active monitor.
-        active-color "#7fc8ff"
+        active-color "red"
 
         // Color of the ring on inactive monitors.
         //
@@ -275,7 +275,7 @@ layout {
 }
 
 overview {
-    backdrop-color "#282828"
+    backdrop-color "#181818"
 }
 
 // Add lines like this to spawn processes at startup.
