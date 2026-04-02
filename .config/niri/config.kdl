@@ -290,8 +290,8 @@ overview {
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
 
 // Clipboard history
-spawn-at-startup "wl-paste --type text --watch cliphist store"
-spawn-at-startup "wl-paste --type image --watch cliphist store"
+spawn-sh-at-startup "wl-paste --type text --watch cliphist store"
+spawn-sh-at-startup "wl-paste --type image --watch cliphist store"
 
 // Wallpaper
 spawn-at-startup "awww-daemon"
