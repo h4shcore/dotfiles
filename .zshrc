@@ -68,8 +68,6 @@ alias ..="cd .."
 # alias xs="doas xbps-query -Rs"
 
 # plugins
-# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /home/daksh/.config/zsh/F-Sy-H/F-Sy-H.plugin.zsh
 source /home/daksh/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /home/daksh/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -89,3 +87,5 @@ eval "$(zoxide init zsh)"
 
 # starship
 eval "$(starship init zsh)"
+
+export PATH=$PATH:/home/daksh/.spicetify
