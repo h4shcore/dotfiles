@@ -123,7 +123,7 @@ input {
 // https://yalter.github.io/niri/Configuration:-Layout
 layout {
     // Set gaps around windows in logical pixels.
-    gaps 5
+    gaps 10
 
     // When to center a column when changing focus, options are:
     // - "never", default behavior, focusing an off-screen column will keep at the left
@@ -209,7 +209,7 @@ layout {
         // If you enable the border, you probably want to disable the focus ring.
         on 
 
-        width 4
+        width 0
         active-color "#ebdbb2"
         inactive-color "transparent"
 
@@ -227,7 +227,7 @@ layout {
     // You can enable drop shadows for windows.
     shadow {
         // Uncomment the next line to enable shadows.
-        // on
+        on
 
         // By default, the shadow draws only around its window, and not behind it.
         // Uncomment this setting to make the shadow draw behind its window.
@@ -249,16 +249,16 @@ layout {
         // pixels and match the CSS box-shadow properties.
 
         // Softness controls the shadow blur radius.
-        softness 30
+        softness 10
 
         // Spread expands the shadow.
-        spread 5
+        spread 2
 
         // Offset moves the shadow relative to the window.
         offset x=0 y=5
 
         // You can also change the shadow color and opacity.
-        color "#0007"
+        color "#181818"
     }
 
     // Struts shrink the area occupied by windows, similarly to layer-shell panels.
@@ -301,6 +301,7 @@ spawn-at-startup "dunst"
 
 // bar
 // spawn-at-startup "waybar"
+spawn-at-startup "qs" "-c" "noctalia-shell"
 
 // music
 // spawn-at-startup "mpd"
@@ -395,8 +396,8 @@ window-rule {
 
 // Example: enable rounded corners for all windows.
 // (This example rule is commented out with a "/-" in front.)
-/-window-rule {
-    geometry-corner-radius 12
+window-rule {
+    geometry-corner-radius 8
     clip-to-geometry true
 }
 
