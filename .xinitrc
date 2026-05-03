@@ -9,6 +9,7 @@ slstatus &
 ~/.fehbg &
 
 mpd &
+mpd-discord-rpc &
 
 pipewire &
 wireplumber &
