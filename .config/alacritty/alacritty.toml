@@ -1,9 +1,12 @@
+[terminal]
+shell = "fish"
+
 [general]
 import = [
     "~/.config/alacritty/theme.toml"
 ]
 [font]
-size = 14.0
+size = 10.0
 
 [font.normal]
 family = "JetBrainsMono Nerd Font"
@@ -22,4 +25,4 @@ family = "JetBrainsMono Nerd Font"
 style = "Bold Italic"
 
 [window]
-padding = { x = 10, y = 10 }
+padding = { x = 5, y = 5}
