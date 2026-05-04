@@ -89,3 +89,5 @@ eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
 
 export PATH=$PATH:/home/daksh/.spicetify
+
+if [ -e /home/daksh/.nix-profile/etc/profile.d/nix.sh ]; then . /home/daksh/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
