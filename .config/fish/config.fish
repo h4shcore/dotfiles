@@ -42,7 +42,7 @@ if status is-interactive
     abbr lt 'ls --tree'
 
     # term
-    abbr r yazi
+    abbr yy yazi
     abbr nv nvim
     abbr c clear
     abbr q exit
