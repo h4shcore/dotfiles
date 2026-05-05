@@ -10,8 +10,8 @@ highlight = "#ebdbb2"
 font = Lilex Nerd Font 10
 shrink = true
 word_wrap = yes
-padding = 5
-horizontal_padding = 5
+padding = 10
+horizontal_padding = 10
 show_indicators = no
 
 [urgency_low]
