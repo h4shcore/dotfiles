@@ -23,8 +23,8 @@ tooltip {
     margin-top: 2px;
     margin-bottom: 2px;
 
-    padding-left: 6px;
-    padding-right: 6px;
+    /* padding-left: 6px; */
+    /* padding-right: 6px; */
 
     min-height: 32px
 }
