@@ -4,8 +4,8 @@
 
     settings = {
       user = {
-        name= "h4shcore";
-        email= "97403914+h4shcore@users.noreply.github.com";
+        name = "h4shcore";
+        email = "97403914+h4shcore@users.noreply.github.com";
       };
 
       extraConfig = {
