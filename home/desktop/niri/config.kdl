@@ -75,7 +75,28 @@ layer-rule {
     shadow {
         on
     }
-    geometry-corner-radius 10
+    background-effect {
+        blur true
+    }
+}
+
+layer-rule {
+    match namespace="^notifications$"
+    shadow {
+        on
+    }
+    background-effect {
+        blur true
+    }
+}
+
+layer-rule {
+    match namespace="waybar"
+    match at-startup=true
+    match layer="top"
+    shadow {
+        on
+    }
     background-effect {
         blur true
     }
