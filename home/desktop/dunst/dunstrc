@@ -1,0 +1,31 @@
+[global]
+mouse_left_click = do_action
+mouse_middle_click = close_all 
+mouse_right_click = close_current
+# frame_color = "#458588"
+frame_color = "#ebdbb2"
+frame_width = 2
+separator_color= frame
+highlight = "#ebdbb2"
+font = Iosevka Nerd Font 10
+shrink = true
+word_wrap = yes
+padding = 10
+horizontal_padding = 10
+show_indicators = no
+offset = (10, 10)
+
+[urgency_low]
+background = "#282828"
+foreground = "#ebdbb2"
+timeout = 3
+
+[urgency_normal]
+background = "#282828"
+foreground = "#ebdbb2"
+timeout = 3
+
+[urgency_critical]
+background = "#fb4934"
+foreground = "#ebdbb2"
+timeout = 0

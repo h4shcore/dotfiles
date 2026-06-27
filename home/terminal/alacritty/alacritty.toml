@@ -1,0 +1,13 @@
+[general]
+import = [ "~/.config/alacritty/theme.toml" ]
+
+[terminal]
+shell = "fish"
+
+[window]
+padding = { x = 10, y = 10 }
+blur = true
+
+[font]
+normal = { family = "Iosevka Nerd Font"}
+size = 15
