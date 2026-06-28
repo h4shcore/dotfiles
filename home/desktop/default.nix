@@ -1,11 +1,14 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
     awww
+    playerctl
+    brightnessctl
     dunst
     fuzzel
     waybar
     cliphist
     wl-clipboard
+    pavucontrol
     xwayland-satellite
   ];
 

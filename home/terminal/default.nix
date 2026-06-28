@@ -3,6 +3,18 @@
   pkgs,
   ...
 }: {
+  home.packages = with pkgs; [
+    yazi
+    fastfetch
+    alacritty
+    ripgrep
+    fish
+    starship
+    kitty
+    foot
+    eza
+  ];
+
   programs.zoxide = {
     enable = true;
     enableFishIntegration = true;
