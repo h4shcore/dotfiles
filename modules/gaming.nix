@@ -1,4 +1,4 @@
-{ pkgs, ... }:{
+{pkgs, ...}: {
   programs.steam = {
     enable = true;
 
@@ -13,7 +13,7 @@
     mangohud
     gamescope
     protonplus
-    wineWowPackages.stable
+    wineWow64Packages.stable
     winetricks
   ];
 }
