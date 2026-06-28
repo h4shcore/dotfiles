@@ -6,6 +6,7 @@
     waybar
     cliphist
     wl-clipboard
+    xwayland-satellite
   ];
 
   imports = [
