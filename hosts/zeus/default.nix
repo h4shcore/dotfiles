@@ -10,6 +10,7 @@
     ../../modules/boot.nix
     ../../modules/desktop.nix
     ../../modules/fonts.nix
+    ../../modules/graphics.nix
     ../../modules/locale.nix
     ../../modules/nh.nix
     ../../modules/packages.nix
