@@ -102,6 +102,11 @@ layer-rule {
     }
 }
 
+cursor {
+    xcursor-theme "Bibata-Original-Classic"
+    xcursor-size 20 
+}
+
 spawn-sh-at-startup "awww-daemon"
 spawn-sh-at-startup "waybar"
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
