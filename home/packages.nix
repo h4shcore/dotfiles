@@ -18,5 +18,6 @@
     kitty
     foot
     eza
+    qbittorrent
   ];
 }
