@@ -26,6 +26,7 @@ set -gx MANPAGER 'nvim +Man!'
 alias ls='eza --icons'
 
 # abbrs
+abbr cd "z"
 abbr yy "yazi"
 abbr nr "nix run"
 abbr vim "nvim"
