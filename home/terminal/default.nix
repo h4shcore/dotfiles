@@ -7,6 +7,8 @@
     yazi
     fastfetch
     alacritty
+    unzip
+    p7zip
     ripgrep
     fish
     starship
