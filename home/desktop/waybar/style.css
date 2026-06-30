@@ -1,3 +1,5 @@
+@import "../omarchy/current/theme/waybar.css";
+
 * {
   /* background-color: @background; */
   /* color: @foreground; */
@@ -5,10 +7,6 @@
   border: none;
   min-height: 0;
   font-family: "Iosevka Nerd Font";
-}
-
-window#waybar  {
-  background-color: transparent;
 }
 
 #waybar > box {
