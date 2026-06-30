@@ -1,12 +1,14 @@
 {
     "layer": "top",
-    "height": 30,
+    "height": 36,
     "margin-top": 10,
     "margin-left": 10,
     "margin-right": 10,
     "modules-left":
     [
         "niri/workspaces",
+        "custom/spacer",
+        "mpris"
     ],
     "modules-center":
     [
@@ -33,6 +35,15 @@
       "modules": ["custom/expand-icon", "tray"]
     },
 
+    "niri/window": {
+        "max-length": 100
+    },
+
+    "custom/spacer": {
+      "format": " | ",
+      "tooltip": false
+    },
+
     "custom/expand-icon": {
       "format": "> ",
       "tooltip": false
@@ -42,6 +53,21 @@
     {
         "icon-size": 16,
         "spacing": 10
+    },
+
+    "mpris": {
+        "format": "{player_icon} <i>{dynamic}</i>",
+        "format-paused": "{status_icon} <i>{dynamic}</i>",
+        "player-icons": {
+            "default": "󰐊 ",
+            "spotify": " ",
+            "mpv": " "
+        },
+        "status-icons": {
+            "paused": "󰏤 "
+        },
+        "max-length": 50,
+        "interval": 1
     },
 
     "idle_inhibitor": {
