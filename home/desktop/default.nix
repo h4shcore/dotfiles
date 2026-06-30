@@ -16,6 +16,7 @@
     ./theme.nix
     ./fuzzel
     ./niri
+    ./dunst
   ];
 
   # xdg.configFile."niri".source = ./niri;

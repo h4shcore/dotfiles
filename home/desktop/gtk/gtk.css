@@ -172,6 +172,36 @@ toast button.circular.flat.image-button:hover {
     background-color: @red;
 }
 
-* {
-    border-radius: 0;
+scale highlight {
+    background: #df6124;
+}
+
+tabbar tab:selected {
+    border-bottom: 2px solid #df6124;
+}
+
+button.suggested-action {
+    background: #df6124;
+    color: #050505;
+}
+
+notebook > header > tabs > tab:checked {
+    border-color: #df6124;
+}
+
+notebook header tab:checked {
+    border-bottom: 2px solid #df6124;
+}
+
+notebook > header > tabs > tab:checked {
+    color: #df6124;
+    box-shadow: inset 0 -2px #df6124;
+}
+
+levelbar trough block.filled {
+    background-color: #df6124;
+}
+
+levelbar trough block.empty {
+    background-color: #404040;
 }
