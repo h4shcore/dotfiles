@@ -35,10 +35,10 @@
     nix-direnv.enable = true;
   };
 
+  xdg.configFile."btop/btop.theme".source = ./btop/btop.theme;
+  xdg.configFile."cava/cava_theme".source = ./cava/cava_theme;
   xdg.configFile."fish/config.fish".source = ./fish/config.fish;
-  # xdg.configFile."alacritty".source = ./alacritty;
   xdg.configFile."foot".source = ./foot;
   xdg.configFile."kitty".source = ./kitty;
   xdg.configFile."starship.toml".source = ./starship/starship.toml;
-  # xdg.configFile."yazi".source = ./yazi;
 }
