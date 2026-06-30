@@ -27,10 +27,6 @@ layout {
     insert-hint {
         color "${c.green}"
     }
-
-    preset-column-widths {
-        border-color "${c.brightBlack}"
-    }
 }
 
 overview {

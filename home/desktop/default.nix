@@ -15,6 +15,7 @@
   imports = [
     ./theme.nix
     ./fuzzel
+    ./niri
   ];
 
   # xdg.configFile."niri".source = ./niri;
