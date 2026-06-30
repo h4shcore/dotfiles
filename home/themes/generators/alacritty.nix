@@ -34,4 +34,4 @@ blue = "${c.brightBlue}"
 magenta = "${c.brightMagenta}"
 cyan = "${c.brightCyan}"
 white = "${c.brightWhite}"
-'';
+''

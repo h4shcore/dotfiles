@@ -1,1 +1,1 @@
-import ./ryu.nix
+import ./ryu

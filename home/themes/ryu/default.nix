@@ -2,15 +2,19 @@
   name = "ryu";
 
   colors = {
-    bg = "#050505";
-    fg = "#D6D0C5";
-
+    # UI Colors
     accent = "#df6124";
-    muted = "#525e5a";
+    cursor = "#D6D0C5";
 
-    selectionBg = "#D6D0C5";
-    selectionFg = "#050505";
+    # Primary
+    foreground = "#D6D0C5";
+    background = "#050505";
 
+    # Selection
+    selectionForeground = "#050505";
+    selectionBackground = "#D6D0C5";
+
+    # Normal ANSI Colors
     black = "#050505";
     red = "#da614e";
     green = "#8B9388";
@@ -20,6 +24,7 @@
     cyan = "#717C7C";
     white = "#D6D0C5";
 
+    # Bright ANSI Colors
     brightBlack = "#404040";
     brightRed = "#df6124";
     brightGreen = "#525e5a";
