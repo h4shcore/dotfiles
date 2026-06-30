@@ -17,7 +17,7 @@
     ./fuzzel
   ];
 
-  xdg.configFile."niri".source = ./niri;
+  # xdg.configFile."niri".source = ./niri;
   xdg.configFile."waybar".source = ./waybar;
   # xdg.configFile."fuzzel".source = ./fuzzel;
   xdg.configFile."dunst".source = ./dunst;
