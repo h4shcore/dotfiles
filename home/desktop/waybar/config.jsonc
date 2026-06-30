@@ -234,7 +234,7 @@
 
     "custom/wallpaper": {
         "format": "󰸉",
-        "on-click": "./wallpaper.sh",
+        "on-click": "~/.config/waybar/wallpaper.sh",
         "tooltip": false
     }
 }
