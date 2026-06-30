@@ -5,6 +5,7 @@
 }: {
   imports = [
     ./alacritty
+    ./nvim
     ./yazi
   ];
 
