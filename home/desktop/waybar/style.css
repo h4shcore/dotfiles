@@ -1,284 +1,313 @@
-/* Reset everything except dropdowns, popups and tooltips */
-*:not(tooltip):not(menu):not(menuitem):not(check):not(radio):not(separator) {
-    all: unset;
-}
+
+@define-color gruv-blue         rgba(69, 133, 136, 0.8);
+@define-color gruv-green        rgba(104, 157, 106, 0.8);
+@define-color gruv-magenta      rgba(177, 98, 134, 0.8);
+@define-color gruv-red          rgba(204, 36, 29, 0.8);
+@define-color gruv-orange       rgba(214, 93, 14, 0.8);
+@define-color gruv-yellow       rgba(215, 153, 33, 0.8);
+@define-color gruv-lime         rgba(184, 187, 38, 0.8);
+@define-color gruv-beige        rgba(235, 219, 178, 0.8);
+@define-color gruv-grey         rgba(168, 153, 132, 0.8);
+
+@define-color background-blue   rgba(13, 17, 23, 0.8);
+@define-color text-white        rgba(255, 255, 255, 0.9);
+
+@define-color hover-black       rgba(0, 0, 0, 0.3);
+@define-color mute-black        rgba(0, 0, 0, 0.6);
+
 * {
-    font-family: "Iosevka Nerd Font", monospace;
-}
-
-#waybar {
-    background: rgba(29, 32, 33, 0.9);
-    font-family: "Iosevka Nerd Font", monospace;
-
-    font-size: 15px;
-}
-
-tooltip {
-    background: rgba(40, 40, 40, 0.9);
+    font-family: 'Iosevka Nerd Font Propo';
+    font-size: 14px;
     border-radius: 0px;
-    font-family: "Iosevka Nerd Font", monospace;
+    transition: 0.5s ease-out;
 }
 
-#workspaces {
-    margin-top: 2px;
-    margin-bottom: 2px;
-
-    /* padding-left: 6px; */
-    /* padding-right: 6px; */
-
-    min-height: 32px
+window#waybar {
+    background-color: @background-blue;
+    color: @text-white;
+    transition-property: background-color;
+    transition: 1s ease-in-out;
 }
 
-#workspaces button {
-    margin-left: 4px;
-    margin-right: 4px;
-
-    padding-left: 6px;
-    padding-right: 6px;
-
-    min-width: 0px;
-
-    color: #689d6a;
+window#waybar.empty {
+    /*opacity: 0.0;*/
+    background-color: @hover-black;
+    transition-duration: 0.5s;
 }
 
-#workspaces button.active {
-    color: #1d2021;
-    background: #98971a;
+button {
+    border: none;
 }
 
-#workspaces button.urgent {
-    color: #fb4934;
+button:hover {
+    background: inherit;
+    box-shadow: inset 2px 0px @gruv-beige;
 }
 
-/* For when the mouse is hovering on workspace button */
-#workspaces button:hover {
-    box-shadow: 0 0 0 1px #98971a;
+#custom-powerbutton,
+#custom-reboot,
+#custom-suspend,
+#custom-lock,
+#custom-idlekiller,
+#custom-playpause,
+#custom-wallpaper,
+#user,
+button,
+#window, 
+#network,
+#custom-appmenu,
+#backlight,
+#backlight-slider,
+#pulseaudio,
+#pulseaudio-slider,
+#battery,
+#clock { 
+    padding: 10px 0px;
+    color: @text-white;
+    background: transparent;
 }
 
-#tray {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 4px;
-    margin-left: 4px;
-
-    padding-right: 6px;
-    padding-left: 6px;
-
-    color: #ebdbb2;
+#window {
+    margin: 20px 0px;
 }
 
-#tray menu {
-    background: #1d2021;
-    border-radius: 0px;
-}
-
-#tray menu menuitem {
-    border-radius: 0px;
+window#waybar.empty #window {
+    opacity: 0;
 }
 
 #clock {
-    margin-top: 2px;
-    margin-bottom: 2px;
-
-    padding-left: 10px;
-    padding-right: 10px;
-
-    color: #ebdbb2;
+    box-shadow: inset 2px 0 @gruv-blue;
 }
 
-#idle_inhibitor {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 4px;
-    margin-left: 4px;
-
-    padding-right: 6px;
-    padding-left: 6px;
-
-    color: #d79932;
+#clock:hover {
+    color: @gruv-blue;
+    background-color: @hover-black;
 }
 
-#pulseaudio.outputDevice {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 4px;
-    margin-left: 4px;
-
-    padding-right: 6px;
-    padding-left: 6px;
- 
-    border-top-left-radius: 11px;
-    border-bottom-left-radius: 11px;
-
-    color: #689d6a;
+#pulseaudio,
+#pulseaudio-slider {
+    box-shadow: inset 2px 0px @gruv-magenta;
 }
 
-#pulseaudio.inputDevice {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 4px;
-    margin-left: 4px;
-
-    padding-right: 6px;
-
-    border-top-right-radius: 11px;
-    border-bottom-right-radius: 11px;
-
-    color: #689d6a;
+#pulseaudio.muted:hover,
+#pulseaudio:hover {
+    color: @gruv-magenta;
+    transition-duration: .5s;
+    background-color: @hover-black;
 }
 
-#network {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 4px;
-    margin-left: 4px;
-
-    border-top-left-radius: 11px;
-    border-bottom-left-radius: 11px;
-
-    min-width: 250px;
-
-    color: #a89984;
+#pulseaudio.muted {
+    background-color: @mute-black;
+    color: @text-white;
 }
 
-#cpu {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 4px;
-    margin-left: 4px;
-
-    min-width: 80px;
-
-    color: #a89984;
+#pulseaudio-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
 }
 
-#backlight {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 4px;
-    margin-left: 4px;
-
-    padding-right: 6px;
-    padding-left: 6px;
-
-    border-radius: 4px;
-
-    color: #ebdbb2;
+#pulseaudio-slider trough {
+    min-height: 60px;
+    min-width: 10px;
+    background: @hover-black;
 }
 
-#backlight.4 {
-    color: #d56d0e;
+#pulseaudio-slider highlight {
+    min-width: 10px;
+    background: @text-white;
 }
 
-#backlight.3 {
-    color: #d56d0e;
+#pulseaudio-slider:hover highlight {
+    background: @gruv-magenta;
 }
 
-#backlight.2 {
-    color: #d56d0e;
+#backlight:hover {
+    color: @gruv-orange;
+    background-color: @hover-black;
 }
 
-#backlight.1 {
-    color: #d56d0e;
+#backlight,
+#backlight-slider {
+    box-shadow: inset 2px 0px @gruv-orange;
 }
 
-#language {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 4px;
-    margin-left: 4px;
-
-    padding-right: 6px;
-    padding-left: 6px;
-
-    border-radius: 4px;
-
-    color: #d79932;
+#backlight-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
 }
 
-#memory {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 4px;
-    margin-left: 4px;
-
-    padding-right: 4px;
-    padding-left: 4px;
-
-    border-top-right-radius: 11px;
-    border-bottom-right-radius: 11px;
-
-    color: #98971a;
+#backlight-slider trough {
+    min-height: 60px;
+    min-width: 10px;
+    background-color: @hover-black;
 }
 
-#power-profiles-daemon {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 4px;
-    margin-left: 4px;
-
-    padding-right: 6px;
-    padding-left: 6px;
-
-    color: #d79921;
+#backlight-slider highlight {
+    min-width: 10px;
+    background-color: @text-white;
 }
 
-#power-profiles-daemon.performance {
-    color: #d65d0e;
+#backlight-slider:hover highlight {
+    background: @gruv-orange;
 }
 
-#power-profiles-daemon.power-saver {
-    color: #98971a
+#battery:hover, 
+#battery.charging:hover, 
+#battery.plugged:hover {
+    color: @gruv-green;
+    transition-duration: .5s;
+    background-color: @hover-black;
 }
 
-#battery {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 4px;
-    margin-left: 4px;
-
-    padding-right: 6px;
-    padding-left: 6px;
-
-    border-radius: 4px;
-}
-
-#battery.tooMuch {
-    color: #bfff64;
-}
-
-#battery.good {
-    color: #5cff5c
-}
-
-#battery.meh {
-    color: #bfff64
-}
-
-#battery.warning {
-    color: #fc9b5a
-}
-
-#battery.critical {
-    color: #e33d3d
-}
-
-#battery.charging {
-    color: #64ff64;
-}
-
-#battery.charging.tooMuch {
-    color: #bfff64;
-}
-
+#battery,
+#battery.charging,
 #battery.plugged {
-    color: #64ff64;
+    box-shadow: inset 2px 0px @gruv-green;
 }
 
-#battery.plugged.tooMuch {
-    color: #bfff64;
+#window:hover {
+    color: @gruv-orange;
+    background-color: @hover-black;
 }
 
-#battery.full {
-    color: #bfff64;
+#window {
+    box-shadow: inset 2px 0px @gruv-orange;
+}
+
+#taskbar button {
+    padding: 5px 0;
+}
+
+#taskbar button.active {
+    background: @mute-black;
+    box-shadow: inset 2px 0px @gruv-lime;
+}
+
+#custom-appmenu:hover {
+    color: @gruv-yellow;
+    background-color: @hover-black;
+}
+
+#custom-appmenu {
+    box-shadow: inset 2px 0px @gruv-yellow;
+}
+
+#custom-powerbutton:hover {
+    color: @gruv-red;
+    background-color: @hover-black;
+}
+
+#custom-powerbutton {
+    box-shadow: inset 2px 0px @gruv-red;
+}
+
+#custom-reboot:hover {
+    color: @gruv-yellow;
+    background-color: @hover-black;
+}
+
+#custom-reboot {
+    box-shadow: inset 2px 0px @gruv-yellow;
+}
+
+#custom-suspend:hover {
+    color: @gruv-grey;
+    background-color: @hover-black;
+}
+
+#custom-suspend {
+    box-shadow: inset 2px 0px @gruv-grey;
+}
+
+#custom-lock:hover {
+    color: @gruv-blue;
+    background-color: @hover-black;
+}
+
+#custom-lock {
+    box-shadow: inset 2px 0px @gruv-blue;
+}
+
+#custom-idlekiller:hover {
+    color: @gruv-magenta;
+    background-color: @hover-black;
+}
+
+#custom-idlekiller {
+    box-shadow: inset 2px 0px @gruv-magenta;
+}
+
+#user:hover {
+    color: @gruv-green;
+    background-color: @hover-black;
+}
+
+#user {
+    box-shadow: inset 2px 0px @gruv-green;
+}
+
+#taskbar,
+#workspaces {
+    background: transparent;
+    margin: 10px 0px;
+}
+
+#workspaces button {
+    padding: 7px 0px;
+    background-color: transparent;
+    color: @text-white;
+    transition: 0.2s ease-in-out;
+    font-size: 15px;
+}
+
+#workspaces button.active {
+    background-color: @mute-black;
+    font-weight: 900;
+}
+
+#workspaces button.active:hover {
+    color: @gruv-lime;
+}
+
+#workspaces button:hover {
+    background: @hover-black;
+}
+
+#workspaces button.focused {
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 2px 0px @gruv-lime;
+}
+
+#workspaces button.urgent {
+    background-color: @gruv-red;
+}
+
+#custom-playpause:hover {
+    color: @gruv-yellow;
+    background-color: @hover-black;
+}
+
+#custom-playpause {
+    box-shadow: inset 2px 0px @gruv-yellow;
+}
+
+#network.disconnected {
+    background-color: @gruv-red;
+}
+
+#custom-wallpaper:hover {
+    color: @gruv-blue;
+    background-color: @hover-black;
+}
+
+#custom-wallpaper {
+    box-shadow: inset 2px 0px @gruv-blue;
 }

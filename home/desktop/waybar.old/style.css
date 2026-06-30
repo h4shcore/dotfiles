@@ -1,0 +1,284 @@
+/* Reset everything except dropdowns, popups and tooltips */
+*:not(tooltip):not(menu):not(menuitem):not(check):not(radio):not(separator) {
+    all: unset;
+}
+* {
+    font-family: "Iosevka Nerd Font", monospace;
+}
+
+#waybar {
+    background: rgba(29, 32, 33, 0.9);
+    font-family: "Iosevka Nerd Font", monospace;
+
+    font-size: 15px;
+}
+
+tooltip {
+    background: rgba(40, 40, 40, 0.9);
+    border-radius: 0px;
+    font-family: "Iosevka Nerd Font", monospace;
+}
+
+#workspaces {
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+    /* padding-left: 6px; */
+    /* padding-right: 6px; */
+
+    min-height: 32px
+}
+
+#workspaces button {
+    margin-left: 4px;
+    margin-right: 4px;
+
+    padding-left: 6px;
+    padding-right: 6px;
+
+    min-width: 0px;
+
+    color: #689d6a;
+}
+
+#workspaces button.active {
+    color: #1d2021;
+    background: #98971a;
+}
+
+#workspaces button.urgent {
+    color: #fb4934;
+}
+
+/* For when the mouse is hovering on workspace button */
+#workspaces button:hover {
+    box-shadow: 0 0 0 1px #98971a;
+}
+
+#tray {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
+
+    padding-right: 6px;
+    padding-left: 6px;
+
+    color: #ebdbb2;
+}
+
+#tray menu {
+    background: #1d2021;
+    border-radius: 0px;
+}
+
+#tray menu menuitem {
+    border-radius: 0px;
+}
+
+#clock {
+    margin-top: 2px;
+    margin-bottom: 2px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    color: #ebdbb2;
+}
+
+#idle_inhibitor {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
+
+    padding-right: 6px;
+    padding-left: 6px;
+
+    color: #d79932;
+}
+
+#pulseaudio.outputDevice {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
+
+    padding-right: 6px;
+    padding-left: 6px;
+ 
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+
+    color: #689d6a;
+}
+
+#pulseaudio.inputDevice {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
+
+    padding-right: 6px;
+
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+
+    color: #689d6a;
+}
+
+#network {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
+
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+
+    min-width: 250px;
+
+    color: #a89984;
+}
+
+#cpu {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
+
+    min-width: 80px;
+
+    color: #a89984;
+}
+
+#backlight {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
+
+    padding-right: 6px;
+    padding-left: 6px;
+
+    border-radius: 4px;
+
+    color: #ebdbb2;
+}
+
+#backlight.4 {
+    color: #d56d0e;
+}
+
+#backlight.3 {
+    color: #d56d0e;
+}
+
+#backlight.2 {
+    color: #d56d0e;
+}
+
+#backlight.1 {
+    color: #d56d0e;
+}
+
+#language {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
+
+    padding-right: 6px;
+    padding-left: 6px;
+
+    border-radius: 4px;
+
+    color: #d79932;
+}
+
+#memory {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
+
+    padding-right: 4px;
+    padding-left: 4px;
+
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+
+    color: #98971a;
+}
+
+#power-profiles-daemon {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
+
+    padding-right: 6px;
+    padding-left: 6px;
+
+    color: #d79921;
+}
+
+#power-profiles-daemon.performance {
+    color: #d65d0e;
+}
+
+#power-profiles-daemon.power-saver {
+    color: #98971a
+}
+
+#battery {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    margin-left: 4px;
+
+    padding-right: 6px;
+    padding-left: 6px;
+
+    border-radius: 4px;
+}
+
+#battery.tooMuch {
+    color: #bfff64;
+}
+
+#battery.good {
+    color: #5cff5c
+}
+
+#battery.meh {
+    color: #bfff64
+}
+
+#battery.warning {
+    color: #fc9b5a
+}
+
+#battery.critical {
+    color: #e33d3d
+}
+
+#battery.charging {
+    color: #64ff64;
+}
+
+#battery.charging.tooMuch {
+    color: #bfff64;
+}
+
+#battery.plugged {
+    color: #64ff64;
+}
+
+#battery.plugged.tooMuch {
+    color: #bfff64;
+}
+
+#battery.full {
+    color: #bfff64;
+}
