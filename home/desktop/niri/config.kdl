@@ -1,3 +1,5 @@
+include "./colors.kdl"
+
 input {
     keyboard {
         numlock
@@ -17,18 +19,15 @@ layout {
     default-column-width
     focus-ring {
         width 2
-        active-color "#504945"
     }
     shadow {
         on
         softness 10
         spread 2
         offset x=2 y=2
-        color "#0007"
     }
     insert-hint {
         on
-        color "#50494599"
     }
     struts {
         left 0
@@ -36,10 +35,6 @@ layout {
         top 0
         bottom 0
     }
-}
-
-hotkey-overlay {
-    skip-at-startup
 }
 
 prefer-no-csd
