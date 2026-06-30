@@ -9,7 +9,7 @@
 @define-color gruv-beige        rgb(235, 219, 178);
 @define-color gruv-grey         rgb(168, 153, 132);
 
-@define-color background-blue   rgb(13, 17, 23);
+@define-color background-blue   rgb(29, 32, 33);
 @define-color text-white        rgb(255, 255, 255);
 
 @define-color hover-black       rgb(0, 0, 0);
@@ -27,12 +27,6 @@ window#waybar {
     color: @text-white;
     transition-property: background-color;
     transition: 1s ease-in-out;
-}
-
-window#waybar.empty {
-    /*opacity: 0.0;*/
-    background-color: @hover-black;
-    transition-duration: 0.5s;
 }
 
 button {
@@ -70,10 +64,6 @@ button,
 #window {
     margin: 20px 0px;
 }
-
-/* window#waybar.empty #window { */
-/*     opacity: 0; */
-/* } */
 
 #clock {
     box-shadow: inset 2px 0 @gruv-blue;

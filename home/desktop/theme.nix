@@ -1,4 +1,8 @@
-{pkgs, ...}: {
+{pkgs, ...}:
+let
+  theme = import ../themes;
+in 
+{
   gtk = {
     enable = true;
 
