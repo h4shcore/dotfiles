@@ -5,6 +5,7 @@
 }: {
   imports = [
     ./alacritty
+    ./yazi
   ];
 
   home.packages = with pkgs; [
@@ -38,5 +39,5 @@
   xdg.configFile."foot".source = ./foot;
   xdg.configFile."kitty".source = ./kitty;
   xdg.configFile."starship.toml".source = ./starship/starship.toml;
-  xdg.configFile."yazi".source = ./yazi;
+  # xdg.configFile."yazi".source = ./yazi;
 }
