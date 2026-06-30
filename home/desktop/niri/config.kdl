@@ -61,22 +61,10 @@ window-rule {
     clip-to-geometry true
 }
 
-window-rule {
-    opacity 0.85
-
-    background-effect {
-        blur true
-        xray false 
-    }
-}
-
 layer-rule {
     match namespace="^launcher$"
     shadow {
         on
-    }
-    background-effect {
-        blur true
     }
 }
 
@@ -84,9 +72,6 @@ layer-rule {
     match namespace="^notifications$"
     shadow {
         on
-    }
-    background-effect {
-        blur true
     }
 }
 
@@ -96,9 +81,6 @@ layer-rule {
     match layer="top"
     shadow {
         on
-    }
-    background-effect {
-        blur true
     }
 }
 

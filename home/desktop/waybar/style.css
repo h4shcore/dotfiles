@@ -1,19 +1,19 @@
 
-@define-color gruv-blue         rgba(69, 133, 136, 0.8);
-@define-color gruv-green        rgba(104, 157, 106, 0.8);
-@define-color gruv-magenta      rgba(177, 98, 134, 0.8);
-@define-color gruv-red          rgba(204, 36, 29, 0.8);
-@define-color gruv-orange       rgba(214, 93, 14, 0.8);
-@define-color gruv-yellow       rgba(215, 153, 33, 0.8);
-@define-color gruv-lime         rgba(184, 187, 38, 0.8);
-@define-color gruv-beige        rgba(235, 219, 178, 0.8);
-@define-color gruv-grey         rgba(168, 153, 132, 0.8);
+@define-color gruv-blue         rgb(69, 133, 136);
+@define-color gruv-green        rgb(104, 157, 106);
+@define-color gruv-magenta      rgb(177, 98, 134);
+@define-color gruv-red          rgb(204, 36, 29);
+@define-color gruv-orange       rgb(214, 93, 14);
+@define-color gruv-yellow       rgb(215, 153, 33);
+@define-color gruv-lime         rgb(184, 187, 38);
+@define-color gruv-beige        rgb(235, 219, 178);
+@define-color gruv-grey         rgb(168, 153, 132);
 
-@define-color background-blue   rgba(13, 17, 23, 0.8);
-@define-color text-white        rgba(255, 255, 255, 0.9);
+@define-color background-blue   rgb(13, 17, 23);
+@define-color text-white        rgb(255, 255, 255);
 
-@define-color hover-black       rgba(0, 0, 0, 0.3);
-@define-color mute-black        rgba(0, 0, 0, 0.6);
+@define-color hover-black       rgb(0, 0, 0);
+@define-color mute-black        rgb(0, 0, 0);
 
 * {
     font-family: 'Iosevka Nerd Font Propo';
@@ -71,9 +71,9 @@ button,
     margin: 20px 0px;
 }
 
-window#waybar.empty #window {
-    opacity: 0;
-}
+/* window#waybar.empty #window { */
+/*     opacity: 0; */
+/* } */
 
 #clock {
     box-shadow: inset 2px 0 @gruv-blue;
