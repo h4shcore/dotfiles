@@ -3,6 +3,10 @@
   pkgs,
   ...
 }: {
+  imports = [
+    ./alacritty
+  ];
+
   home.packages = with pkgs; [
     yazi
     fastfetch
@@ -30,7 +34,7 @@
   };
 
   xdg.configFile."fish/config.fish".source = ./fish/config.fish;
-  xdg.configFile."alacritty".source = ./alacritty;
+  # xdg.configFile."alacritty".source = ./alacritty;
   xdg.configFile."foot".source = ./foot;
   xdg.configFile."kitty".source = ./kitty;
   xdg.configFile."starship.toml".source = ./starship/starship.toml;
