@@ -21,6 +21,8 @@
     kitty
     foot
     eza
+    btop
+    cava
   ];
 
   programs.zoxide = {
@@ -35,7 +37,7 @@
     nix-direnv.enable = true;
   };
 
-  xdg.configFile."btop/btop.theme".source = ./btop/btop.theme;
+  xdg.configFile."btop/btop.theme".source = ./btop/themes/ryu.theme;
   xdg.configFile."cava/cava_theme".source = ./cava/cava_theme;
   xdg.configFile."fish/config.fish".source = ./fish/config.fish;
   xdg.configFile."foot".source = ./foot;
