@@ -15,6 +15,7 @@ separator_color = frame
 highlight = "${c.accent}"
 
 font = Iosevka Nerd Font 10
+origin = bottom-right
 shrink = true
 word_wrap = yes
 padding = 10
