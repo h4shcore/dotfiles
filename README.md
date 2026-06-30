@@ -1,3 +1,3 @@
 # :: my nixos dotfiles
 
-[nixos](./nixos.png)
+![nixos](./nixos.png)
