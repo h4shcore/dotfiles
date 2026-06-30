@@ -37,8 +37,8 @@
     nix-direnv.enable = true;
   };
 
-  xdg.configFile."btop/btop.theme".source = ./btop/themes/ryu.theme;
-  xdg.configFile."cava/cava_theme".source = ./cava/cava_theme;
+  xdg.configFile."btop/themes/ryu.theme".source = ./btop/btop.theme;
+  xdg.configFile."cava/config".source = ./cava/cava_theme;
   xdg.configFile."fish/config.fish".source = ./fish/config.fish;
   xdg.configFile."foot".source = ./foot;
   xdg.configFile."kitty".source = ./kitty;
