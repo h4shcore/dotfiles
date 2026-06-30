@@ -1,12 +1,9 @@
-{ ... }:
-
-let
+{...}: let
   theme = import ../../themes;
   generatedTheme = import ../../themes/generators/alacritty.nix {
     inherit theme;
   };
-in
-{
+in {
   xdg.configFile."alacritty/alacritty.toml".source =
     ./alacritty.toml;
 

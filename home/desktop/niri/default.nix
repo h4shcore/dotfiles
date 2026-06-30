@@ -1,6 +1,4 @@
-{ ... }:
-
-let
+{...}: let
   theme = import ../../themes;
 
   generatedTheme = import ../../themes/generators/niri.nix {

@@ -1,39 +1,36 @@
-{ theme }:
-
-let
+{theme}: let
   c = theme.colors;
-in
-''
-layout {
-    focus-ring {
-        active-color "${c.accent}"
-        inactive-color "${c.brightBlack}"
-    }
+in ''
+  layout {
+      focus-ring {
+          active-color "${c.accent}"
+          inactive-color "${c.brightBlack}"
+      }
 
-    border {
-        active-color "${c.accent}"
-        inactive-color "${c.brightBlack}"
-    }
+      border {
+          active-color "${c.accent}"
+          inactive-color "${c.brightBlack}"
+      }
 
-    shadow {
-        color "${c.background}cc"
-    }
+      shadow {
+          color "${c.background}cc"
+      }
 
-    tab-indicator {
-        active-color "${c.accent}"
-        inactive-color "${c.brightBlack}"
-    }
+      tab-indicator {
+          active-color "${c.accent}"
+          inactive-color "${c.brightBlack}"
+      }
 
-    insert-hint {
-        color "${c.green}"
-    }
-}
+      insert-hint {
+          color "${c.green}"
+      }
+  }
 
-overview {
-    backdrop-color "${c.background}cc"
-}
+  overview {
+      backdrop-color "${c.background}cc"
+  }
 
-hotkey-overlay {
-    skip-at-startup
-}
+  hotkey-overlay {
+      skip-at-startup
+  }
 ''

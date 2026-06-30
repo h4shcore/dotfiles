@@ -1,6 +1,4 @@
-{ ... }:
-
-let
+{...}: let
   theme = import ../../themes;
 
   generatedDunst = import ../../themes/generators/dunst.nix {
