@@ -86,6 +86,5 @@ rules = [
     { mime = "audio/*", fg = "${c.cyan}" },
     { mime = "application/zip", fg = "${c.red}" },
     { mime = "application/*", fg = "${c.blue}" },
-    { name = "*/", fg = "${c.green}" },
 ]
 ''

@@ -2,17 +2,21 @@
 
 let
   theme = import ../../themes;
-  generatedTheme = import ../../themes/generators/yazi.nix {
+
+  generatedConfig = import ../../themes/generators/yazi-config.nix {
+    inherit theme;
+  };
+
+  generatedFlavor = import ../../themes/generators/yazi-flavor.nix {
     inherit theme;
   };
 in {
   xdg.configFile."yazi/init.lua".source = ./init.lua;
 
-  xdg.configFile."yazi/yazi.toml".source = ./yazi.toml;
-
-  xdg.configFile."yazi/theme.toml".text = generatedTheme;
-
   xdg.configFile."yazi/plugins".source = ./plugins;
 
-  xdg.configFile."yazi/flavors".source = ./flavors;
+  xdg.configFile."yazi/yazi.toml".text = generatedConfig;
+
+  xdg.configFile."yazi/flavors/${theme.name}.yazi/flavor.toml".text =
+    generatedFlavor;
 }
