@@ -9,6 +9,7 @@
     ./git
     ./terminal
     ./desktop
+    ./fonts
   ];
 
   home.stateVersion = "26.05";
