@@ -16,6 +16,7 @@
     ../../modules/packages.nix
     ../../modules/services.nix
     ../../modules/users.nix
+    ../../modules/virtual.nix
   ];
 
   # Enable experimental features
