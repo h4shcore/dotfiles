@@ -22,7 +22,7 @@ in ''
       }
 
       insert-hint {
-          color "${c.green}"
+          color "${c.green}dd"
       }
   }
 

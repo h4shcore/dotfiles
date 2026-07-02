@@ -23,6 +23,7 @@
     eza
     btop
     cava
+    wget
   ];
 
   programs.zoxide = {
