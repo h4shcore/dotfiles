@@ -13,6 +13,7 @@ word_wrap = yes
 padding = 10
 horizontal_padding = 10
 show_indicators = no
+origin = bottom-right
 offset = (10, 10)
 
 [urgency_low]

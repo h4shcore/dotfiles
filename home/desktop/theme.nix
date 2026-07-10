@@ -3,8 +3,13 @@
     enable = true;
 
     theme = {
-      package = pkgs.adw-gtk3;
-      name = "adw-gtk3-dark";
+      name = "Gruvbox-Dark";
+      package = pkgs.gruvbox-gtk-theme;
+    };
+
+    iconTheme = {
+      name = "Gruvbox-Plus-Dark";
+      package = pkgs.gruvbox-dark-icons-gtk;
     };
 
     cursorTheme = {
@@ -26,7 +31,4 @@
     enable = true;
     platformTheme.name = "gtk3";
   };
-
-  xdg.configFile."gtk-3.0/gtk.css".source = ./gtk/gtk.css;
-  xdg.configFile."gtk-4.0/gtk.css".source = ./gtk/gtk.css;
 }

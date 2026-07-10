@@ -1,10 +1,8 @@
-include "./colors.kdl"
-
 input {
     keyboard {
         numlock
-	repeat-delay 200
-	repeat-rate 25
+        repeat-delay 200
+        repeat-rate 25
     }
     touchpad {
         tap
@@ -19,6 +17,7 @@ layout {
     default-column-width
     focus-ring {
         width 2
+        active-color "#ebdbb2"
     }
     shadow {
         on
@@ -35,6 +34,10 @@ layout {
         top 0
         bottom 0
     }
+}
+
+hotkey-overlay {
+    skip-at-startup
 }
 
 prefer-no-csd
@@ -89,7 +92,7 @@ spawn-sh-at-startup "waybar"
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
 
 binds {
-    Mod+Return hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
+    Mod+Return hotkey-overlay-title="Open a Terminal: kitty" { spawn "kitty"; }
     Mod+R hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Mod+V hotkey-overlay-title="Open Clipboard" { spawn-sh "cliphist list | fuzzel --dmenu -w 60 | cliphist decode | wl-copy"; }
 
