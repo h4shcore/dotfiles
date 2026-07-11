@@ -7,10 +7,6 @@
         enabled = true;
       };
 
-      dashboard = {
-        enabled = true;
-      };
-
       explorer = {
         enabled = false;
       };
@@ -40,10 +36,6 @@
       };
 
       scope = {
-        enabled = true;
-      };
-
-      scroll = {
         enabled = true;
       };
 

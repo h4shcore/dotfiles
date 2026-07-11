@@ -40,12 +40,6 @@
 
         settings = {
           indent.char = "│";
-
-          scope = {
-            enabled = true;
-            showStart = false;
-            showEnd = false;
-          };
         };
       };
     };

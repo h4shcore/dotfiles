@@ -6,7 +6,12 @@
 
         servers = {
           clangd.enable = true;
-          rust_analyzer.enable = true;
+            rust_analyzer = {
+              enable = true;
+
+              installCargo = false;
+              installRustc = false;
+            };
           nil_ls.enable = true;
 
           bashls.enable = true;
@@ -21,13 +26,6 @@
       };
 
       lsp-lines.enable = false;
-    };
-
-    diagnostics = {
-      virtual_text = true;
-      underline = true;
-      update_in_insert = false;
-      severity_sort = true;
     };
   };
 }
