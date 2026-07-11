@@ -2,10 +2,13 @@
 
 {
   imports = [
-    inputs.nixvim.homeManagerModules.nixvim
+    inputs.nixvim.homeModules.nixvim
+
+    ./options.nix
+    ./keymaps.nix
+    ./colorscheme.nix
+    ./plugins
   ];
 
-  programs.nixvim = {
-    enable = true;
-  };
+  programs.nixvim.enable = true;
 }
