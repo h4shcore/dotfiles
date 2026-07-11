@@ -5,11 +5,14 @@
   programs.home-manager.enable = true;
 
   imports = [
-    ./packages.nix
+    ./desktop
+    ./editors
+    ./fonts
     ./git
     ./terminal
-    ./desktop
-    ./fonts
+
+    ./packages.nix
+    ./session.nix
   ];
 
   home.stateVersion = "26.05";
