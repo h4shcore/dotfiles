@@ -2,7 +2,7 @@ input {
     keyboard {
         numlock
         repeat-delay 200
-        repeat-rate 25
+        repeat-rate 50
     }
     touchpad {
         tap

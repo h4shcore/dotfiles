@@ -10,6 +10,8 @@
       number = true;
       relativenumber = true;
 
+      cmdheight = 0;
+
       # Indentation
       tabstop = 4;
       shiftwidth = 4;
