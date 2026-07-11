@@ -6,6 +6,7 @@
   imports = [
     ./alacritty
     ./yazi
+    ./zellij
   ];
 
   home.packages = with pkgs; [
