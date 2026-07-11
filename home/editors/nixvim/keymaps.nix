@@ -72,7 +72,7 @@
 
     # Delete without yanking
     {
-      mode = [ "n" "v" ];
+      mode = ["n" "v"];
       key = "<leader>d";
       action = "\"_d";
       options.desc = "Delete without yanking";

@@ -28,7 +28,6 @@
     };
   };
 }
-
 # Language	Server
 # -------------------------
 # C/C++		clangd
@@ -39,3 +38,4 @@
 # YAML		yamlls
 # TOML		taplo
 # Markdown	marksman
+

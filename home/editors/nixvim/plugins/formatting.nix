@@ -11,21 +11,21 @@
       };
 
       formattersByFt = {
-        c = [ "clang_format" ];
-        cpp = [ "clang_format" ];
+        c = ["clang_format"];
+        cpp = ["clang_format"];
 
-        rust = [ "rustfmt" ];
+        rust = ["rustfmt"];
 
-        nix = [ "alejandra" ];
+        nix = ["alejandra"];
 
-        lua = [ "stylua" ];
+        lua = ["stylua"];
 
-        json = [ "prettier" ];
-        yaml = [ "prettier" ];
-        markdown = [ "prettier" ];
+        json = ["prettier"];
+        yaml = ["prettier"];
+        markdown = ["prettier"];
 
-        sh = [ "shfmt" ];
-        bash = [ "shfmt" ];
+        sh = ["shfmt"];
+        bash = ["shfmt"];
       };
     };
   };

@@ -1,4 +1,4 @@
-{pkgs, ...}:{
+{pkgs, ...}: {
   environment.systemPackages = with pkgs; [
     qemu
     virt-manager
@@ -16,5 +16,5 @@
 
   programs.virt-manager.enable = true;
 
-  users.groups.libvirtd.members = [ "daksh" ];
+  users.groups.libvirtd.members = ["daksh"];
 }
