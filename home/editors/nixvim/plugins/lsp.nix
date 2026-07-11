@@ -6,12 +6,11 @@
 
         servers = {
           clangd.enable = true;
-            rust_analyzer = {
-              enable = true;
-
-              installCargo = false;
-              installRustc = false;
-            };
+          rust_analyzer = {
+            enable = true;
+            installCargo = false;
+            installRustc = false;
+          };
           nil_ls.enable = true;
 
           bashls.enable = true;

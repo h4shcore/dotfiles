@@ -4,7 +4,7 @@
       enable = true;
 
       settings = {
-        currentLineBlame = true;
+        current_line_blame = true;
 
         signs = {
           add.text = "│";
