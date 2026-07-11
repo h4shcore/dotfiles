@@ -6,28 +6,30 @@
 
     settings = {
       default_shell = "fish";
-      default_layout = "default";
-      pane_frames = true;
-      simplified_ui = false;
       default_mode = "normal";
 
       mouse_mode = true;
+      pane_frames = false;
+
+      simplified_ui = true;
+
+      show_startup_tips = false;
+      show_release_notes = false;
+
       copy_on_select = false;
 
-      scroll_buffer_size = 100000;
+      scroll_buffer_size = 10000;
+
+      scrollback_editor = "nvim";
 
       session_serialization = true;
       serialize_pane_viewport = true;
 
-      scrollback_editor = "nvim";
-
       ui = {
         pane_frames = {
-          hide_session_name = false;
+          hide_session_name = true;
         };
       };
-
-      theme = "gruvbox-dark";
     };
   };
 }

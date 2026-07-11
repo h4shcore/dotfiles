@@ -6,6 +6,7 @@
   imports = [
     ./alacritty
     ./yazi
+    ./tmux
     ./zellij
   ];
 
