@@ -8,5 +8,6 @@
     ./git.nix
     ./ui.nix
     ./editing.nix
+    ./tmux.nix
   ];
 }

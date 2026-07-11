@@ -1,23 +1,15 @@
+{ pkgs , ...}:
 {
   programs.tmux = {
     enable = true;
-
     shell = "${pkgs.fish}/bin/fish";
-
     terminal = "tmux-256color";
-
     historyLimit = 100000;
-
     clock24 = true;
-
     mouse = true;
-
     escapeTime = 0;
-
     baseIndex = 1;
-
     keyMode = "vi";
-
     sensibleOnTop = false;
 
     plugins = with pkgs.tmuxPlugins; [
@@ -35,8 +27,8 @@
       bind C-Space send-prefix
 
       ##### Splits #####
-      bind | split-window -h
-      bind - split-window -v
+      bind " split-window -h
+      bind % split-window -v
 
       ##### Reload #####
       bind r source-file ~/.config/tmux/tmux.conf \; display "Reloaded!"
@@ -54,7 +46,7 @@
       bind -r L resize-pane -R 5
 
       ##### Status #####
-      set -g status-position bottom
+      set -g status-position top
       set -g status-interval 5
       set -g status-left-length 30
       set -g status-right-length 60
