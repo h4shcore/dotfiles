@@ -1,7 +1,7 @@
 {
   "exclusive": true,
   "reload_style_on_change": true,
-  "position": "bottom",
+  "position": "top",
   "layer": "top",
   "margin-top": 0,
   "spacing": 0,
@@ -182,7 +182,7 @@
     "justify": "center",
     "format": " {artist} - {title}",
     "format-paused": "<span color='grey'>{status_icon}</span>",
-    "max-length": 45,
+    // "max-length": 80,
     "player-icons": {
       "default": "⏸",
       "mpv": "🎵"
