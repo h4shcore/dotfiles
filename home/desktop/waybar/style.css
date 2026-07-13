@@ -8,6 +8,7 @@
     font-family: "Iosevka Nerd Font", monospace;
     font-size: 12px;
     min-height: 0;
+    border-radius: 0px;
 }
 
 window#waybar {
@@ -16,18 +17,17 @@ window#waybar {
 }
 
 #workspaces {
-    padding: 0 6px;
+    padding: 0 2px;
 }
 #workspaces button {
     color: @muted;
     background: transparent;
-    padding: 0 4px;
+    padding: 0 2px;
     border: none;
 }
 #workspaces button.active {
     color: @fg;
     border: 1px solid @muted;
-    border-radius: 2px;
 }
 
 #tray,
@@ -74,7 +74,8 @@ window#waybar {
 
 tooltip {
   padding: 2px;
-  border-radius: 0px;
+}
+tooltip label {
 }
 
 #mpris {
