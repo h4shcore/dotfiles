@@ -87,7 +87,7 @@
           "mpv": "🎵"
         },
         "status-icons": {
-          "paused": "󰝛"
+          "paused": "<span style='italic'>(paused)</span>"
         },
         "ignored-players": ["firefox", "chromium", "brave"]
     },
