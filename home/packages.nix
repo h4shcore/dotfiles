@@ -3,6 +3,7 @@
     spotify
     vesktop
     firefox
+    brave
     qbittorrent
   ];
 }
