@@ -1,4 +1,8 @@
-{
+{pkgs, ...}: {
+  home.packages = with pkgs; [
+    alejandra
+  ];
+
   programs.nixvim.plugins.conform-nvim = {
     enable = true;
 
