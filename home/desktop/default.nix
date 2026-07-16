@@ -14,6 +14,8 @@
 
   imports = [
     ./theme.nix
+
+    ./aria
     ./fuzzel
     ./niri
     ./dunst
