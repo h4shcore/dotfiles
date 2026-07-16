@@ -38,7 +38,7 @@
     {
       mode = "n";
       key = "<leader>cf";
-      action = "<cmd>Format<CR>";
+      action = "<cmd>lua require('conform').format()<CR>";
       options.desc = "Format buffer";
     }
   ];
