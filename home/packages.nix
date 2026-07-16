@@ -5,5 +5,7 @@
     firefox
     brave
     qbittorrent
+    mpv
+    ani-cli
   ];
 }
