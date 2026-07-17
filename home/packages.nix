@@ -7,5 +7,6 @@
     qbittorrent
     mpv
     ani-cli
+    woomer
   ];
 }
