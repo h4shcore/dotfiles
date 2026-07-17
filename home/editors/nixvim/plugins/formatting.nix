@@ -1,33 +1,32 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
-    alejandra
+    alejandra             # Nix
+    clang-tools           # C/C++ (provides clang-format)
+    rustfmt               # Rust
+    stylua                # Lua
+    prettier              # JSON, YAML, Markdown
+    shfmt                 # Shell/Bash
   ];
 
   programs.nixvim.plugins.conform-nvim = {
     enable = true;
-
     settings = {
-      notifyOnError = true;
+      notify_on_error = true;
 
-      formatOnSave = {
-        timeoutMs = 500;
-        lspFallback = true;
+      format_on_save = {
+        timeout_ms = 500;
+        lsp_format = "fallback";
       };
 
-      formattersByFt = {
-        c = ["clang_format"];
-        cpp = ["clang_format"];
-
+      formatters_by_ft = {
+        c = ["clang-format"];
+        cpp = ["clang-format"];
         rust = ["rustfmt"];
-
         nix = ["alejandra"];
-
         lua = ["stylua"];
-
         json = ["prettier"];
         yaml = ["prettier"];
         markdown = ["prettier"];
-
         sh = ["shfmt"];
         bash = ["shfmt"];
       };

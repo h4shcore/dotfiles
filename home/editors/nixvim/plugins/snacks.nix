@@ -95,7 +95,7 @@
 
     {
       mode = "n";
-      key = "<leader>e";
+      key = "<leader><leader>";
       action = "<cmd>lua Snacks.picker.explorer()<CR>";
       options.desc = "Explorer";
     }
