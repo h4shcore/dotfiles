@@ -2,7 +2,6 @@
 mouse_left_click = do_action
 mouse_middle_click = close_all 
 mouse_right_click = close_current
-# frame_color = "#458588"
 frame_color = "#ebdbb2"
 frame_width = 2
 separator_color= frame
@@ -13,7 +12,7 @@ word_wrap = yes
 padding = 10
 horizontal_padding = 10
 show_indicators = no
-origin = bottom-right
+origin = top-right
 offset = (10, 10)
 
 [urgency_low]
