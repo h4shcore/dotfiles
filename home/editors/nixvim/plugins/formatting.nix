@@ -1,11 +1,11 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
-    alejandra             # Nix
-    clang-tools           # C/C++ (provides clang-format)
-    rustfmt               # Rust
-    stylua                # Lua
-    prettier              # JSON, YAML, Markdown
-    shfmt                 # Shell/Bash
+    alejandra # Nix
+    clang-tools # C/C++ (provides clang-format)
+    rustfmt # Rust
+    stylua # Lua
+    prettier # JSON, YAML, Markdown
+    shfmt # Shell/Bash
   ];
 
   programs.nixvim.plugins.conform-nvim = {
