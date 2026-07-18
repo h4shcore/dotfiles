@@ -1,10 +1,8 @@
-// Waybar config — minimal thin-bar style, coronation-tinted
 {
     "layer": "top",
     "position": "top",
     "height": 25,
     "spacing": 0,
-
     "modules-left": [
         "niri/workspaces",
         "custom/separator",
@@ -22,16 +20,13 @@
         "custom/separator",
         "clock"
     ],
-
     "custom/separator": {
         "format": "󰇙",
         "tooltip": false
     },
-
     "niri/workspaces": {
         "format": "{index}"
     },
-
     "battery": {
         "format": "bat {capacity}%",
         "format-charging": "bat_ {capacity}%",
@@ -40,27 +35,23 @@
             "critical": 15
         }
     },
-
     "backlight": {
         "format": "bl {percent}%"
     },
-
     "pulseaudio": {
         "format": "vol {volume}%",
         "format-muted": "vol mute"
     },
-
     "memory": {
         "format": "mem {percentage}%"
     },
-
     "network": {
         "format-icons": [
-          "󰤯 ",
-          "󰤟 ",
-          "󰤢 ",
-          "󰤥 ",
-          "󰤨 "
+            "󰤯 ",
+            "󰤟 ",
+            "󰤢 ",
+            "󰤥 ",
+            "󰤨 "
         ],
         "format": "{icon}",
         "format-wifi": "network <span style='italic' weight='900' color='#df6124'>{signalStrength}%</span>",
@@ -72,48 +63,46 @@
         "interval": 3,
         "spacing": 1
     },
-
     "cpu": {
         "format": "cpu {usage}%"
     },
-
     "mpris": {
         "format": "{artist} - {title}",
         "justify": "center",
         "format-paused": "<span color='grey'>{status_icon}</span>",
         // "max-length": 80,
         "player-icons": {
-          "default": "⏸",
-          "mpv": "🎵"
+            "default": "⏸",
+            "mpv": "🎵"
         },
         "status-icons": {
-          "paused": "<span style='italic'>(paused)</span>"
+            "paused": "<span style='italic'>(paused)</span>"
         },
-        "ignored-players": ["firefox", "chromium", "brave"]
+        "ignored-players": [
+            "firefox",
+            "chromium",
+            "brave"
+        ]
     },
-
     "clock": {
         "format": "{:%H:%M %d/%m}",
         "tooltip-format": "{:%A, %d %B %Y}"
     },
-
-
     "group/tray-expander": {
-      "orientation": "inherit",
-      "drawer": {
-        "transition-duration": 600,
-        "children-class": "tray-group-item"
-      },
-      "modules": [
-        "custom/expand-icon",
-        "tray"
+        "orientation": "inherit",
+        "drawer": {
+            "transition-duration": 600,
+            "children-class": "tray-group-item"
+        },
+        "modules": [
+            "custom/expand-icon",
+            "tray"
         ]
     },
     "custom/expand-icon": {
-      "format": " ",
-      "tooltip": false
+        "format": " ",
+        "tooltip": false
     },
-
     "tray": {
         "icon-size": 14,
         "spacing": 8
