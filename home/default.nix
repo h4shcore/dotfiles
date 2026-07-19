@@ -10,6 +10,7 @@
     ./fonts
     ./git
     ./terminal
+    ./gaming
 
     ./packages.nix
     ./session.nix

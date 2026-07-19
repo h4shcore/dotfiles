@@ -10,6 +10,7 @@
     nixvim = {
       url = "github:nix-community/nixvim";
     };
+    nix-gaming.url = "github:fufexan/nix-gaming";
   };
 
   outputs = inputs @ {

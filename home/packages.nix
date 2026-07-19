@@ -8,5 +8,6 @@
     mpv
     ani-cli
     woomer
+    busybox # wowie
   ];
 }
