@@ -8,6 +8,7 @@
     ./hardware-configuration.nix
 
     ../../modules/boot.nix
+    ../../modules/bluetooth.nix
     ../../modules/desktop.nix
     ../../modules/gaming.nix
     ../../modules/graphics.nix
