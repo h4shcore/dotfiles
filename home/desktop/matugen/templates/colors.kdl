@@ -1,0 +1,16 @@
+layout {
+    focus-ring {
+        active-color "{{colors.primary.default.hex}}"
+        inactive-color "{{colors.outline.default.hex}}"
+    }
+
+    border {
+        active-color "{{colors.secondary.default.hex}}"
+        inactive-color "{{colors.outline_variant.default.hex}}"
+        urgent-color "{{colors.error.default.hex}}"
+    }
+
+    shadow {
+        color "{{colors.shadow.default.hex_alpha}}"
+    }
+}

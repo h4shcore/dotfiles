@@ -1,0 +1,71 @@
+[config]
+version_check = false
+
+# Which color to choose if multiple good colors were found from an image.
+# choices: [darkness, lightness, saturation, less-saturation, value, closest-to-fallback]
+# The cli flag will override this if used.
+prefer = "closest-to-fallback"
+
+expr_prefix = "{{"
+expr_postfix = "}}"
+
+# Block is for stuff like for loops etc.
+block_prefix = "<*"
+block_postfix = "*>"
+
+# Defaults to the contrast from CLI if unspecified.
+# Value from -1 to 1.
+# -1 represents minimum contrast, 0 represents standard (i.e. the design as spec'd),
+# and 1 represents maximum contrast.
+contrast = 1.0
+
+# Will set the source color index just like the `--source-color-index` CLI flag (0 - 4).
+# 0 = most dominant, 1 = 2nd most dominant, etc.
+# IF the CLI flag is specified, it will override this value.
+source_color_index = 1
+
+[config.wallpaper]
+# Whether to set the wallpaper or not
+set = true
+
+# The base command to run for applying the wallpaper.
+# Keywords like {{ image }} or anything that works inside of hooks works here.
+# You could also set a static color if you use the color keywords and the wallpaper setter supports it.
+command = "awww img --transition-type center {{ image }}"
+
+# For example, killing the wallpaper daemon. Usage is like a normal hook.
+# pre_hook = ""
+
+[templates.dunst]
+input_path = "./templates/dunstrc"
+output_path = "~/.config/dunst/dunstrc"
+post_hook = "pkill dunst; dunst &"
+
+[templates.foot]
+input_path = "./templates/foot.ini"
+output_path = "~/.config/foot/theme.ini"
+
+[templates.fuzzel]
+input_path = "./templates/fuzzel.ini"
+output_path = "~/.config/fuzzel/theme.ini"
+
+[templates.niri]
+input_path = "./templates/colors.kdl"
+output_path = "~/.config/niri/colors.kdl"
+
+[templates.waybar]
+input_path = "./templates/colors.css"
+output_path = "~/.config/waybar/colors.css"
+post_hook = "pkill -SIGUSR2 waybar"
+
+[templates.vesktop]
+input_path = '~/.config/matugen/templates/discord.css'
+output_path = '~/.config/vesktop/settings/quickCss.css'
+
+[templates.gtk3]
+input_path = "./templates/gtk.css"
+output_path = "~/.config/gtk-3.0/colors.css"
+
+[templates.gtk4]
+input_path = "./templates/gtk.css"
+output_path = "~/.config/gtk-4.0/colors.css"

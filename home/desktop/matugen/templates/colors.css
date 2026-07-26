@@ -1,0 +1,13 @@
+@define-color bg            {{colors.background.default.hex}};
+@define-color bg-alt        {{colors.surface_container.default.hex}};
+@define-color bg-hover      {{colors.surface_container_high.default.hex}};
+@define-color fg            {{colors.on_background.default.hex}};
+@define-color fg-muted      {{colors.on_surface_variant.default.hex}};
+@define-color primary       {{colors.primary.default.hex}};
+@define-color secondary     {{colors.secondary.default.hex}};
+@define-color tertiary      {{colors.tertiary.default.hex}};
+@define-color warning       {{colors.secondary.default.hex}};
+@define-color error         {{colors.error.default.hex}};
+@define-color outline       {{colors.outline.default.hex}};
+@define-color outline-alt   {{colors.outline_variant.default.hex}};
+@define-color accent        {{colors.surface_tint.default.hex}};
