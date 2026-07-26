@@ -8,7 +8,7 @@ end
 
 # enable transient prompt
 function starship_transient_prompt_func
-  starship module character
+    starship module character
 end
 starship init fish | source
 enable_transience
@@ -18,18 +18,18 @@ zoxide init fish | source
 starship init fish | source
 
 # env vars
-set -gx EDITOR nvim
-set -gx MANPAGER 'nvim +Man!'
+set -gx EDITOR hx
+set -gx MANPAGER "sh -c 'col -bx | hx'"
 
 # alias
 # alias ls='eza --icons --group-directories-first -1'
 alias ls='eza --icons'
 
 # abbrs
-abbr cd "z"
-abbr yy "yazi"
+abbr cd z
+abbr yy yazi
 abbr nr "nix run"
-abbr vim "nvim"
+abbr vim nvim
 
 # ls
 abbr l 'ls -l'

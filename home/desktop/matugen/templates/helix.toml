@@ -1,0 +1,84 @@
+"ui.background" = "base00"
+"ui.text" = "base05"
+"ui.text.focus" = "base06"
+"ui.cursor" = { fg = "base00", bg = "base05" }
+"ui.cursor.primary" = { fg = "base00", bg = "base0D" }
+"ui.selection" = { bg = "base02" }
+"ui.linenr" = { fg = "base03" }
+"ui.linenr.selected" = { fg = "base05" }
+"ui.statusline" = { fg = "base04", bg = "base01" }
+"ui.statusline.inactive" = { fg = "base03", bg = "base01" }
+"ui.popup" = { fg = "base05", bg = "base01" }
+"ui.window" = { fg = "base03" }
+"ui.help" = { fg = "base05", bg = "base01" }
+"ui.menu" = { fg = "base05", bg = "base01" }
+"ui.menu.selected" = { fg = "base00", bg = "base0D" }
+"ui.virtual.whitespace" = { fg = "base02" }
+"ui.virtual.ruler" = { bg = "base01" }
+"ui.bufferline" = { fg = "base04", bg = "base01" }
+"ui.bufferline.active" = { fg = "base06", bg = "base00" }
+
+"diagnostic.error" = { underline = { color = "base08", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "base0A", style = "curl" } }
+"diagnostic.info" = { underline = { color = "base0D", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "base0C", style = "curl" } }
+"error" = "base08"
+"warning" = "base0A"
+"info" = "base0D"
+"hint" = "base0C"
+
+"markup.heading" = { fg = "base0D", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "base0B", modifiers = ["underlined"] }
+"markup.link.text" = "base0D"
+"markup.raw" = "base0B"
+
+"diff.plus" = "base0B"
+"diff.minus" = "base08"
+"diff.delta" = "base0A"
+
+"attribute" = "base0A"
+"type" = "base0A"
+"constructor" = "base0D"
+"constant" = "base09"
+"constant.numeric" = "base09"
+"constant.character.escape" = "base0C"
+"string" = "base0B"
+"string.regexp" = "base0C"
+"comment" = { fg = "base03", modifiers = ["italic"] }
+"variable" = "base08"
+"variable.builtin" = "base0D"
+"variable.parameter" = "base08"
+"variable.other.member" = "base08"
+"label" = "base0A"
+"punctuation" = "base03"
+"punctuation.delimiter" = "base03"
+"punctuation.bracket" = "base03"
+"keyword" = "base0E"
+"keyword.directive" = "base0E"
+"operator" = "base0E"
+"function" = "base0D"
+"function.builtin" = "base0D"
+"function.macro" = "base0C"
+"tag" = "base08"
+"namespace" = "base0D"
+"special" = "base0C"
+
+[palette]
+base00 = "{{colors.background.default.hex}}"
+base01 = "{{colors.surface_container_low.default.hex}}"
+base02 = "{{colors.surface_container_high.default.hex}}"
+base03 = "{{colors.outline.default.hex}}"
+base04 = "{{colors.on_surface_variant.default.hex}}"
+base05 = "{{colors.on_background.default.hex}}"
+base06 = "{{colors.on_surface.default.hex}}"
+base07 = "{{colors.surface_bright.default.hex}}"
+base08 = "{{colors.error.default.hex}}"
+base09 = "{{colors.tertiary.default.hex}}"
+base0A = "{{colors.secondary.default.hex}}"
+base0B = "{{colors.tertiary_container.default.hex}}"
+base0C = "{{colors.secondary_container.default.hex}}"
+base0D = "{{colors.primary.default.hex}}"
+base0E = "{{colors.primary_container.default.hex}}"
+base0F = "{{colors.error_container.default.hex}}"

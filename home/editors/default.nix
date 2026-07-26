@@ -1,5 +1,6 @@
 {
   imports = [
-    ./nixvim
+    ./helix
+    # ./nixvim
   ];
 }
