@@ -31,30 +31,30 @@ set = true
 # The base command to run for applying the wallpaper.
 # Keywords like {{ image }} or anything that works inside of hooks works here.
 # You could also set a static color if you use the color keywords and the wallpaper setter supports it.
-command = "awww img --transition-type center {{ image }}"
+command = "awww img --transition-type center {{ image }}; dunstify 'enjoy your new colorscheme! :D'"
 
 # For example, killing the wallpaper daemon. Usage is like a normal hook.
 # pre_hook = ""
 
 [templates.dunst]
-input_path = "./templates/dunstrc"
+input_path = "~/.config/matugen/templates/dunstrc"
 output_path = "~/.config/dunst/dunstrc"
 post_hook = "pkill dunst; dunst &"
 
 [templates.foot]
-input_path = "./templates/foot.ini"
+input_path = "~/.config/matugen/templates/foot.ini"
 output_path = "~/.config/foot/theme.ini"
 
 [templates.fuzzel]
-input_path = "./templates/fuzzel.ini"
+input_path = "~/.config/matugen/templates/fuzzel.ini"
 output_path = "~/.config/fuzzel/theme.ini"
 
 [templates.niri]
-input_path = "./templates/colors.kdl"
+input_path = "~/.config/matugen/templates/colors.kdl"
 output_path = "~/.config/niri/colors.kdl"
 
 [templates.waybar]
-input_path = "./templates/colors.css"
+input_path = "~/.config/matugen/templates/colors.css"
 output_path = "~/.config/waybar/colors.css"
 post_hook = "pkill -SIGUSR2 waybar"
 
@@ -63,9 +63,9 @@ input_path = '~/.config/matugen/templates/discord.css'
 output_path = '~/.config/vesktop/settings/quickCss.css'
 
 [templates.gtk3]
-input_path = "./templates/gtk.css"
+input_path = "~/.config/matugen/templates/gtk.css"
 output_path = "~/.config/gtk-3.0/colors.css"
 
 [templates.gtk4]
-input_path = "./templates/gtk.css"
+input_path = "~/.config/matugen/templates/gtk.css"
 output_path = "~/.config/gtk-4.0/colors.css"

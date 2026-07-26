@@ -16,10 +16,10 @@
     ./theme.nix
 
     ./fuzzel
-    ./matugen
     ./niri
   ];
 
   xdg.configFile."waybar/config.jsonc".source = ./waybar/config.jsonc;
   xdg.configFile."waybar/style.css".source = ./waybar/style.css;
+  xdg.configFile."matugen".source = ./matugen;
 }
