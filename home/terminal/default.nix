@@ -40,7 +40,7 @@
   };
 
   xdg.configFile."fish/config.fish".source = ./fish/config.fish;
-  xdg.configFile."foot".source = ./foot;
+  xdg.configFile."foot/foot.ini".source = ./foot/foot.ini;
   xdg.configFile."kitty".source = ./kitty;
   xdg.configFile."starship.toml".source = ./starship/starship.toml;
 }

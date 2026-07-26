@@ -1,3 +1,5 @@
+include "colors.kdl"
+
 input {
     keyboard {
         numlock
@@ -17,7 +19,6 @@ layout {
     default-column-width
     focus-ring {
         width 2
-        active-color "#ebdbb2"
     }
     shadow {
         on
@@ -84,7 +85,7 @@ layer-rule {
 
 cursor {
     xcursor-theme "Bibata-Original-Classic"
-    xcursor-size 20 
+    xcursor-size 20
 }
 
 spawn-sh-at-startup "awww-daemon"

@@ -17,11 +17,9 @@
 
     ./fuzzel
     ./niri
-    ./dunst
   ];
 
   # xdg.configFile."niri".source = ./niri;
-  xdg.configFile."waybar".source = ./waybar;
-  # xdg.configFile."fuzzel".source = ./fuzzel;
-  # xdg.configFile."dunst".source = ./dunst;
+  xdg.configFile."waybar/config.jsonc".source = ./waybar/config.jsonc;
+  xdg.configFile."waybar/style.css".source = ./waybar/style.css;
 }
