@@ -83,3 +83,8 @@ output_path = "~/.config/yazi/theme.toml"
 input_path = "~/.config/matugen/templates/tmux-colors.conf"
 output_path = "~/.config/tmux/matugen-colors.conf"
 post_hook = "tmux source-file ~/.config/tmux/matugen-colors.conf 2>/dev/null || true"
+
+[templates.pywalfox]
+input_path = "~/.config/matugen/templates/pywalfox-colors.json"
+output_path = "~/.cache/wal/colors.json"
+post_hook = "pywalfox update"

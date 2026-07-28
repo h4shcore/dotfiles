@@ -10,6 +10,7 @@
     wl-clipboard
     pavucontrol
     xwayland-satellite
+    pywalfox-native
   ];
 
   imports = [
