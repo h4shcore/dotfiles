@@ -10,7 +10,6 @@
     baseIndex = 1;
     keyMode = "vi";
     sensibleOnTop = false;
-
     plugins = with pkgs.tmuxPlugins; [
       sensible
       yank
@@ -18,57 +17,46 @@
       resurrect
       continuum
     ];
-
     extraConfig = ''
-      ##### Prefix #####
+      # Prefix
       unbind C-b
       set -g prefix C-Space
       bind C-Space send-prefix
 
-      ##### Splits #####
+      # Splits
       # bind " split-window -h
       # bind % split-window -v
-
-      ##### Reload #####
+       
+      # Reload
       bind r source-file ~/.config/tmux/tmux.conf \; display "Reloaded!"
 
-      ##### Vim Pane Navigation #####
+      # Vim Pane Navigation
       bind -n M-h select-pane -L
       bind -n M-j select-pane -D
       bind -n M-k select-pane -U
       bind -n M-l select-pane -R
 
-      ##### Resize #####
+      # Resize
       bind -r H resize-pane -L 5
       bind -r J resize-pane -D 5
       bind -r K resize-pane -U 5
       bind -r L resize-pane -R 5
 
-      ##### Status #####
+      # Status
       set -g status-position top
       set -g status-interval 5
       set -g status-left-length 30
       set -g status-right-length 60
 
-      ##### Gruvbox #####
-      set -g status-style "bg=#1d2021,fg=#ebdbb2"
-
-      set -g status-left "#[fg=#98971a]#S "
-      set -g status-right "#[fg=#458588]%Y-%m-%d #[fg=#d79921]%H:%M "
-
-      set -g pane-border-style "fg=#504945"
-      set -g pane-active-border-style "fg=#d79921"
-
-      set -g message-style "bg=#282828,fg=#ebdbb2"
-
-      set -g mode-style "bg=#458588,fg=#1d2021"
-
-      ##### Better Window Names #####
+      # Better Window Names
       setw -g automatic-rename on
       setw -g automatic-rename-format "#{b:pane_current_path}"
 
-      ##### Start Windows at 1 #####
+      # Start Windows at 1
       setw -g pane-base-index 1
+
+      # Load matugen colors
+      source-file -q ~/.config/tmux/matugen-colors.conf
     '';
   };
 }

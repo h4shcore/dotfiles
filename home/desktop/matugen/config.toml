@@ -78,3 +78,8 @@ post_hook = "pkill -USR1 hx"
 [templates.yazi]
 input_path = "~/.config/matugen/templates/yazi.toml"
 output_path = "~/.config/yazi/theme.toml"
+
+[templates.tmux]
+input_path = "~/.config/matugen/templates/tmux-colors.conf"
+output_path = "~/.config/tmux/matugen-colors.conf"
+post_hook = "tmux source-file ~/.config/tmux/matugen-colors.conf 2>/dev/null || true"
