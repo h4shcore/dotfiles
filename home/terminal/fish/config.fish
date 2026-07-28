@@ -19,7 +19,7 @@ starship init fish | source
 
 # env vars
 set -gx EDITOR hx
-set -gx MANPAGER "sh -c 'col -bx | hx'"
+# set -gx MANPAGER "sh -c 'col -bx | hx'"
 
 # alias
 # alias ls='eza --icons --group-directories-first -1'

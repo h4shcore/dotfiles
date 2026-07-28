@@ -2,7 +2,7 @@
   programs.zellij = {
     enable = true;
 
-    enableFishIntegration = true;
+    enableFishIntegration = false;
 
     settings = {
       default_shell = "fish";
