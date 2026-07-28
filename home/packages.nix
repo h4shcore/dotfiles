@@ -8,7 +8,6 @@
     mpv
     ani-cli
     woomer
-    busybox # wowie
     matugen
   ];
 }
