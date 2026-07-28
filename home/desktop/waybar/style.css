@@ -1,31 +1,31 @@
 @import url("colors.css");
 
 * {
-    font-family: "Iosevka Nerd Font", monospace;
-    font-size: 12px;
-    min-height: 0;
-    border-radius: 0px;
+  font-family: "Iosevka Nerd Font", monospace;
+  font-size: 12px;
+  min-height: 0;
+  border-radius: 0px;
 }
 
 window#waybar {
-    background: @bg;
-    color: @fg;
+  background: @bg;
+  color: @fg;
 }
 
 #workspaces {
-    padding: 0 2px;
+  padding: 0 2px;
 }
 
 #workspaces button {
-    color: @fg-muted;
-    background: transparent;
-    padding: 0 2px;
-    border: none;
+  color: @fg-muted;
+  background: transparent;
+  padding: 0 2px;
+  border: none;
 }
 
 #workspaces button.active {
-    color: @fg;
-    border: 1px solid @fg-muted;
+  color: @fg;
+  border: 1px solid @fg-muted;
 }
 
 #tray,
@@ -36,8 +36,8 @@ window#waybar {
 #cpu,
 #network,
 #clock {
-    padding: 0 8px;
-    color: @fg;
+  padding: 0 8px;
+  color: @fg;
 }
 
 #custom-expand-icon {
@@ -52,14 +52,19 @@ window#waybar {
 }
 
 #battery {
-    color: @error;
+  color: @error;
 }
 
-#battery.warning { color: @warning; }
-#battery.critical { color: @error; font-weight: bold; }
+#battery.warning {
+  color: @warning;
+}
+#battery.critical {
+  color: @error;
+  font-weight: bold;
+}
 
 #clock {
-    color: @fg;
+  color: @fg;
 }
 
 #custom-separator {
@@ -79,20 +84,20 @@ tooltip label {
 }
 
 #mpris {
-    opacity: 1;
-    color: @fg;
-    animation: repeat;
-    animation-name: blink;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+  opacity: 1;
+  color: @fg;
+  animation: repeat;
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 @keyframes blink {
-    to {
-        color: @fg-muted;
-    }
+  to {
+    color: @fg-muted;
+  }
 }
 
 @keyframes blink2 {
