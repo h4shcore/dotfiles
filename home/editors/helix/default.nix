@@ -11,6 +11,8 @@
     vscode-langservers-extracted # html/css/json language servers
     typescript-language-server
     typescript
+    pyright                   # python
+    ruff
     prettier                  # formatter for html/css/json/js/ts
     taplo                     # TOML: LSP + native formatting
     nil                       # Nix language server
@@ -72,6 +74,15 @@
           command = "taplo";
           args = [ "lsp" "stdio" ];
         };
+        pyright = {
+          command = "pyright-langserver";
+          args = [ "--stdio" ];
+        };
+
+        ruff = {
+          command = "ruff";
+          args = [ "server" ];
+        };
         nil.command = "nil";
       };
 
@@ -110,6 +121,17 @@
           name = "json";
           language-servers = [ "vscode-json-language-server" ];
           formatter = { command = "prettier"; args = [ "--parser" "json" ]; };
+        }
+        {
+          name = "python";
+          language-servers = [
+            "ruff"
+            "pyright"
+          ];
+          formatter = {
+            command = "ruff";
+            args = [ "format" "-" ];
+          };
         }
         {
           name = "nix";
