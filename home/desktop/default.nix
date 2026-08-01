@@ -11,6 +11,7 @@
     pavucontrol
     xwayland-satellite
     pywalfox-native
+    quickshell
   ];
 
   imports = [
