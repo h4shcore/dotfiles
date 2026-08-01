@@ -17,12 +17,12 @@ block_postfix = "*>"
 # Value from -1 to 1.
 # -1 represents minimum contrast, 0 represents standard (i.e. the design as spec'd),
 # and 1 represents maximum contrast.
-contrast = 1.0
+contrast = 0.5
 
 # Will set the source color index just like the `--source-color-index` CLI flag (0 - 4).
 # 0 = most dominant, 1 = 2nd most dominant, etc.
 # IF the CLI flag is specified, it will override this value.
-source_color_index = 1
+source_color_index = 0
 
 [config.wallpaper]
 # Whether to set the wallpaper or not
@@ -88,3 +88,7 @@ post_hook = "tmux source-file ~/.config/tmux/matugen-colors.conf 2>/dev/null || 
 input_path = "~/.config/matugen/templates/pywalfox-colors.json"
 output_path = "~/.cache/wal/colors.json"
 post_hook = "pywalfox update"
+
+[templates.quickshell]
+input_path = '~/.config/matugen/templates/colors.json'
+output_path = '~/.config/quickshell/colors.json'
