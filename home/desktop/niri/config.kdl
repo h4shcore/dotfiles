@@ -18,6 +18,7 @@ layout {
     always-center-single-column
     default-column-width
     focus-ring {
+        off
         width 2
     }
     shadow {
@@ -89,12 +90,14 @@ cursor {
 }
 
 spawn-sh-at-startup "awww-daemon"
-spawn-sh-at-startup "waybar"
+// spawn-sh-at-startup "waybar"
+spawn-sh-at-startup "qs"
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
 
 binds {
     Mod+Return hotkey-overlay-title="Open a Terminal: foot " { spawn "foot"; }
-    Mod+R hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
+    // Mod+R hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
+    Mod+R { spawn "quickshell" "ipc" "call" "launcher" "toggle"; }
     Mod+V hotkey-overlay-title="Open Clipboard" { spawn-sh "cliphist list | fuzzel --dmenu -w 60 | cliphist decode | wl-copy"; }
     Mod+B hotkey-overlay-title="Open woomer" { spawn-sh "woomer"; }
 

@@ -3,7 +3,7 @@
     awww
     playerctl
     brightnessctl
-    dunst
+    libnotify
     fuzzel
     waybar
     cliphist
