@@ -22,9 +22,9 @@ layout {
     }
     shadow {
         on
-        softness 10
-        spread 2
-        offset x=2 y=2
+        softness 5
+        spread 1
+        offset x=0 y=0
     }
     insert-hint {
         on
