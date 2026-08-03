@@ -2,13 +2,16 @@
   "layer": "top",
   "position": "top",
   "height": 25,
+  "width": 800,
   "spacing": 0,
   "modules-left": [
     "niri/workspaces",
+    "custom/separator",
     "mpris"
   ],
   "modules-center": [],
   "modules-right": [
+    "custom/separator",
     "group/tray-expander",
     "network",
     "battery",
@@ -16,7 +19,6 @@
     "pulseaudio",
     "memory",
     "cpu",
-    "custom/separator",
     "clock"
   ],
   "custom/separator": {
@@ -66,7 +68,7 @@
     "format": "cpu {usage}%"
   },
   "mpris": {
-    "format": "{artist} - {title}",
+    "format": "{title}",
     "justify": "center",
     "format-paused": "<span color='grey'>{status_icon}</span>",
     // "max-length": 80,
@@ -99,7 +101,7 @@
     ]
   },
   "custom/expand-icon": {
-    "format": " ",
+    "format": "  ",
     "tooltip": false
   },
   "tray": {

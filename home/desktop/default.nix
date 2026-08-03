@@ -3,7 +3,7 @@
     awww
     playerctl
     brightnessctl
-    libnotify
+    dunst
     fuzzel
     waybar
     cliphist
@@ -11,7 +11,6 @@
     pavucontrol
     xwayland-satellite
     pywalfox-native
-    quickshell
   ];
 
   imports = [

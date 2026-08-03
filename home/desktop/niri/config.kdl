@@ -46,6 +46,15 @@ prefer-no-csd
 
 screenshot-path "~/Pictures/screenshots/ss_from_%Y-%m-%d %H-%M-%S.png"
 
+animations {
+    window-open {
+        spring damping-ratio=0.75 stiffness=800 epsilon=0.0001
+    }
+    window-close {
+        spring damping-ratio=1.0 stiffness=800 epsilon=0.0001
+    }
+}
+
 window-rule {
     match app-id=r#"^org\.wezfurlong\.wezterm$"#
     default-column-width {}
@@ -90,14 +99,12 @@ cursor {
 }
 
 spawn-sh-at-startup "awww-daemon"
-// spawn-sh-at-startup "waybar"
-spawn-sh-at-startup "qs"
+spawn-sh-at-startup "waybar"
 spawn-at-startup "wl-paste" "--watch" "cliphist" "store"
 
 binds {
     Mod+Return hotkey-overlay-title="Open a Terminal: foot " { spawn "foot"; }
-    // Mod+R hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
-    Mod+R { spawn "quickshell" "ipc" "call" "launcher" "toggle"; }
+    Mod+R hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Mod+V hotkey-overlay-title="Open Clipboard" { spawn-sh "cliphist list | fuzzel --dmenu -w 60 | cliphist decode | wl-copy"; }
     Mod+B hotkey-overlay-title="Open woomer" { spawn-sh "woomer"; }
 
