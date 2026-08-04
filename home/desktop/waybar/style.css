@@ -96,7 +96,7 @@ tooltip label {
 
 @keyframes blink {
   to {
-    color: @fg-muted;
+    color: @outline-alt;
   }
 }
 
