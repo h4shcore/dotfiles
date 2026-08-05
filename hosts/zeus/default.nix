@@ -14,6 +14,7 @@
     ../../modules/graphics.nix
     ../../modules/locale.nix
     ../../modules/nh.nix
+    ../../modules/networking.nix
     ../../modules/packages.nix
     ../../modules/services.nix
     ../../modules/users.nix
