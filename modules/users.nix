@@ -1,6 +1,6 @@
 {...}: {
   users.users.daksh = {
     isNormalUser = true;
-    extraGroups = ["wheel"];
+    extraGroups = ["wheel" "networkmanager" "libvirtd"];
   };
 }

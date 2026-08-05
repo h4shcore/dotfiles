@@ -16,5 +16,5 @@
 
   programs.virt-manager.enable = true;
 
-  users.groups.libvirtd.members = ["daksh"];
+  # users.groups.libvirtd.members = ["daksh"];
 }
