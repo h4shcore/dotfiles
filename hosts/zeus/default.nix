@@ -16,6 +16,7 @@
     ../../modules/nh.nix
     ../../modules/networking.nix
     ../../modules/packages.nix
+    ../../modules/security.nix
     ../../modules/services.nix
     ../../modules/users.nix
     ../../modules/virtual.nix
