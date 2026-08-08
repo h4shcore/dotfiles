@@ -1,6 +1,6 @@
 {pkgs, ...}: {
   nixpkgs.config.allowUnfree = true;
-
+  services.flatpak.enable = true; # enable flatpaks
   environment.systemPackages = with pkgs; [
   ];
 
