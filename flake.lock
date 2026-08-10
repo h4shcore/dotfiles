@@ -184,6 +184,22 @@
         "type": "github"
       }
     },
+    "nixpkgs_4": {
+      "locked": {
+        "lastModified": 1786106723,
+        "narHash": "sha256-zDSUbpoeo/9ZmD2+wXnzxoo1+uhL8vxc0b8yuYMKYq0=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "f13ff45afd1bb73e640eaa08a7066dbed07e3238",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nixvim": {
       "inputs": {
         "flake-parts": "flake-parts_2",
@@ -209,7 +225,8 @@
         "home-manager": "home-manager",
         "nix-gaming": "nix-gaming",
         "nixpkgs": "nixpkgs_2",
-        "nixvim": "nixvim"
+        "nixvim": "nixvim",
+        "vivy": "vivy"
       }
     },
     "systems": {
@@ -225,6 +242,24 @@
         "owner": "nix-systems",
         "ref": "future-26.11",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "vivy": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_4"
+      },
+      "locked": {
+        "lastModified": 1786307329,
+        "narHash": "sha256-NNpa7u1PCFgBZH6WFmExqzdjkvUdnjRsXlnPBiWw5zU=",
+        "owner": "h4shcore",
+        "repo": "vivy",
+        "rev": "cd9d5277c7698aeb16046a37ce4e8f4276e7a56c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "h4shcore",
+        "repo": "vivy",
         "type": "github"
       }
     }

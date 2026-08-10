@@ -11,7 +11,8 @@
       url = "github:nix-community/nixvim";
     };
     nix-gaming.url = "github:fufexan/nix-gaming";
-  };
+    vivy.url = "github:h4shcore/vivy";
+};
 
   outputs = inputs @ {
     self,

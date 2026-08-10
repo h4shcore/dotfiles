@@ -1,4 +1,4 @@
-{pkgs, ...}: {
+{pkgs, inputs, ...}: {
   home.packages = with pkgs; [
     spotify
     vesktop
@@ -9,5 +9,6 @@
     ani-cli
     woomer
     matugen
+    inputs.vivy.packages.${pkgs.system}.default # github:h4shcore/vivy
   ];
 }
