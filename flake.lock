@@ -250,11 +250,11 @@
         "nixpkgs": "nixpkgs_4"
       },
       "locked": {
-        "lastModified": 1786307329,
-        "narHash": "sha256-NNpa7u1PCFgBZH6WFmExqzdjkvUdnjRsXlnPBiWw5zU=",
+        "lastModified": 1786355699,
+        "narHash": "sha256-1TOuPF8FYXRHR2YrvwMNYFb+q2wuZ2hNwMBOVafgI5c=",
         "owner": "h4shcore",
         "repo": "vivy",
-        "rev": "cd9d5277c7698aeb16046a37ce4e8f4276e7a56c",
+        "rev": "b137e63472e365ee8d4bac4c4b11a3ddcee09fe7",
         "type": "github"
       },
       "original": {
