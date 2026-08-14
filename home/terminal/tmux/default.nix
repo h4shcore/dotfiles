@@ -31,10 +31,10 @@
       bind r source-file ~/.config/tmux/tmux.conf \; display "Reloaded!"
 
       # Vim Pane Navigation
-      bind -n M-h select-pane -L
-      bind -n M-j select-pane -D
-      bind -n M-k select-pane -U
-      bind -n M-l select-pane -R
+      # bind -n M-h select-pane -L
+      # bind -n M-j select-pane -D
+      # bind -n M-k select-pane -U
+      # bind -n M-l select-pane -R
 
       # Resize
       bind -r H resize-pane -L 5
