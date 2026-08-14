@@ -13,7 +13,7 @@
     plugins = with pkgs.tmuxPlugins; [
       sensible
       yank
-      vim-tmux-navigator
+      # vim-tmux-navigator
       resurrect
       continuum
     ];

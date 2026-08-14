@@ -9,6 +9,6 @@
     ani-cli
     woomer
     matugen
-    inputs.vivy.packages.${pkgs.system}.default # github:h4shcore/vivy
+    inputs.vivy.packages.${pkgs.stdenv.hostPlatform.system}.default # github:h4shcore/vivy
   ];
 }
