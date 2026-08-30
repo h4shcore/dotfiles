@@ -4,15 +4,15 @@
 
     defaultFonts = {
       monospace = [
-        "Iosevka Nerd Font"
+        "Mononoki Nerd Font"
       ];
 
       sansSerif = [
-        "Iosevka Nerd Font"
+        "Mononoki Nerd Font"
       ];
 
       serif = [
-        "Iosevka Nerd Font"
+        "Mononoki Nerd Font"
       ];
 
       emoji = [
@@ -22,7 +22,7 @@
   };
 
   home.packages = with pkgs; [
-    nerd-fonts.iosevka
+    nerd-fonts.mononoki
     noto-fonts-color-emoji
   ];
 }
