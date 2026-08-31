@@ -1,111 +1,84 @@
 {
-  "layer": "top",
-  "position": "top",
-  "height": 25,
-  "width": 800,
-  "spacing": 0,
-  "modules-left": [
-    "niri/workspaces",
-    "custom/separator",
-    "mpris"
-  ],
-  "modules-center": [],
-  "modules-right": [
-    "custom/separator",
-    "group/tray-expander",
-    "network",
-    "battery",
-    "backlight",
-    "pulseaudio",
-    "memory",
-    "cpu",
-    "clock"
-  ],
-  "custom/separator": {
-    "format": "󰇙",
-    "tooltip": false
-  },
-  "niri/workspaces": {
-    "format": "{index}"
-  },
-  "battery": {
-    "format": "bat {capacity}%",
-    "format-charging": "bat_ {capacity}%",
-    "states": {
-      "warning": 30,
-      "critical": 15
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "spacing": 0,
+    "margin-top": 0,
+    "margin-bottom": 0,
+
+    "modules-left": ["niri/workspaces", "niri/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["mpris", "pulseaudio", "network", "cpu", "memory", "battery", "tray"],
+
+    "niri/workspaces": {
+        "format": "{index}",
+        "on-click": "activate"
+    },
+
+    "niri/window": {
+        "format": "{title}",
+        "max-length": 50,
+        "rewrite": {
+            "": "desktop"
+        }
+    },
+
+    "clock": {
+        "format": "{:%H:%M   %a %d %b}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt>{calendar}</tt>"
+    },
+
+    "mpris": {
+        "format": "{player_icon} {title} - {artist}",
+        "format-paused": "{status_icon} {title} - {artist}",
+        "player-icons": {
+            "default": "▶",
+            "spotify": "♫"
+        },
+        "status-icons": {
+            "paused": "⏸"
+        },
+        "max-length": 40,
+        "on-click": "playerctl play-pause",
+        "on-scroll-up": "playerctl next",
+        "on-scroll-down": "playerctl previous"
+    },
+
+    "pulseaudio": {
+        "format": "vol {volume}%",
+        "format-muted": "muted",
+        "on-click": "pavucontrol",
+        "scroll-step": 5
+    },
+
+    "network": {
+        "format-wifi": "{essid} {signalStrength}%",
+        "format-ethernet": "eth {ipaddr}",
+        "format-disconnected": "disconnected",
+        "tooltip-format": "{ifname}: {ipaddr}/{cidr}"
+    },
+
+    "cpu": {
+        "format": "cpu {usage}%",
+        "interval": 5
+    },
+
+    "memory": {
+        "format": "mem {percentage}%",
+        "interval": 5
+    },
+
+    "battery": {
+        "format": "bat {capacity}%",
+        "format-charging": "bat {capacity}% chr",
+        "states": {
+            "warning": 30,
+            "critical": 15
+        }
+    },
+
+    "tray": {
+        "spacing": 8,
+        "icon-size": 16
     }
-  },
-  "backlight": {
-    "format": "bl {percent}%"
-  },
-  "pulseaudio": {
-    "format": "vol {volume}%",
-    "format-muted": "vol mute"
-  },
-  "memory": {
-    "format": "mem {percentage}%"
-  },
-  "network": {
-    "format-icons": [
-      "󰤯 ",
-      "󰤟 ",
-      "󰤢 ",
-      "󰤥 ",
-      "󰤨 "
-    ],
-    "format": "{icon}",
-    "format-wifi": "network <span style='italic' weight='900' color='#df6124'>{signalStrength}%</span>",
-    "format-ethernet": "network <span style='italic' weight='900' color='#df6124'>on</span>",
-    "format-disconnected": "network <span style='italic' weight='900' color='#df6124'>off 󰤮 / 󰈀 </span>",
-    "tooltip-format-wifi": "{essid} ({frequency} GHz)\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
-    "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
-    "tooltip-format-disconnected": "Disconnected",
-    "interval": 3,
-    "spacing": 1
-  },
-  "cpu": {
-    "format": "cpu {usage}%"
-  },
-  "mpris": {
-    "format": "{title}",
-    "justify": "center",
-    "format-paused": "<span color='grey'>{status_icon}</span>",
-    // "max-length": 80,
-    "player-icons": {
-      "default": "⏸",
-      "mpv": "🎵"
-    },
-    "status-icons": {
-      "paused": "<span style='italic'>(paused)</span>"
-    },
-    "ignored-players": [
-      "firefox",
-      "chromium",
-      "brave"
-    ]
-  },
-  "clock": {
-    "format": "{:%H:%M %d/%m}",
-    "tooltip-format": "{:%A, %d %B %Y}"
-  },
-  "group/tray-expander": {
-    "orientation": "inherit",
-    "drawer": {
-      "transition-duration": 600,
-      "children-class": "tray-group-item"
-    },
-    "modules": [
-      "custom/expand-icon",
-      "tray"
-    ]
-  },
-  "custom/expand-icon": {
-    "format": "  ",
-    "tooltip": false
-  },
-  "tray": {
-    "icon-size": 14,
-    "spacing": 8
-  }
 }
