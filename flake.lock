@@ -152,6 +152,22 @@
         "type": "github"
       }
     },
+    "nixpkgs-xwayland-satellite-0-8-1": {
+      "locked": {
+        "lastModified": 1771339031,
+        "narHash": "sha256-trd38pXq27CxTCacw4swLVIbtpzQz3uEo/yLlkHZEaE=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "edfd59b795cd752c36d2dae60870cffcd23d3fb1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "edfd59b795cd752c36d2dae60870cffcd23d3fb1",
+        "type": "github"
+      }
+    },
     "nixpkgs_2": {
       "locked": {
         "lastModified": 1788039129,
@@ -225,6 +241,7 @@
         "home-manager": "home-manager",
         "nix-gaming": "nix-gaming",
         "nixpkgs": "nixpkgs_2",
+        "nixpkgs-xwayland-satellite-0-8-1": "nixpkgs-xwayland-satellite-0-8-1",
         "nixvim": "nixvim",
         "vivy": "vivy"
       }
