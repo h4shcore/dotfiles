@@ -90,5 +90,5 @@ output_path = "~/.cache/wal/colors.json"
 post_hook = "pywalfox update"
 
 [templates.doom-emacs]
-input_path = '~/.config/matugen/templates/matugen-theme.el.hbs'
+input_path = '~/.config/matugen/templates/matugen-theme.el'
 output_path = '~/.config/doom/themes/matugen-theme.el'
