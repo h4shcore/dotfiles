@@ -33,8 +33,6 @@
    `(font-lock-type-face ((t (:foreground ,primary))))
    `(font-lock-variable-name-face ((t (:foreground ,fg))))
    `(mode-line ((t (:background ,surface-container :foreground ,fg :box nil))))
-   `(mode-line-inactive ((t (:background ,bg :foreground ,outline :box nil))))
-   `(line-number ((t (:foreground ,outline))))
-   `(line-number-current-line ((t (:foreground ,primary :weight bold))))))
+   `(mode-line-inactive ((t (:background ,bg :foreground ,outline :box nil))))))
 
 (provide-theme 'matugen)
