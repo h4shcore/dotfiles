@@ -88,3 +88,7 @@ post_hook = "tmux source-file ~/.config/tmux/matugen-colors.conf 2>/dev/null || 
 input_path = "~/.config/matugen/templates/pywalfox-colors.json"
 output_path = "~/.cache/wal/colors.json"
 post_hook = "pywalfox update"
+
+[templates.doom-emacs]
+input_path = '~/.config/matugen/templates/matugen-theme.el.hbs'
+output_path = '~/.config/doom/themes/matugen-theme.el'
