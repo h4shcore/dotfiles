@@ -41,9 +41,7 @@
 ;; If you want more pro-active theme switching based on OS light/dark mode, look
 ;; up the `auto-dark' package.
 (add-to-list 'custom-theme-load-path "~/.config/doom/themes/")
-
-(after! doom-themes
-  (load-theme 'matugen t))
+(load-theme 'matugen t)
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
