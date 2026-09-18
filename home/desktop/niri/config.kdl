@@ -13,12 +13,12 @@ input {
 }
 
 layout {
-    gaps 10
+    gaps 15
     center-focused-column "never"
     always-center-single-column
     default-column-width
     focus-ring {
-        off
+        on
         width 2
     }
     shadow {
