@@ -16,6 +16,7 @@
       (outline "{{colors.outline.default.hex}}"))
   (custom-theme-set-faces
    'matugen
+   ;; --- core UI ---
    `(default ((t (:background ,bg :foreground ,fg))))
    `(region ((t (:background ,secondary-container :foreground ,on-secondary-container))))
    `(hl-line ((t (:background ,surface-container))))
@@ -24,15 +25,59 @@
    `(success ((t (:foreground ,tertiary))))
    `(warning ((t (:foreground ,secondary))))
    `(error ((t (:foreground ,error-color))))
+   `(mode-line ((t (:background ,surface-container :foreground ,fg :box nil))))
+   `(mode-line-inactive ((t (:background ,bg :foreground ,outline :box nil))))
+
+   ;; --- classic font-lock (tree-sitter coarse + non-ts modes) ---
    `(font-lock-builtin-face ((t (:foreground ,primary))))
    `(font-lock-comment-face ((t (:foreground ,outline :slant italic))))
+   `(font-lock-doc-face ((t (:foreground ,outline :slant italic))))
+   `(font-lock-doc-markup-face ((t (:foreground ,tertiary))))
    `(font-lock-constant-face ((t (:foreground ,tertiary :weight bold))))
    `(font-lock-function-name-face ((t (:foreground ,primary :weight bold))))
    `(font-lock-keyword-face ((t (:foreground ,secondary :weight bold))))
    `(font-lock-string-face ((t (:foreground ,tertiary))))
    `(font-lock-type-face ((t (:foreground ,primary))))
    `(font-lock-variable-name-face ((t (:foreground ,fg))))
-   `(mode-line ((t (:background ,surface-container :foreground ,fg :box nil))))
-   `(mode-line-inactive ((t (:background ,bg :foreground ,outline :box nil))))))
+   `(font-lock-preprocessor-face ((t (:foreground ,secondary))))
+   `(font-lock-warning-face ((t (:foreground ,error-color :weight bold))))
+   `(font-lock-negation-char-face ((t (:foreground ,error-color))))
+   `(font-lock-regexp-grouping-backslash ((t (:foreground ,tertiary))))
+   `(font-lock-regexp-grouping-construct ((t (:foreground ,tertiary))))
+
+   ;; --- Emacs 29+ tree-sitter fine-grained faces ---
+   `(font-lock-property-name-face ((t (:foreground ,on-primary-container))))
+   `(font-lock-property-use-face ((t (:foreground ,on-primary-container))))
+   `(font-lock-variable-use-face ((t (:foreground ,fg))))
+   `(font-lock-number-face ((t (:foreground ,tertiary))))
+   `(font-lock-operator-face ((t (:foreground ,outline))))
+   `(font-lock-punctuation-face ((t (:foreground ,outline))))
+   `(font-lock-bracket-face ((t (:foreground ,outline))))
+   `(font-lock-delimiter-face ((t (:foreground ,outline))))
+   `(font-lock-escape-face ((t (:foreground ,secondary))))
+   `(font-lock-misc-punctuation-face ((t (:foreground ,outline))))
+
+   ;; --- lsp-mode semantic token faces (rust-analyzer via LSP) ---
+   `(lsp-face-semhl-variable ((t (:foreground ,fg))))
+   `(lsp-face-semhl-parameter ((t (:foreground ,on-secondary-container))))
+   `(lsp-face-semhl-property ((t (:foreground ,on-primary-container))))
+   `(lsp-face-semhl-member ((t (:foreground ,on-primary-container))))
+   `(lsp-face-semhl-namespace ((t (:foreground ,outline))))
+   `(lsp-face-semhl-type ((t (:foreground ,primary))))
+   `(lsp-face-semhl-class ((t (:foreground ,primary :weight bold))))
+   `(lsp-face-semhl-struct ((t (:foreground ,primary :weight bold))))
+   `(lsp-face-semhl-interface ((t (:foreground ,primary))))
+   `(lsp-face-semhl-enum ((t (:foreground ,primary))))
+   `(lsp-face-semhl-enum-member ((t (:foreground ,tertiary))))
+   `(lsp-face-semhl-function ((t (:foreground ,primary :weight bold))))
+   `(lsp-face-semhl-method ((t (:foreground ,primary :weight bold))))
+   `(lsp-face-semhl-macro ((t (:foreground ,tertiary))))
+   `(lsp-face-semhl-keyword ((t (:foreground ,secondary :weight bold))))
+   `(lsp-face-semhl-constant ((t (:foreground ,tertiary :weight bold))))
+   `(lsp-face-semhl-static ((t (:slant italic))))
+   `(lsp-face-semhl-deprecated ((t (:strike-through t))))
+
+   ;; --- eglot semantic token faces (if you switch clients later) ---
+   `(eglot-highlight-symbol-face ((t (:background ,secondary-container))))))
 
 (provide-theme 'matugen)
