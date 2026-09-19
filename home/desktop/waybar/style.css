@@ -11,7 +11,7 @@
 window#waybar {
   background: @bg;
   color: @fg;
-  /* border-bottom: 2px solid @accent; */
+  border-bottom: 2px solid @accent;
 }
 
 #workspaces {
