@@ -13,7 +13,7 @@ input {
 }
 
 layout {
-    gaps 15
+    gaps 10
     center-focused-column "never"
     always-center-single-column
     default-column-width

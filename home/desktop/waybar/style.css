@@ -1,7 +1,8 @@
 @import "colors.css";
 
 * {
-  font-family: "Iosevka Nerd Font", monospace;
+  font-family: "VictorMono Nerd Font", monospace;
+  font-weight: bold;
   font-size: 13px;
   border: none;
   border-radius: 0;
@@ -10,13 +11,16 @@
 
 window#waybar {
   background: @bg;
-  color: @fg;
-  border-bottom: 2px solid @accent;
+  color: @fg-muted;
+  /* border-bottom: 2px solid @accent; */
+  border: 2px solid @accent;
 }
 
+/* ---------- workspaces ---------- */
+
 #workspaces {
-  background: @bg-alt;
-  margin: 4px 0 4px 6px;
+  background: transparent;
+  margin: 0;
   padding: 0;
 }
 
@@ -26,13 +30,12 @@ window#waybar {
   border: none;
   border-radius: 0;
   padding: 0 10px;
-  box-shadow: none;
+  min-width: 0;
 }
 
 #workspaces button.active {
-  background: @primary;
+  background: @accent;
   color: @bg;
-  font-weight: bold;
 }
 
 #workspaces button.urgent {
@@ -41,26 +44,28 @@ window#waybar {
 }
 
 #workspaces button:hover {
-  background: @bg-hover;
-  color: @accent;
+  background: @bg-alt;
+  color: @fg;
 }
 
+/* ---------- window title ---------- */
+
 #window {
-  color: @tertiary;
+  color: @fg-muted;
   padding: 0 12px;
   font-style: italic;
 }
 
+/* ---------- clock ---------- */
+
 #clock {
-  background: @primary;
-  color: @bg;
-  padding: 0 14px;
-  margin: 4px 0;
-  font-weight: bold;
+  color: @fg;
+  padding: 0 10px;
 }
 
-/* right-hand modules each get their own color block so the bar reads
-   as distinct colorful segments instead of one flat strip */
+/* ---------- right-hand modules ---------- */
+/* bracket-delimited, flat text, no fills, no rounding */
+
 #mpris,
 #pulseaudio,
 #network,
@@ -68,63 +73,34 @@ window#waybar {
 #memory,
 #battery,
 #tray {
-  padding: 0 12px;
-  margin: 4px 2px;
-  color: @bg;
+  color: @fg-muted;
+  background: transparent;
+  padding: 0 8px;
+  margin: 0;
 }
 
 #mpris {
-  background: @tertiary;
-  font-weight: bold;
+  color: @tertiary;
 }
 
 #mpris.paused {
-  background: @bg-alt;
   color: @fg-muted;
-}
-
-#pulseaudio {
-  background: @secondary;
 }
 
 #pulseaudio.muted {
-  background: @bg-alt;
-  color: @fg-muted;
-}
-
-#network {
-  background: @accent;
+  color: @outline;
 }
 
 #network.disconnected {
-  background: @error;
-}
-
-#cpu {
-  background: @outline;
-}
-
-#memory {
-  background: @outline-alt;
-  color: @fg;
-}
-
-#battery {
-  background: @secondary;
+  color: @error;
 }
 
 #battery.warning {
-  background: @tertiary;
+  color: @tertiary;
 }
 
 #battery.critical {
-  background: @error;
-  color: @bg;
-}
-
-#tray {
-  background: @bg-alt;
-  color: @fg;
+  color: @error;
 }
 
 #tray > .passive {

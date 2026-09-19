@@ -23,6 +23,7 @@
 
   home.packages = with pkgs; [
     nerd-fonts.iosevka
+    nerd-fonts.victor-mono
     noto-fonts-color-emoji
   ];
 }
