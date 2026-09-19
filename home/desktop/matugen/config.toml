@@ -62,6 +62,10 @@ post_hook = "pkill -SIGUSR2 waybar"
 input_path = '~/.config/matugen/templates/discord.css'
 output_path = '~/.config/vesktop/settings/quickCss.css'
 
+[templates.equibop]
+input_path = '~/.config/matugen/templates/discord.css'
+output_path = '~/.config/equibop/settings/quickCss.css'
+
 [templates.gtk3]
 input_path = "~/.config/matugen/templates/gtk.css"
 output_path = "~/.config/gtk-3.0/colors.css"

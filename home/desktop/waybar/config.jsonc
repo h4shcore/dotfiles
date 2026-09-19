@@ -20,7 +20,9 @@
     "cpu",
     "memory",
     "battery",
-    "tray"
+    "custom/left-bracket",
+    "tray",
+    "custom/right-bracket"
   ],
   "niri/workspaces": {
     "format": "{index}",
@@ -83,5 +85,11 @@
   "tray": {
     "spacing": 8,
     "icon-size": 15
+  },
+  "custom/left-bracket": {
+    "format": "["
+  },
+  "custom/right-bracket": {
+    "format": "]"
   }
 }

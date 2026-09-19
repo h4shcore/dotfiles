@@ -111,3 +111,11 @@ window#waybar {
   -gtk-icon-effect: highlight;
   color: @error;
 }
+
+#custom-left-bracket {
+  padding-left: 8px;
+}
+
+#custom-right-bracket {
+  padding-right: 8px;
+}

@@ -2,6 +2,7 @@
   home.packages = with pkgs; [
     spotify
     vesktop
+    equibop
     firefox
     brave
     qbittorrent
