@@ -1,3 +1,5 @@
 # my nixos dotfiles
 
-![nixos](./nixos.png)
+![nixos](./assets/nixos1.png)
+![nixos](./assets/nixos2.png)
+![nixos](./assets/nixos3.png)
