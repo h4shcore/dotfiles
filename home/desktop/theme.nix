@@ -6,8 +6,8 @@
       package = pkgs.adw-gtk3;
     };
     iconTheme = {
-      name = "Gruvbox-Plus-Dark";
-      package = pkgs.gruvbox-dark-icons-gtk;
+      name = "Papirus-Dark";
+      package = pkgs.papirus-icon-theme;
     };
     cursorTheme = {
       package = pkgs.bibata-cursors;

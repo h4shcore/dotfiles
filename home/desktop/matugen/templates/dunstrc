@@ -3,12 +3,12 @@ mouse_left_click = do_action
 mouse_middle_click = close_all
 mouse_right_click = close_current
 
-frame_color = "{{colors.outline.default.hex}}"
-frame_width = 0
+frame_color = "{{colors.primary.default.hex}}"
+frame_width = 2
 separator_color = frame
 highlight = "{{colors.primary.default.hex}}"
 
-font = Iosevka Nerd Font 10
+font = VictorMono Nerd Font 10
 
 shrink = true
 word_wrap = yes
