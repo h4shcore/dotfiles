@@ -4,7 +4,7 @@
     vesktop
     equibop
     firefox
-    brave
+    brave-origin
     qbittorrent
     mpv
     ani-cli
