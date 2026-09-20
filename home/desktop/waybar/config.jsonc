@@ -62,7 +62,7 @@
   },
   "network": {
     "format-wifi": "[ {essid} {signalStrength}% ]",
-    "format-ethernet": "[ eth {ipaddr} ]",
+    "format-ethernet": "[ ethernet ]",
     "format-disconnected": "[ disconnected ]",
     "tooltip-format": "{ifname}: {ipaddr}/{cidr}"
   },
