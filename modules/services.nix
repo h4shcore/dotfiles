@@ -7,6 +7,14 @@
       pulse.enable = true;
       jack.enable = true;
     };
+
+    udisks2 = {
+      enable = true;
+    };
+
+    gvfs = {
+      enable = true;
+    };
   };
 
   # Enable the OpenSSH daemon.
