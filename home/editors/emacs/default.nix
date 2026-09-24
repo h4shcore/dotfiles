@@ -1,13 +1,16 @@
-{inputs, ...}:
+{pkgs,...}:
 {
-  imports = [
-    inputs.nix-doom-emacs-unstraightened.homeModule
-  ];
-  nixpkgs.overlays = [
-    inputs.nix-doom-emacs-unstraightened.overlays.default
-  ];
-  programs.doom-emacs = {
+  programs.emacs = {
     enable = true;
-    doomDir = ./doom.d;
+    package = pkgs.emacs-pgtk;
+  };
+  services.emacs = {
+    enable = true;
+    # defaultEditor = true;
+    package = pkgs.emacs-pgtk;
+  };
+  home.file = {
+    ".emacs.d/init.el".source = ./emacs.d/init.el;
+    ".emacs.d/early-init.el".source = ./emacs.d/early-init.el;
   };
 }
