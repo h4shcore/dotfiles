@@ -325,61 +325,15 @@
   (leader-keys
     "f" '(rg-menu :which-key "find")))
 
-; dired (doom-style: icons, colors, hide dotfiles, single-buffer nav)
-(use-package dired
-  :straight nil ; built-in
+;; compile (SPC c c / SPC c r)
+(use-package compile
+  :straight nil
+  :config
+  (setq compilation-scroll-output t
+        compilation-ask-about-save nil)
   :general
   (leader-keys
-    "d" '(:ignore t :which-key "dired")
-    "d <escape>" '(keyboard-escape-quit :which-key t)
-    "d d" '(dired-jump :which-key "open dired")
-    "d h" '(dired-hide-dotfiles-mode :which-key "toggle dotfiles"))
-  :config
-  (setq dired-listing-switches "-agho --group-directories-first"
-        dired-dwim-target t))
- 
-(use-package nerd-icons-dired
-  :hook (dired-mode . nerd-icons-dired-mode))
- 
-(use-package diredfl
-  :hook (dired-mode . diredfl-mode))
- 
-(use-package dired-hide-dotfiles
-  :hook (dired-mode . dired-hide-dotfiles-mode))
- 
-(use-package dired-single
-  :after dired
-  :general
-  (:states 'normal
-   :keymaps 'dired-mode-map
-   "h" 'dired-single-up-directory
-   "l" 'dired-single-buffer))
- 
-(use-package dired-open
-  :after dired
-  :config
-  (setq dired-open-extensions '(("png" . "feh")
-                                 ("mkv" . "mpv")
-                                 ("mp4" . "mpv"))))
-
-;; inline preview pane (images, text, pdf) on selection — like doom's dired
-(use-package peep-dired
-  :after dired
-  :general
-  (:states 'normal
-   :keymaps 'dired-mode-map
-   "p" 'peep-dired)
-  (:states 'normal
-   :keymaps 'peep-dired-mode-map
-   "j" 'peep-dired-next-file
-   "k" 'peep-dired-prev-file)
-  :config
-  (setq peep-dired-cleanup-on-disable t
-        peep-dired-cleanup-eagerly t))
- 
-;; thumbnail grid for browsing a folder of images
-(use-package image-dired
-  :straight nil ; built-in
-  :general
-  (leader-keys
-    "d t" '(image-dired :which-key "thumbnails")))
+    "c" '(:ignore t :which-key "compile")
+    "c <escape>" '(keyboard-escape-quit :which-key t)
+    "c c" '(projectile-compile-project :which-key "compile")
+    "c r" '(recompile :which-key "recompile")))
